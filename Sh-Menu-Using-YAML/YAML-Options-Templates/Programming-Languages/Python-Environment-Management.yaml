@@ -7,3 +7,7 @@ options:
     command: "pip install -r requirements.txt"
   - name: "List-Installed-Packages"
     command: "pip list"
+  - name: "Remove-Unused-Packages"
+    command: "pip-autoremove package-name -y"
+  - name: "Clear-Pip-Cache"
+    command: "pip cache purge"
