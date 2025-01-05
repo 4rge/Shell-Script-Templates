@@ -1,0 +1,5 @@
+options:
+  - name: "Remove-Flatpak-Apps"
+    command: "flatpak uninstall --unused"
+  - name: "Clear-Flatpak-Cache"
+    command: "flatpak repair"
