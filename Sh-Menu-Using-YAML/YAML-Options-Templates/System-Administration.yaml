@@ -1,0 +1,11 @@
+options:
+  - name: "Manage-Swap"
+    command: "sudo swapon --show && sudo swapon -a"
+  - name: "Monitor-CPU-Usage"
+    command: "htop"
+  - name: "List-Installed-Packages"
+    command: "dpkg --get-selections"
+  - name: "Check-Service-Status"
+    command: "systemctl status"
+  - name: "Reboot-System"
+    command: "sudo reboot"
