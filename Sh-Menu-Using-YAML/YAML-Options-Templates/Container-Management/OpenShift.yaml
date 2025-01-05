@@ -1,0 +1,9 @@
+options:
+  - name: "Delete-Inactive-Users"
+    command: "oc adm prune users --field-selector=inactive"
+  - name: "Cleanup-Old-Images"
+    command: "oc adm prune images"
+  - name: "Remove-Completed-Builds"
+    command: "oc delete builds --all --field-selector=status.phase==Complete"
+  - name: "Prune-Resources"
+    command: "oc adm prune --all"
