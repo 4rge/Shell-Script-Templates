@@ -6,26 +6,32 @@ display_menu() {
     echo "Main Menu"
     echo "=================="
     local count=1
-    
-    # Check if the JSON file exists
+    local option_names
+
+    # Check if the JSON or YAML file exists
     if [[ ! -f "$1" ]]; then
-        echo "Error: JSON file '$1' not found."
+        echo "Error: File '$1' not found."
         exit 1
     fi
 
-    # Try to fetch option names and capture any jq errors
-    option_names=$(jq -r '.options[].name' "$1" 2>&1)
+    # Determine file type and parse accordingly
+    if [[ "$1" == *.json ]]; then
+        option_names=($(jq -r '.options[].name' "$1" 2>&1))
+    elif [[ "$1" == *.yaml || "$1" == *.yml ]]; then
+        option_names=($(yq -r '.options[].name' "$1" 2>&1))
+    else
+        echo "Error: Unsupported file format. Please provide a JSON or YAML file."
+        exit 1
+    fi
 
-    # Check if jq command succeeded
+    # Check if the parsing was successful
     if [[ $? -ne 0 ]]; then
-        echo "Error while parsing JSON: $option_names"
+        echo "Error while parsing file: $option_names"
         exit 1
     fi
 
-    # Prepare the list for the menu
-    IFS=$'\n' read -r -d '' -a option_array <<< "$option_names"
-
-    for option in "${option_array[@]}"; do
+    # Display options
+    for option in "${option_names[@]}"; do
         echo "$count.) $option"
         count=$((count + 1))
     done
@@ -34,9 +40,16 @@ display_menu() {
 
 # Function to execute the selected command
 execute_command() {
-    local command=$(jq -r ".options[$1].command" "$2" 2>&1)
-    
-    # Check if jq command for fetching command succeeded
+    local command
+
+    # Determine file type and parse accordingly
+    if [[ "$2" == *.json ]]; then
+        command=$(jq -r ".options[$1].command" "$2" 2>&1)
+    elif [[ "$2" == *.yaml || "$2" == *.yml ]]; then
+        command=$(yq -r ".options[$1].command" "$2" 2>&1)
+    fi
+
+    # Check if the command retrieval was successful
     if [[ $? -ne 0 ]]; then
         echo "Error while retrieving command: $command"
         exit 1
@@ -47,9 +60,9 @@ execute_command() {
     read -p "Press [Enter] to continue..."
 }
 
-# Ensure a JSON file is passed as an argument
+# Ensure a file is passed as an argument
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <options.json>"
+    echo "Usage: $0 <options.json|options.yaml>"
     exit 1
 fi
 
@@ -63,14 +76,21 @@ while true; do
             exit 0
         elif [[ "$choice" -gt 0 ]]; then
             option_index=$((choice - 1))
-            total_options=$(jq -r '.options | length' "$1")
+            
+            # Determine file type and fetch total options
+            if [[ "$1" == *.json ]]; then
+                total_options=$(jq -r '.options | length' "$1")
+            elif [[ "$1" == *.yaml || "$1" == *.yml ]]; then
+                total_options=$(yq -r '.options | length' "$1")
+            fi
+            
             if [[ $? -ne 0 ]]; then
-                echo "Error fetching total options: $total_options"
+                echo "Error fetching total options."
                 exit 1
             fi
-
+            
             if [[ "$option_index" -lt "$total_options" ]]; then
-                execute_command $option_index "$1"
+                execute_command "$option_index" "$1"
             else
                 echo "Invalid option."
             fi
