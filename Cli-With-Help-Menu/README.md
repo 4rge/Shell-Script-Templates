@@ -7,9 +7,6 @@ This repository includes two scripts that provide identical functionality: one i
 These scripts serve various functions based on command-line options. It provides a banner display, help information, GPL license notification, verbose mode, and version information.
 They are not complete or functional scripts, simply templates to make the development of cli programs easier.
 
-## Bash Script
-- **File Name:** `script.sh`
-
 ### Features
 - Displays a formatted message banner with color coding.
 - Offers help documentation for usage.
@@ -20,6 +17,7 @@ They are not complete or functional scripts, simply templates to make the develo
 ### Usage
 #### Prerequisites
 - Ensure you have a Bash-compliant shell available (e.g., on Linux, macOS, or WSL on Windows).
+- Ensure you have Python installed if running .py version.
 
 ## Default Command-Line Options
 -g : Print the GPL license notification.
