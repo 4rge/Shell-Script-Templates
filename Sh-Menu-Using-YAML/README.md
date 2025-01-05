@@ -5,7 +5,7 @@ This project provides a simple, highly modular and extensible command-line inter
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `options.yaml`: The configuration file containing the command names and associated commands.
+- `options.yaml`: The configuration file containing the command names and associated commands. (Note: Templates available in the YAML-Templates folder.)
 
 ## Getting Started
 
