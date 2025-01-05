@@ -1,0 +1,9 @@
+options:
+  - name: "Clean-Project"
+    command: "mvn clean"
+  - name: "Compile-Project"
+    command: "mvn compile"
+  - name: "Run-Tests"
+    command: "mvn test"
+  - name: "Install-Packages"
+    command: "mvn install"
