@@ -1,0 +1,5 @@
+options:
+  - name: "Remove-Unused-Packages"
+    command: "yarn autoclean"
+  - name: "Clear-Yarn-Cache"
+    command: "yarn cache clean"
