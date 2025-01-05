@@ -1,4 +1,4 @@
-# Package Management Tool
+# Whiptail-Package-Management-Template
 
 This repository contains two command-line tools for managing software packages on Debian-based systems and Arch Linux. One tool is a Bash script that utilizes `apt` for package management, while the other is a Python script providing identical functionality.
 
