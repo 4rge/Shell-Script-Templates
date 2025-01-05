@@ -1,4 +1,4 @@
-# Pacman Command Menu
+# Sh-Menu-Using-YAML
 
 This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a YAML configuration file. Users can easily execute common operations through a straightforward menu.
 
