@@ -35,19 +35,19 @@ Decide on a consistent naming convention (e.g., use camel case, underscores, or 
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-### Fork the Repository: Start by forking the repository to your own GitHub account.
+Fork the Repository: Start by forking the repository to your own GitHub account.
 Create a New Feature Branch: For example:
 git checkout -b feature/my-new-feature
 
-### Make Your Changes: Implement your feature or bugfix.
+Make Your Changes: Implement your feature or bugfix.
 Update Documentation: If applicable, update the README file and options.yaml to reflect the changes.
 Commit Your Changes: Only commit changes to files you worked on:
 git commit -m "Add a descriptive message for your changes"
 
-### Push to Your Feature Branch:
+Push to Your Feature Branch:
 git push origin feature/my-new-feature
 
-### Create a Pull Request:
+Create a Pull Request:
 On GitHub, navigate to the "Pull Requests" page and create a new pull request.
 
 Thank you for considering contributing! Your help is appreciated.
