@@ -20,39 +20,34 @@ When the script is run, a menu will be displayed showing the names of commands l
 
 ## Best Practices for Naming Options in options.yaml
 
-# Single Word or Hyphenated:
-
+### Single Word or Hyphenated:
 All names in the options.yaml file should be a single word or use hyphens to separate words (e.g., Install-Package).
 Avoid using spaces or special characters in names to ensure compatibility and correct parsing.
 
-# Descriptive Names:
-
+### Descriptive Names:
 Use names that clearly describe the action performed by the command (e.g., Update for updating the system).
 This will make the menu intuitive and user-friendly.
 
-# Consistent Naming Convention:
-
+### Consistent Naming Convention:
 Decide on a consistent naming convention (e.g., use camel case, underscores, or hyphens) and stick to it throughout the file.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-# Fork the Repository: Start by forking the repository to your own GitHub account.
+### Fork the Repository: Start by forking the repository to your own GitHub account.
 Create a New Feature Branch: For example:
 git checkout -b feature/my-new-feature
 
-# Make Your Changes: Implement your feature or bugfix.
+### Make Your Changes: Implement your feature or bugfix.
 Update Documentation: If applicable, update the README file and options.yaml to reflect the changes.
 Commit Your Changes: Only commit changes to files you worked on:
 git commit -m "Add a descriptive message for your changes"
 
-# Push to Your Feature Branch:
-
+### Push to Your Feature Branch:
 git push origin feature/my-new-feature
 
-# Create a Pull Request:
-
+### Create a Pull Request:
 On GitHub, navigate to the "Pull Requests" page and create a new pull request.
 
 Thank you for considering contributing! Your help is appreciated.
