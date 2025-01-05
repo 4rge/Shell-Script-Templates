@@ -1,0 +1,13 @@
+options:
+  - name: "Start-Nginx"
+    command: "sudo systemctl start nginx"
+  - name: "Stop-Nginx"
+    command: "sudo systemctl stop nginx"
+  - name: "Restart-Nginx"
+    command: "sudo systemctl restart nginx"
+  - name: "Check-Nginx-Status"
+    command: "sudo systemctl status nginx"
+  - name: "Enable-Nginx-at-Boot"
+    command: "sudo systemctl enable nginx"
+  - name: "Test-Nginx-Configuration"
+    command: "sudo nginx -t"
