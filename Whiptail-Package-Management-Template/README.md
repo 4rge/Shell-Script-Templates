@@ -25,6 +25,7 @@ Before running these tools, ensure you have the following installed:
 To modify the list of packages managed by either tool, locate the LIST variable. You may add or remove package names as needed, be sure to uncomment the appropriate action for the desired package manager:
 
 `ACTION="install"      # For Debian`
+
 `# ACTION="-Syyu"     # For Arch (uncomment if using Arch)`
 
 ## License
