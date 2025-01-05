@@ -1,0 +1,7 @@
+options:
+  - name: "List-Files"
+    command: "ls -la"
+  - name: "Find-Large-Files"
+    command: "find / -type f -size +100M 2>/dev/null"
+  - name: "Backup-Home"
+    command: "tar -czvf home_backup.tar.gz /home"
