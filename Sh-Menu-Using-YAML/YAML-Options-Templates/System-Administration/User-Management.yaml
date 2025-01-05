@@ -1,0 +1,11 @@
+options:
+  - name: "List-Users"
+    command: "cut -d: -f1 /etc/passwd"
+  - name: "Add-New-User"
+    command: "sudo adduser newusername"
+  - name: "Delete-User"
+    command: "sudo deluser username"
+  - name: "Modify-User-Group"
+    command: "sudo usermod -aG groupname username"
+  - name: "Change-User-Password"
+    command: "sudo passwd username"
