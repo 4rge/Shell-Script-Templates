@@ -22,11 +22,8 @@ Before running these tools, ensure you have the following installed:
 
 ## Customization
 
-To modify the list of packages managed by either tool, locate the LIST variable. You may add or remove package names as needed.
+To modify the list of packages managed by either tool, locate the LIST variable. You may add or remove package names as needed, be sure to uncomment the appropriate action for the desired package manager:
 
-# Bash Script Example
-`LIST="package1 package2"`
-For the Bash script, be sure to uncomment the appropriate action for the desired package manager:
 `ACTION="install"      # For Debian`
 `# ACTION="-Syyu"     # For Arch (uncomment if using Arch)`
 
