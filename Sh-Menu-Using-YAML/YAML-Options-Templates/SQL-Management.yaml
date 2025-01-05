@@ -1,0 +1,11 @@
+options:
+  - name: "Start-PostgreSQL"
+    command: "sudo systemctl start postgresql"
+  - name: "Stop-MySQL"
+    command: "sudo systemctl stop mysql"
+  - name: "Backup-MySQL-Database"
+    command: "mysqldump -u root -p mydatabase > backup.sql"
+  - name: "List-PostgreSQL-Databases"
+    command: "sudo -u postgres psql -c '\l'"
+  - name: "Check-Database-Status"
+    command: "sudo systemctl status mysql"
