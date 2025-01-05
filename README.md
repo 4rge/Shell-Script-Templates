@@ -1,0 +1,2 @@
+### Sh-Menu-Using-YAML/JSON:
+This project provides a simple, highly modular, and extensible command-line interface built using a Bash script. The script dynamically reads commands from either a JSON or YAML configuration file. Users can easily execute common operations through a straightforward menu by passing the configuration files as arguments to the menu.sh script.
