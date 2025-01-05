@@ -1,0 +1,44 @@
+options:
+  # User Management Options
+  - name: "List-All-Users"
+    command: "cut -d: -f1 /etc/passwd"
+  
+  - name: "Create-New-User"
+    command: "sudo adduser newusername"
+
+  - name: "Delete-Existing-User"
+    command: "sudo deluser username"
+
+  # System Monitoring Options
+  - name: "Check-Disk-Usage"
+    command: "df -h"
+
+  - name: "Monitor-Memory-Usage"
+    command: "free -h"
+
+  - name: "Show-Running-Processes"
+    command: "top"
+
+  # Web Server Management Options
+  - name: "Start-Web-Server"
+    command: "sudo systemctl start apache2"
+
+  - name: "Stop-Web-Server"
+    command: "sudo systemctl stop nginx"
+
+  - name: "Restart-Web-Server"
+    command: "sudo systemctl restart nginx"
+
+  # Log Management Options
+  - name: "View-System-Log"
+    command: "less /var/log/syslog"
+
+  - name: "Tail-Web-Access-Log"
+    command: "tail -f /var/log/apache2/access.log"
+
+  # Miscellaneous Options
+  - name: "Generate-SSL-Certificate"
+    command: "openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout privatekey.pem -out certificate.pem"
+
+  - name: "Backup-Home-Directory"
+    command: "tar -czvf backup.tar.gz /home/username"
