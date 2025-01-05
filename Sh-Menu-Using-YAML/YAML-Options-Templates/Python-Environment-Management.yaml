@@ -1,0 +1,9 @@
+options:
+  - name: "Create-Virtualenv"
+    command: "python3 -m venv myenv"
+  - name: "Activate-Virtualenv"
+    command: "source myenv/bin/activate"
+  - name: "Install-Requirements"
+    command: "pip install -r requirements.txt"
+  - name: "List-Installed-Packages"
+    command: "pip list"
