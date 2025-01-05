@@ -18,7 +18,8 @@ Ensure you have the following installed:
 ## Usage
 When the script is run, a menu will be displayed showing the names of commands listed in the json file. You can select an option by typing its corresponding number, and the associated command will be executed.
 
-### Example :`sh menu.sh your-menu.json`
+### Example: 
+`sh menu.sh your-menu.json`
 
 ## Best Practices for Naming Options in options.yaml
 
