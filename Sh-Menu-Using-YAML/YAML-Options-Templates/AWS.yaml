@@ -1,0 +1,11 @@
+options:
+  - name: "List-S3-Buckets"
+    command: "aws s3 ls"
+  - name: "Start-EC2-Instance"
+    command: "aws ec2 start-instances --instance-ids i-1234567890abcdef0"
+  - name: "Stop-EC2-Instance"
+    command: "aws ec2 stop-instances --instance-ids i-1234567890abcdef0"
+  - name: "Describe-Instances"
+    command: "aws ec2 describe-instances"
+  - name: "Create-S3-Bucket"
+    command: "aws s3 mb s3://bucket-name"
