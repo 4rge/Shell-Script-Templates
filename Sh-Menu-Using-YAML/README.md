@@ -16,7 +16,7 @@ Ensure you have the following installed:
 - `yq`: A command-line YAML processor (can be installed using your package manager).
 
 ## Usage
-When the script is run, a menu will be displayed showing the names of commands listed in the yaml file. You can select an option by typing its corresponding number, and the associated command will be executed.
+When the script is run, a menu will be displayed showing the names of commands listed in the yaml file. You can select an option by typing its corresponding number, and the associated command will be executed. The default options.yaml contains various examples.
 
 ## Best Practices for Naming Options in options.yaml
 
