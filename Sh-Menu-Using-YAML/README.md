@@ -1,11 +1,11 @@
-# Sh-Menu-Using-YAML
+# Sh-Menu-Using-Json
 
-This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a YAML configuration file. Users can easily execute common operations through a straightforward menu.
+This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a json configuration file. Users can easily execute common operations through a straightforward menu.
 
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `options.yaml`: The configuration file containing the command names and associated commands. (Note: Templates available in the YAML-Options-Templates folder.)
+- `options.yaml`: The configuration file containing the command names and associated commands.
 
 ## Getting Started
 
@@ -13,15 +13,15 @@ This project provides a simple, highly modular and extensible command-line inter
 
 Ensure you have the following installed:
 - `bash`
-- `yq`: A command-line YAML processor (can be installed using your package manager).
+- `jq`: A command-line JSON processor (can be installed using your package manager).
 
 ## Usage
-When the script is run, a menu will be displayed showing the names of commands listed in the yaml file. You can select an option by typing its corresponding number, and the associated command will be executed. The default options.yaml contains various examples.
+When the script is run, a menu will be displayed showing the names of commands listed in the json file. You can select an option by typing its corresponding number, and the associated command will be executed.
 
 ## Best Practices for Naming Options in options.yaml
 
 ### Single Word or Hyphenated:
-All names in the options.yaml file should be a single word or use hyphens to separate words (e.g., Install-Package).
+All names in the options.json file should be a single word or use hyphens to separate words (e.g., Install-Package).
 Avoid using spaces or special characters in names to ensure compatibility and correct parsing.
 
 ### Descriptive Names:
