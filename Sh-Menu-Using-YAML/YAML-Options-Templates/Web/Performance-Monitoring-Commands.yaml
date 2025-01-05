@@ -1,0 +1,9 @@
+options:
+  - name: "Check-Web-Response-Time"
+    command: "curl -o /dev/null -s -w '%{time_total}\n' http://localhost"
+  - name: "Monitor-Server-Health"
+    command: "curl -I http://localhost | grep HTTP"
+  - name: "Check-Server-Load"
+    command: "uptime"
+  - name: "View-Caching-Status"
+    command: "sudo apachectl -M | grep cache"
