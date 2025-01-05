@@ -1,7 +1,0 @@
-options:
-  - name: "Remove-Unused-Dependencies"
-    command: "sudo zypper packages --orphaned"
-  - name: "Clean-Zypper-Cache"
-    command: "sudo zypper clean --all"
-  - name: "Purge-Old-Packages"
-    command: "sudo zypper remove $(zypper packages --orphaned | awk '{print $5}')"

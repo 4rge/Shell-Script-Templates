@@ -1,9 +1,0 @@
-options:
-  - name: "Edit-Cron-Jobs"
-    command: "crontab -e"
-  - name: "List-Cron-Jobs"
-    command: "crontab -l"
-  - name: "Run-Task-Immediately"
-    command: "sudo run-parts /etc/cron.daily"
-  - name: "Check-Scheduled-Tasks"
-    command: "atq"

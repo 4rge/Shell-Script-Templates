@@ -1,9 +1,0 @@
-options:
-  - name: "Clean-Project"
-    command: "cargo clean"
-  - name: "Build-Project"
-    command: "cargo build"
-  - name: "Run-Tests"
-    command: "cargo test"
-  - name: "Update-Crates"
-    command: "cargo update"

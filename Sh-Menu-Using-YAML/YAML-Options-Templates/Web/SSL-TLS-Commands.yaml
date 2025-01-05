@@ -1,9 +1,0 @@
-options:
-  - name: "Generate-SSL-Certificate"
-    command: "openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout privatekey.pem -out certificate.pem"
-  - name: "Check-SSL-Certificate"
-    command: "openssl x509 -in certificate.pem -text -noout"
-  - name: "Renew-Let's-Encrypt-Certificate"
-    command: "sudo certbot renew"
-  - name: "Revoke-SSL-Certificate"
-    command: "sudo certbot revoke --cert-name example.com"

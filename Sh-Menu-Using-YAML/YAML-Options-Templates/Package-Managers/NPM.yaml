@@ -1,5 +1,0 @@
-options:
-  - name: "Remove-Unused-Packages"
-    command: "npm prune"
-  - name: "Clear-NPM-Cache"
-    command: "npm cache clean --force"

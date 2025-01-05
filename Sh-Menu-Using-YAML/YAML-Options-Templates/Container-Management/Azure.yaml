@@ -1,5 +1,0 @@
-options:
-  - name: "Remove-Stopped-Containers"
-    command: "az container list --query '[?state==`Succeeded` || state==`Failed`].{Name:name}' -o tsv | xargs -r az container delete --name"
-  - name: "Cleanup-Container-Instances"
-    command: "az container list --query '[?state==`Stopped`].{Name:name}' -o tsv | xargs -r az container delete --name"

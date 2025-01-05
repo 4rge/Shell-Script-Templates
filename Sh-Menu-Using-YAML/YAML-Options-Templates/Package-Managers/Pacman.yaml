@@ -1,7 +1,0 @@
-options:
-  - name: "Remove-Unused-Dependencies"
-    command: "sudo pacman -Rns $(pacman -Qtdq)"
-  - name: "Clear-Pacman-Cache"
-    command: "sudo pacman -Scc"
-  - name: "Auto-Cleanup"
-    command: "sudo pacman -Rns $(pacman -Qtdq)"

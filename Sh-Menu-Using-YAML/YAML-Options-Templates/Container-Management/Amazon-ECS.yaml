@@ -1,5 +1,0 @@
-options:
-  - name: "Cleanup-Inactive-Tasks"
-    command: "aws ecs list-tasks --cluster my-cluster --desired-status STOPPED --query 'taskArns[*]' | xargs aws ecs stop-task --cluster my-cluster"
-  - name: "Delete-Old-Task-Definitions"
-    command: "aws ecs list-task-definitions --status INACTIVE --query 'taskDefinitionArns[*]' | xargs aws ecs deregister-task-definition"

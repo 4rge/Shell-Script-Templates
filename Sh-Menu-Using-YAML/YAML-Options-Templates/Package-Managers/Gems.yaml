@@ -1,5 +1,0 @@
-options:
-  - name: "Remove-Orphaned-Gems"
-    command: "gem cleanup"
-  - name: "Clear-Gem-Cache"
-    command: "gem clean"

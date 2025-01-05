@@ -1,9 +1,0 @@
-options:
-  - name: "View-System-Log"
-    command: "less /var/log/syslog"
-  - name: "View-Authentication-Log"
-    command: "less /var/log/auth.log"
-  - name: "Tail-Log-Files"
-    command: "tail -f /var/log/syslog"
-  - name: "Search-Logs-for-Errors"
-    command: "grep 'error' /var/log/syslog"

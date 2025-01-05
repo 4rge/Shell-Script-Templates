@@ -1,9 +1,0 @@
-options:
-  - name: "Clean-Solution"
-    command: "dotnet clean"
-  - name: "Restore-Dependencies"
-    command: "dotnet restore"
-  - name: "Update-NuGet-Packages"
-    command: "dotnet nuget locals all --clear"
-  - name: "Run-Tests"
-    command: "dotnet test"

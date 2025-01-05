@@ -1,9 +1,0 @@
-options:
-  - name: "Check-DNS"
-    command: "dig example.com"
-  - name: "List-DNS-Records"
-    command: "dig example.com ANY"
-  - name: "Update-DNS-Record"
-    command: "aws route53 change-resource-record-sets --hosted-zone-id Z3MEXAMPLE --change-batch file://change-batch.json"
-  - name: "Flush-DNS-Cache"
-    command: "sudo systemd-resolve --flush-caches"

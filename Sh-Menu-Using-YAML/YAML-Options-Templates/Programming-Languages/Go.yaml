@@ -1,9 +1,0 @@
-options:
-  - name: "Remove-Dependencies"
-    command: "go mod tidy"
-  - name: "Clear-Go-Cache"
-    command: "go clean -cache"
-  - name: "Run-Tests"
-    command: "go test ./..."
-  - name: "Build-Project"
-    command: "go build"

@@ -1,9 +1,0 @@
-options:
-  - name: "Check-Firewall-Status"
-    command: "sudo ufw status"
-  - name: "Enable-Firewall"
-    command: "sudo ufw enable"
-  - name: "Allow-SSH"
-    command: "sudo ufw allow ssh"
-  - name: "Reset-Firewall"
-    command: "sudo ufw reset"

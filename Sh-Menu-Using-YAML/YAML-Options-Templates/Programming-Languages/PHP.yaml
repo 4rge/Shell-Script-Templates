@@ -1,9 +1,0 @@
-options:
-  - name: "Remove-Unused-Dependencies"
-    command: "composer remove --unused"
-  - name: "Clear-Composer-Cache"
-    command: "composer clear-cache"
-  - name: "Install-Dependencies"
-    command: "composer install"
-  - name: "Update-Dependencies"
-    command: "composer update"

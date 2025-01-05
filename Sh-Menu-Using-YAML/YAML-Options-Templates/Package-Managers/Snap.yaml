@@ -1,5 +1,0 @@
-options:
-  - name: "Remove-Old-Snap-Versions"
-    command: "snap refresh && snap remove --purge $(snap list --all | awk '/disabled/{print $1, $2}')"
-  - name: "Clean-Snap-Cache"
-    command: "sudo rm -rf /var/lib/snapd/cache/*"

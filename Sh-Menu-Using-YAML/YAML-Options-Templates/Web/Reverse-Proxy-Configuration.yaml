@@ -1,7 +1,0 @@
-options:
-  - name: "Setup-Nginx-Reverse-Proxy"
-    command: "sudo nano /etc/nginx/conf.d/reverse-proxy.conf"
-  - name: "Enable-Nginx-Proxy"
-    command: "sudo systemctl restart nginx"
-  - name: "Check-Nginx-Configuration"
-    command: "sudo nginx -t"

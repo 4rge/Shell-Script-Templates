@@ -1,7 +1,0 @@
-options:
-  - name: "Remove-Old-Workloads"
-    command: "kubectl delete workload --all --field-selector=status.replicas==0"
-  - name: "Cleanup-Rancher-Clusters"
-    command: "rancher cluster remove $(rancher cluster ls | grep -v active | awk '{print $1}')"
-  - name: "Prune-Namespaces"
-    command: "kubectl delete namespaces --field-selector=metadata.name!=kube-system"

@@ -1,7 +1,0 @@
-options:
-  - name: "Remove-Unused-Dependencies"
-    command: "sudo dnf autoremove"
-  - name: "Clean-DNF-Caches"
-    command: "sudo dnf clean all"
-  - name: "Remove-Old-Kernel"
-    command: "sudo package-cleanup --oldkernels --count=2"
