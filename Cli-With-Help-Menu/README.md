@@ -1,4 +1,4 @@
-# Bash Script for Script Functionality
+# Cli-Help-Menu-With-Args
 
 ## Overview
 This repository includes two scripts that provide identical functionality: one implemented in Bash (`script.sh`) and another in Python (`script.py`). Users can select the script that aligns with their development environment or language preference.
