@@ -1,0 +1,7 @@
+options:
+  - name: "Remove-Unused-Dependencies"
+    command: "sudo yum autoremove"
+  - name: "Clean-Yum-Caches"
+    command: "sudo yum clean all"
+  - name: "Remove-Old-Kernel"
+    command: "sudo package-cleanup --oldkernels --count=2"
