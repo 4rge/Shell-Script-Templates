@@ -21,7 +21,7 @@ Ensure you have the following installed:
 
 When the script is run, a menu will be displayed showing the names of commands listed within the provided configuration file (either JSON or YAML). You can select an option by typing its corresponding number, and the associated command will be executed.
 
-### Example: 
+### Examples: 
 `sh menu.sh your-menu.json`
 `sh menu.sh your-menu.yaml`
 
