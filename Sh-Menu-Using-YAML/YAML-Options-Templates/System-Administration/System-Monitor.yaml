@@ -1,0 +1,11 @@
+options:
+  - name: "Check-Disk-Usage"
+    command: "df -h"
+  - name: "Monitor-Memory-Usage"
+    command: "free -h"
+  - name: "Check-Running-Processes"
+    command: "top"
+  - name: "Show-System-Load"
+    command: "uptime"
+  - name: "Check-Cpu-Usage"
+    command: "mpstat"
