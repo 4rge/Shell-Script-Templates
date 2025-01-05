@@ -1,0 +1,11 @@
+options:
+  - name: "Start-Apache"
+    command: "sudo systemctl start apache2"
+  - name: "Stop-Nginx"
+    command: "sudo systemctl stop nginx"
+  - name: "Check-Web-Server-Status"
+    command: "sudo systemctl status apache2"
+  - name: "Reload-Nginx"
+    command: "sudo systemctl reload nginx"
+  - name: "Enable-Apache-At-Boot"
+    command: "sudo systemctl enable apache2"
