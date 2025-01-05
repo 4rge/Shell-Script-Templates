@@ -1,11 +1,14 @@
 # Sh-Menu-Using-Json
 
-This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a json configuration file. Users can easily execute common operations through a straightforward menu.
+This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a json configuration file. Users can easily execute common operations through a straightforward menu by passing json files as arguments to the menu.sh script to generate menus.
+
+## Example
+`sh menu.sh your-menu.json`
 
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `options.yaml`: The configuration file containing the command names and associated commands.
+- `options.json`: The configuration file containing the command names and associated commands.
 
 ## Getting Started
 
