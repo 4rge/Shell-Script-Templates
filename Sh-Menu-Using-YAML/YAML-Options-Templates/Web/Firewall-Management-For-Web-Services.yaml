@@ -1,0 +1,7 @@
+options:
+  - name: "Allow-HTTP-Traffic"
+    command: "sudo ufw allow 'Nginx Full'"
+  - name: "Allow-HTTPS-Traffic"
+    command: "sudo ufw allow https"
+  - name: "Check-Firewall-Status"
+    command: "sudo ufw status"
