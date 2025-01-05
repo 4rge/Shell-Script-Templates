@@ -1,0 +1,9 @@
+options:
+  - name: "Start-Docker"
+    command: "docker-compose up -d"
+  - name: "Stop-Docker"
+    command: "docker-compose down"
+  - name: "List-Containers"
+    command: "docker ps -a"
+  - name: "Remove-Container"
+    command: "docker rm $(docker ps -aq)"
