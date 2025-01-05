@@ -1,0 +1,9 @@
+options:
+  - name: "Update-Pacman"
+    command: "sudo pacman -Syu"
+  - name: "Clear-Cache"
+    command: "sudo pacman -Scc"
+  - name: "List-Installed"
+    command: "sudo pacman -Q"
+  - name: "Purge-Unused"
+    command: "sudo pacman -Rns $(pacman -Qtdq)"
