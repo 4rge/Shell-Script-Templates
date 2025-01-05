@@ -1,0 +1,7 @@
+options:
+  - name: "Remove-Unrequired-Packages"
+    command: "choco uninstall --remove-duplicates"
+  - name: "Cleanup-Chocolatey"
+    command: "choco clean"
+  - name: "Purge-Old-Versions"
+    command: "choco outdated --all --uninstall"
