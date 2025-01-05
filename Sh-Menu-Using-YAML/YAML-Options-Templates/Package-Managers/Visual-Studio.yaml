@@ -1,0 +1,5 @@
+options:
+  - name: "Clean-Solution"
+    command: "dotnet clean"
+  - name: "Clear-NuGet-Cache"
+    command: "dotnet nuget locals all --clear"
