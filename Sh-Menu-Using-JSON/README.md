@@ -1,11 +1,12 @@
-# Sh-Menu-Using-Json
+# Sh-Menu-Using-YAML/JSON
 
-This project provides a simple, highly modular and extensible command-line interface. Built using a Bash script that dynamically reads commands from a json configuration file. Users can easily execute common operations through a straightforward menu by passing json files as arguments to the menu.sh script to generate menus.
+This project provides a simple, highly modular, and extensible command-line interface built using a Bash script. The script dynamically reads commands from either a JSON or YAML configuration file. Users can easily execute common operations through a straightforward menu by passing the configuration files as arguments to the menu.sh script.
 
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `options.json`: The configuration file containing the command names and associated commands.
+- `options.json`: An example configuration file containing command names and associated commands (in JSON format).
+- `options.yaml`: An example configuration file containing command names and associated commands (in YAML format).
 
 ## Getting Started
 
@@ -14,12 +15,15 @@ This project provides a simple, highly modular and extensible command-line inter
 Ensure you have the following installed:
 - `bash`
 - `jq`: A command-line JSON processor (can be installed using your package manager).
+- `yq`: A command-line YAML processor (can be installed using your package manager).
 
 ## Usage
-When the script is run, a menu will be displayed showing the names of commands listed in the json file. You can select an option by typing its corresponding number, and the associated command will be executed.
+
+When the script is run, a menu will be displayed showing the names of commands listed within the provided configuration file (either JSON or YAML). You can select an option by typing its corresponding number, and the associated command will be executed.
 
 ### Example: 
 `sh menu.sh your-menu.json`
+`sh menu.sh your-menu.yaml`
 
 ## Best Practices for Naming Options in options.yaml
 
@@ -33,27 +37,6 @@ This will make the menu intuitive and user-friendly.
 
 ### Consistent Naming Convention:
 Decide on a consistent naming convention (e.g., use camel case, underscores, or hyphens) and stick to it throughout the file.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
-
-Fork the Repository: Start by forking the repository to your own GitHub account.
-Create a New Feature Branch: For example:
-git checkout -b feature/my-new-feature
-
-Make Your Changes: Implement your feature or bugfix.
-Update Documentation: If applicable, update the README file and options.yaml to reflect the changes.
-Commit Your Changes: Only commit changes to files you worked on:
-git commit -m "Add a descriptive message for your changes"
-
-Push to Your Feature Branch:
-git push origin feature/my-new-feature
-
-Create a Pull Request:
-On GitHub, navigate to the "Pull Requests" page and create a new pull request.
-
-Thank you for considering contributing! Your help is appreciated.
 
 ## License
 
