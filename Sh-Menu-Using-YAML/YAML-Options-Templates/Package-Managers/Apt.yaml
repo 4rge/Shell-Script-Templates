@@ -1,0 +1,9 @@
+options:
+  - name: "Remove-Unused-Dependencies"
+    command: "sudo apt autoremove"
+  - name: "Clear-Apt-Cache"
+    command: "sudo apt clean"
+  - name: "Purge-Apt-Caches"
+    command: "sudo apt clean && sudo apt autoclean"
+  - name: "Remove-Orphaned-Package"
+    command: "deborphan | xargs sudo apt remove --purge"
