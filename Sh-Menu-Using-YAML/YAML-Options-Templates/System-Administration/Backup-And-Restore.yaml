@@ -1,0 +1,7 @@
+options:
+  - name: "Backup-Home-Directory"
+    command: "tar -czvf home_backup.tar.gz /home/username"
+  - name: "Restore-Backup"
+    command: "tar -xzvf home_backup.tar.gz -C /"
+  - name: "Sync-Directories"
+    command: "rsync -av --delete /source/ /destination/"
