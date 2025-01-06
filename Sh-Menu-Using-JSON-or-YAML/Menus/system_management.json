@@ -1,0 +1,34 @@
+{
+  "colors": {
+    "header": "cyan",
+    "option": "yellow",
+    "error": "red",
+    "command": "green"
+  },
+  "options": [
+    {
+      "name": "Show-system-uptime",
+      "command": "uptime"
+    },
+    {
+      "name": "Display-free-memory",
+      "command": "free -h"
+    },
+    {
+      "name": "Show-Kernel-version",
+      "command": "uname -r"
+    },
+    {
+      "name": "Show-CPU-information",
+      "command": "lscpu"
+    },
+    {
+      "name": "Show-OS-information",
+      "command": "lsb_release -a"
+    },
+    {
+      "name": "Exit",
+      "command": "exit"
+    }
+  ]
+}
