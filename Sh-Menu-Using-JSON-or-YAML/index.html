@@ -171,6 +171,7 @@
             <option value="yaml">YAML</option>
             <option value="json">JSON</option>
         </select>
+        <button id="downloadBtn">Download</button>
     </form>
 
     <h2>Output:</h2>
@@ -264,6 +265,34 @@
                 document.getElementById('jsonOutput').style.display = 'block';
             }
         }
+
+        // Function to trigger a file download
+        function downloadFile(filename, content) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Event listener for the unified download button
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const formatToggle = document.getElementById('formatToggle').value;
+            let content;
+            let filename;
+
+            if (formatToggle === 'yaml') {
+                content = document.getElementById('yamlOutput').textContent;
+                filename = 'config.yaml';
+            } else {
+                content = document.getElementById('jsonOutput').textContent;
+                filename = 'config.json';
+            }
+
+            downloadFile(filename, content);
+        });
 
         // Add event listeners to sections that trigger output updates
         const inputs = document.querySelectorAll('#configForm input, #configForm select');
