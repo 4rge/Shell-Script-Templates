@@ -1,0 +1,34 @@
+{
+  "colors": {
+    "header": "cyan",
+    "option": "yellow",
+    "error": "red",
+    "command": "green"
+  },
+  "options": [
+    {
+      "name": "Check-disk-space",
+      "command": "df -h"
+    },
+    {
+      "name": "Check-inode-usage",
+      "command": "df -i"
+    },
+    {
+      "name": "List-mounted-filesystems",
+      "command": "mount"
+    },
+    {
+      "name": "Run-filesystem-check",
+      "command": "fsck /dev/sdX"
+    },
+    {
+      "name": "List-partitions",
+      "command": "lsblk"
+    },
+    {
+      "name": "Exit",
+      "command": "exit"
+    }
+  ]
+}
