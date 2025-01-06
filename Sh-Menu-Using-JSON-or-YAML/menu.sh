@@ -9,55 +9,36 @@ declare -A color_codes=(
     ["reset"]="\e[0m"
 )
 
-# Initialize colors and other settings with default values
+# Initialize colors with default values
 COLOR_HEADER=${color_codes["cyan"]}
 COLOR_OPTION=${color_codes["yellow"]}
 COLOR_ERROR=${color_codes["red"]}
 COLOR_COMMAND=${color_codes["green"]}
 COLOR_RESET=${color_codes["reset"]}
 
-MENU_TITLE="Main Menu"
-FOOTER_MESSAGE=""
-DEFAULT_OPTION=-1
-INPUT_PROMPT="Select an option:"
-ALLOW_EXIT=true
-HELP_COMMAND=""
-CONFIRM_EXECUTION=false
-LOG_FILE=""
-
-# Function to set colors and settings from the configuration file
-set_config_from_file() {
+# Function to set colors from the configuration file
+set_colors_from_config() {
     if [[ "$1" == *.json ]]; then
-        MENU_TITLE=$(jq -r '.menuTitle // "Main Menu"' "$1")
-        FOOTER_MESSAGE=$(jq -r '.footerMessage // ""' "$1")
-        color_settings=$(jq -r '.colors' "$1")
+        local colors=$(jq -r '.colors' "$1")
     elif [[ "$1" == *.yaml || "$1" == *.yml ]]; then
-        MENU_TITLE=$(yq -r '.menuTitle // "Main Menu"' "$1")
-        FOOTER_MESSAGE=$(yq -r '.footerMessage // ""' "$1")
-        color_settings=$(yq -r '.colors' "$1")
+        local colors=$(yq -r '.colors' "$1")
     else
         return
     fi
 
-    # Set color variables
-    COLOR_HEADER=${color_codes["$(echo "$color_settings" | jq -r '.header' || yq -r '.header')"]} || COLOR_HEADER
-    COLOR_OPTION=${color_codes["$(echo "$color_settings" | jq -r '.option' || yq -r '.option')"]} || COLOR_OPTION
-    COLOR_ERROR=${color_codes["$(echo "$color_settings" | jq -r '.error' || yq -r '.error')"]} || COLOR_ERROR
-    COLOR_COMMAND=${color_codes["$(echo "$color_settings" | jq -r '.command' || yq -r '.command')"]} || COLOR_COMMAND
-
-    DEFAULT_OPTION=$(jq -r '.defaultOption // -1' "$1")
-    INPUT_PROMPT=$(jq -r '.inputPrompt // "Select an option:"' "$1")
-    ALLOW_EXIT=$(jq -r '.allowExit // true' "$1")
-    HELP_COMMAND=$(jq -r '.helpCommand // ""' "$1")
-    CONFIRM_EXECUTION=$(jq -r '.confirmExecution // false' "$1")
-    LOG_FILE=$(jq -r '.logFile // ""' "$1")
+    if [[ $? -eq 0 ]]; then
+        COLOR_HEADER=${color_codes["$(echo "$colors" | jq -r '.header' || yq -r '.header')"]} || COLOR_HEADER
+        COLOR_OPTION=${color_codes["$(echo "$colors" | jq -r '.option' || yq -r '.option')"]} || COLOR_OPTION
+        COLOR_ERROR=${color_codes["$(echo "$colors" | jq -r '.error' || yq -r '.error')"]} || COLOR_ERROR
+        COLOR_COMMAND=${color_codes["$(echo "$colors" | jq -r '.command' || yq -r '.command')"]} || COLOR_COMMAND
+    fi
 }
 
 # Function to display the menu
 display_menu() {
     clear
     echo -e "${COLOR_HEADER}=========================${COLOR_RESET}"
-    echo -e "${COLOR_HEADER}        $MENU_TITLE        ${COLOR_RESET}"
+    echo -e "${COLOR_HEADER}        Main Menu        ${COLOR_RESET}"
     echo -e "${COLOR_HEADER}=========================${COLOR_RESET}"
     local count=1
     local option_names
@@ -89,15 +70,8 @@ display_menu() {
         echo -e "${COLOR_OPTION}→ $count.) $option${COLOR_RESET}"
         count=$((count + 1))
     done
-
-    if [ "$ALLOW_EXIT" = true ]; then
-        echo -e "${COLOR_ERROR}0.) Exit${COLOR_RESET}"
-    fi
-
+    echo -e "${COLOR_ERROR}0.) Exit${COLOR_RESET}"
     echo -e "${COLOR_HEADER}=========================${COLOR_RESET}"
-    if [ ! -z "$FOOTER_MESSAGE" ]; then
-        echo -e "${COLOR_CYAN}$FOOTER_MESSAGE${COLOR_RESET}"
-    fi
 }
 
 # Function to execute the selected command
@@ -116,23 +90,9 @@ execute_command() {
         echo -e "${COLOR_ERROR}Error while retrieving command: $command${COLOR_RESET}"
         exit 1
     fi
-
-    if [ "$CONFIRM_EXECUTION" = true ]; then
-        read -p "Are you sure you want to execute: $command? (y/n): " confirm
-        if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
-            echo -e "${COLOR_ERROR}Command execution canceled.${COLOR_RESET}"
-            return
-        fi
-    fi
     
     echo -e "${COLOR_COMMAND}Executing: $command${COLOR_RESET}"
     eval "$command"
-    
-    # Log the executed command if a log file is specified
-    if [[ ! -z "$LOG_FILE" ]]; then
-        echo "Executed Command: $command" >> "$LOG_FILE"
-    fi
-    
     read -p "Press [Enter] to continue..."
 }
 
@@ -142,17 +102,16 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-# Load configuration from the file
-set_config_from_file "$1"
+# Load colors from the configuration file
+set_colors_from_config "$1"
 
 # Main loop
 while true; do
     display_menu "$1"
-    read -p "$INPUT_PROMPT " choice
+    read -p "Select an option: " choice
 
     if [[ "$choice" =~ ^[0-9]+$ ]]; then 
-        # Handle exit option if specified
-        if [ "$ALLOW_EXIT" = true ] && [[ "$choice" -eq 0 ]]; then
+        if [[ "$choice" -eq 0 ]]; then
             exit 0
         elif [[ "$choice" -gt 0 ]]; then
             option_index=$((choice - 1))
