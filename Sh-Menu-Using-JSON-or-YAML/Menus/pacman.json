@@ -1,0 +1,58 @@
+{
+  "colors": {
+    "header": "cyan",
+    "option": "yellow",
+    "error": "red",
+    "command": "green"
+  },
+  "options": [
+    {
+      "name": "Install-a-package",
+      "command": "pacman -S <package_name>"
+    },
+    {
+      "name": "Remove-a-package",
+      "command": "pacman -R <package_name>"
+    },
+    {
+      "name": "Update-all-packages",
+      "command": "pacman -Syu"
+    },
+    {
+      "name": "Search-for-a-package",
+      "command": "pacman -Ss <package_name>"
+    },
+    {
+      "name": "List-installed-packages",
+      "command": "pacman -Q"
+    },
+    {
+      "name": "Get-information-about-a-package",
+      "command": "pacman -Qi <package_name>"
+    },
+    {
+      "name": "Clean-package-cache",
+      "command": "pacman -Sc"
+    },
+    {
+      "name": "Display-package-updates",
+      "command": "pacman -Qu"
+    },
+    {
+      "name": "Upgrade-the-system",
+      "command": "pacman -Syu"
+    },
+    {
+      "name": "Remove-unused-packages",
+      "command": "pacman -Rns $(pacman -Qdtq)"
+    },
+    {
+      "name": "List-available-packages",
+      "command": "pacman -Sl"
+    },
+    {
+      "name": "Exit",
+      "command": "exit"
+    }
+  ]
+}
