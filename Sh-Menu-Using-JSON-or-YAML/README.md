@@ -21,9 +21,9 @@ Ensure you have the following installed:
 
 ## Usage
 
-Start by opening the index.html file in your web-browser. Fill out the form and copy the generated code. Paste it into a new file. Run the script by calling
-`sh manu.sh <path-to-json/yaml>`
-When the script is run, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
+Start by opening the index.html file in your web-browser. Fill out the form and download the generated code. Run the script by calling
+`sh manu.sh <path-to-json/yaml>`.
+When the script is running, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
 
 ## Best Practices for Naming Options in options.yaml
 ##### The webui automatically formats entries according to best pratices.
