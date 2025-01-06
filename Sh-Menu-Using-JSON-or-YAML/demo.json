@@ -1,56 +1,34 @@
 {
-  "options": [
-    {
-      "name": "List-All-Users",
-      "command": "cut -d: -f1 /etc/passwd"
+    "menuTitle": "General Operations Menu",
+    "footerMessage": "Choose an option or press 0 to exit.",
+    "colors": {
+        "header": "blue",
+        "option": "green",
+        "error": "red",
+        "command": "yellow"
     },
-    {
-      "name": "Create-New-User",
-      "command": "sudo adduser newusername"
-    },
-    {
-      "name": "Delete-Existing-User",
-      "command": "sudo deluser username"
-    },
-    {
-      "name": "Check-Disk-Usage",
-      "command": "df -h"
-    },
-    {
-      "name": "Monitor-Memory-Usage",
-      "command": "free -h"
-    },
-    {
-      "name": "Show-Running-Processes",
-      "command": "top"
-    },
-    {
-      "name": "Start-Web-Server",
-      "command": "sudo systemctl start apache2"
-    },
-    {
-      "name": "Stop-Web-Server",
-      "command": "sudo systemctl stop nginx"
-    },
-    {
-      "name": "Restart-Web-Server",
-      "command": "sudo systemctl restart nginx"
-    },
-    {
-      "name": "View-System-Log",
-      "command": "less /var/log/syslog"
-    },
-    {
-      "name": "Tail-Web-Access-Log",
-      "command": "tail -f /var/log/apache2/access.log"
-    },
-    {
-      "name": "Generate-SSL-Certificate",
-      "command": "openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout privatekey.pem -out certificate.pem"
-    },
-    {
-      "name": "Backup-Home-Directory",
-      "command": "tar -czvf backup.tar.gz /home/username"
-    }
-  ]
+    "options": [
+        {
+            "name": "Create-File",
+            "command": "touch new_file.txt && echo 'Created new_file.txt'"
+        },
+        {
+            "name": "List-Dir",
+            "command": "ls -la && echo 'Listed files and directories'"
+        },
+        {
+            "name": "Show-Info",
+            "command": "uname -a && echo 'Displayed system info'"
+        },
+        {
+            "name": "Show-Date",
+            "command": "date && echo 'Displayed current date and time'"
+        }
+    ],
+    "defaultOption": 1,
+    "inputPrompt": "Select an operation:",
+    "allowExit": true,
+    "helpCommand": "echo 'Help: Choose an operation by number.'",
+    "confirmExecution": true,
+    "logFile": "operations_log.txt"
 }
