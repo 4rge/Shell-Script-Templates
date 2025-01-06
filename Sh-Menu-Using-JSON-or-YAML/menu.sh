@@ -91,6 +91,22 @@ execute_command() {
         exit 1
     fi
     
+    # If the command contains placeholders, prompt for inputs
+    if [[ "$command" == *"<package_name>"* ]]; then
+        read -p "Please enter the package name: " package_name
+        command=${command//<package_name>/$package_name}
+    fi
+
+    if [[ "$command" == *"<package_name_for_removal>"* ]]; then
+        read -p "Please enter the package name to remove: " package_name
+        command=${command//<package_name_for_removal>/$package_name}
+    fi
+    
+    if [[ "$command" == *"<package_name_for_info>"* ]]; then
+        read -p "Please enter the package name for information: " package_name
+        command=${command//<package_name_for_info>/$package_name}
+    fi
+
     echo -e "${COLOR_COMMAND}Executing: $command${COLOR_RESET}"
     eval "$command"
     read -p "Press [Enter] to continue..."
