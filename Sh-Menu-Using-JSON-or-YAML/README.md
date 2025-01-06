@@ -5,8 +5,6 @@ This project provides a simple, highly modular, and extensible command-line inte
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `options.json`: An example configuration file containing command names and associated commands (in JSON format).
-- `options.yaml`: An example configuration file containing command names and associated commands (in YAML format).
 - `index.html`: A webui designed to streamline the creation of json and yaml files for this script.
 
 ## Getting Started
