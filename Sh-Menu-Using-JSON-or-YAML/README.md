@@ -20,13 +20,12 @@ Ensure you have the following installed:
 
 ## Usage
 
-When the script is run, a menu will be displayed showing the names of commands listed within the provided configuration file (either JSON or YAML). You can select an option by typing its corresponding number, and the associated command will be executed.
-
-### Examples: 
-`sh menu.sh your-menu.json`
-`sh menu.sh your-menu.yaml`
+Start by opening the index.html file in your web-browser. Fill out the form and copy the generated code. Paste it into a new file. Run the script by calling
+`sh manu.sh <path-to-json/yaml>`
+When the script is run, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
 
 ## Best Practices for Naming Options in options.yaml
+##### The webui automatically formats entries according to best pratices.
 
 ### Single Word or Hyphenated:
 All names in the options.json file should be a single word or use hyphens to separate words (e.g., Install-Package).
