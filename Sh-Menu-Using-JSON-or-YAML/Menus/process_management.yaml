@@ -1,0 +1,18 @@
+colors:
+  header: cyan
+  option: yellow
+  error: red
+  command: green
+options:
+  - name: "List-all-processes"
+    command: "ps aux"
+  - name: "Kill-a-process"
+    command: "kill <PID>"
+  - name: "Search-for-a-process"
+    command: "pgrep <process_name>"
+  - name: "Show-process-tree"
+    command: "pstree"
+  - name: "Monitor-processes"
+    command: "top"
+  - name: "Exit"
+    command: "exit"
