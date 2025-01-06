@@ -1,0 +1,58 @@
+{
+  "colors": {
+    "header": "cyan",
+    "option": "yellow",
+    "error": "red",
+    "command": "green"
+  },
+  "options": [
+    {
+      "name": "Install-a-package",
+      "command": "dnf install <package_name>"
+    },
+    {
+      "name": "Remove-a-package",
+      "command": "dnf remove <package_name>"
+    },
+    {
+      "name": "Update-all-packages",
+      "command": "dnf update"
+    },
+    {
+      "name": "Search-for-a-package",
+      "command": "dnf search <package_name>"
+    },
+    {
+      "name": "List-installed-packages",
+      "command": "dnf list installed"
+    },
+    {
+      "name": "Get-information-about-a-package",
+      "command": "dnf info <package_name>"
+    },
+    {
+      "name": "Clean-up-package-cache",
+      "command": "dnf clean all"
+    },
+    {
+      "name": "Display-upgradable-packages",
+      "command": "dnf updates"
+    },
+    {
+      "name": "Upgrade-the-system",
+      "command": "dnf upgrade"
+    },
+    {
+      "name": "Remove-unused-packages",
+      "command": "dnf autoremove"
+    },
+    {
+      "name": "List-available-packages",
+      "command": "dnf list available"
+    },
+    {
+      "name": "Exit",
+      "command": "exit"
+    }
+  ]
+}
