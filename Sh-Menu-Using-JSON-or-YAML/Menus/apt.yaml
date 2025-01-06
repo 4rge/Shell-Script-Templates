@@ -1,0 +1,30 @@
+colors:
+  header: cyan
+  option: yellow
+  error: red
+  command: green
+options:
+  - name: "Install-a-package"
+    command: "apt install <package_name>"
+  - name: "Remove-a-package"
+    command: "apt remove <package_name>"
+  - name: "Update-all-packages"
+    command: "apt update && apt upgrade"
+  - name: "Search-for-a-package"
+    command: "apt search <package_name>"
+  - name: "List-installed-packages"
+    command: "apt list --installed"
+  - name: "Get-information-about-a-package"
+    command: "apt show <package_name>"
+  - name: "Clean-up-package-cache"
+    command: "apt clean"
+  - name: "Display-upgradable-packages"
+    command: "apt list --upgradable"
+  - name: "Upgrade-the-system"
+    command: "apt upgrade"
+  - name: "Remove-unused-packages"
+    command: "apt autoremove"
+  - name: "List-available-packages"
+    command: "apt list"
+  - name: "Exit"
+    command: "exit"
