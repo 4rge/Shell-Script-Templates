@@ -78,7 +78,7 @@ display_menu() {
 execute_command() {
     local command
 
-    # Determine file type and parse accordingly
+    # Retrieve the command based on the selected option
     if [[ "$2" == *.json ]]; then
         command=$(jq -r ".options[$1].command" "$2" 2>&1)
     elif [[ "$2" == *.yaml || "$2" == *.yml ]]; then
@@ -90,25 +90,26 @@ execute_command() {
         echo -e "${COLOR_ERROR}Error while retrieving command: $command${COLOR_RESET}"
         exit 1
     fi
-    
-    # If the command contains placeholders, prompt for inputs
-    if [[ "$command" == *"<package_name>"* ]]; then
-        read -p "Please enter the package name: " package_name
-        command=${command//<package_name>/$package_name}
-    fi
 
-    if [[ "$command" == *"<package_name_for_removal>"* ]]; then
-        read -p "Please enter the package name to remove: " package_name
-        command=${command//<package_name_for_removal>/$package_name}
-    fi
-    
-    if [[ "$command" == *"<package_name_for_info>"* ]]; then
-        read -p "Please enter the package name for information: " package_name
-        command=${command//<package_name_for_info>/$package_name}
+    # Replace placeholders in angle brackets with user input
+    while [[ "$command" =~ \<([a-zA-Z0-9_]+)\> ]]; do
+        placeholder="${BASH_REMATCH[0]}"            # Full placeholder including <>
+        key="${BASH_REMATCH[1]}"                    # Placeholder name without <>
+        read -p "Please enter the value for $key: " user_input
+        command=${command//$placeholder/$user_input}  # Replace with user input
+    done
+
+    # Before executing, check if the command is not empty
+    if [[ -z "$command" ]]; then
+        echo -e "${COLOR_ERROR}Error: The command to execute is empty.${COLOR_RESET}"
+        exit 1
     fi
 
     echo -e "${COLOR_COMMAND}Executing: $command${COLOR_RESET}"
-    eval "$command"
+    eval "$command" || {
+        echo -e "${COLOR_ERROR}Error executing command: $command${COLOR_RESET}"
+        exit 1
+    }
     read -p "Press [Enter] to continue..."
 }
 
@@ -131,7 +132,7 @@ while true; do
             exit 0
         elif [[ "$choice" -gt 0 ]]; then
             option_index=$((choice - 1))
-            
+
             # Determine file type and fetch total options
             if [[ "$1" == *.json ]]; then
                 total_options=$(jq -r '.options | length' "$1")
