@@ -17,6 +17,7 @@ Ensure you have the following installed:
 - `bash`
 - `jq`: A command-line JSON processor (can be installed using your package manager).
 - `yq`: A command-line YAML processor (can be installed using your package manager).
+-  `A Web Browser`: A web browser. (Not tested on text-based web-browsers.)
 
 ## Usage
 
