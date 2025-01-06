@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuration File Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1, h2 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        form {
+            background-color: #2b2b2b;
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: #28a745;
+            outline: none;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #218838;
+            transform: translateY(-1px);
+        }
+        .output {
+            margin-top: 20px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #333;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .option-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .option-container input {
+            flex: 1;
+            margin-right: 5px;
+        }
+        .delete-option {
+            color: red;
+            cursor: pointer;
+            margin-left: 5px;
+            padding: 0 10px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .delete-option:hover {
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Configuration File Creator</h1>
+    <form id="configForm">
+        <label for="menuTitle">Menu Title:</label>
+        <input type="text" id="menuTitle" required>
+
+        <label for="footerMessage">Footer Message:</label>
+        <input type="text" id="footerMessage" required>
+
+        <label for="headerColor">Header Color:</label>
+        <select id="headerColor" required>
+            <option value="magenta">Magenta</option>
+            <option value="cyan">Cyan</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+        </select>
+
+        <label for="optionColor">Option Color:</label>
+        <select id="optionColor" required>
+            <option value="cyan">Cyan</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+        </select>
+
+        <label for="errorColor">Error Color:</label>
+        <select id="errorColor" required>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <label for="commandColor">Command Color:</label>
+        <select id="commandColor" required>
+            <option value="green">Green</option>
+            <option value="magenta">Magenta</option>
+            <option value="red">Red</option>
+        </select>
+
+        <label for="inputPrompt">Input Prompt:</label>
+        <input type="text" id="inputPrompt" placeholder="Enter input prompt" required>
+
+        <label for="logFile">Log File:</label>
+        <input type="text" id="logFile" placeholder="Enter log file name" value="user_management_log.txt" required>
+
+        <label for="helpCommand">Help Command:</label>
+        <input type="text" id="helpCommand" placeholder="Enter help command" value="echo 'Help: Use numbers to select an operation.'" required>
+
+        <label for="allowExit">Allow Exit:</label>
+        <input type="checkbox" id="allowExit" checked>
+        
+        <label for="confirmExecution">Confirm Execution:</label>
+        <input type="checkbox" id="confirmExecution">
+
+        <label for="options">Options:</label>
+        <div id="optionsContainer">
+            <div class="option-container">
+                <input type="text" placeholder="name" oninput="validateName(this)" required>
+                <input type="text" placeholder="command" required>
+                <button type="button" class="delete-option" onclick="deleteOption(this)">X</button>
+            </div>
+        </div>
+        <button type="button" onclick="addOption()">Add Option</button>
+        
+        <label for="formatToggle">Switch Format:</label>
+        <select id="formatToggle" onchange="updateOutputs()">
+            <option value="yaml">YAML</option>
+            <option value="json">JSON</option>
+        </select>
+    </form>
+
+    <h2>Output:</h2>
+    <div class="output">
+        <pre id="yamlOutput"></pre>
+        <pre id="jsonOutput" style="display: none;"></pre>
+    </div>
+
+    <script>
+        function validateName(input) {
+            const regex = /^[a-zA-Z0-9-]*$/;
+            if (!regex.test(input.value)) {
+                input.value = input.value.slice(0, -1); // remove last character if it's invalid
+            }
+        }
+
+        function addOption() {
+            const container = document.getElementById('optionsContainer');
+            const optionDiv = document.createElement('div');
+            optionDiv.classList.add('option-container');
+            optionDiv.innerHTML = `
+                <input type="text" placeholder="name" oninput="validateName(this)" required>
+                <input type="text" placeholder="command" required>
+                <button type="button" class="delete-option" onclick="deleteOption(this)">X</button>`;
+            container.appendChild(optionDiv);
+            updateOutputs();
+        }
+
+        function deleteOption(element) {
+            const container = document.getElementById('optionsContainer');
+            container.removeChild(element.parentElement);
+            updateOutputs();
+        }
+
+        function updateOutputs() {
+            const menuTitle = document.getElementById('menuTitle').value;
+            const footerMessage = document.getElementById('footerMessage').value;
+            const headerColor = document.getElementById('headerColor').value;
+            const optionColor = document.getElementById('optionColor').value;
+            const errorColor = document.getElementById('errorColor').value;
+            const commandColor = document.getElementById('commandColor').value;
+            const inputPrompt = document.getElementById('inputPrompt').value;
+            const logFile = document.getElementById('logFile').value;
+            const helpCommand = document.getElementById('helpCommand').value;
+            const allowExit = document.getElementById('allowExit').checked;
+            const confirmExecution = document.getElementById('confirmExecution').checked;
+
+            const optionsDivs = document.querySelectorAll('.option-container');
+            const options = Array.from(optionsDivs).map(optDiv => {
+                const name = optDiv.children[0].value.trim();
+                const command = optDiv.children[1].value.trim();
+                return { name: name, command: command };
+            });
+
+            const jsonConfig = {
+                menuTitle: menuTitle,
+                footerMessage: footerMessage,
+                colors: {
+                    header: headerColor,
+                    option: optionColor,
+                    error: errorColor,
+                    command: commandColor
+                },
+                options: options,
+                defaultOption: 1,
+                inputPrompt: inputPrompt,
+                allowExit: allowExit,
+                helpCommand: helpCommand,
+                confirmExecution: confirmExecution,
+                logFile: logFile
+            };
+
+            const jsonOutput = JSON.stringify(jsonConfig, null, 2);
+            document.getElementById('jsonOutput').textContent = jsonOutput;
+
+            let yamlOutput = `menuTitle: ${menuTitle}\nfooterMessage: ${footerMessage}\ncolors:\n  header: ${headerColor}\n  option: ${optionColor}\n  error: ${errorColor}\n  command: ${commandColor}\noptions:\n`;
+            options.forEach(opt => {
+                yamlOutput += `  - name: ${opt.name}\n    command: ${opt.command}\n`;
+            });
+
+            yamlOutput += `defaultOption: 1\ninputPrompt: ${inputPrompt}\nallowExit: ${allowExit}\nhelpCommand: ${helpCommand}\nconfirmExecution: ${confirmExecution}\nlogFile: ${logFile}`;
+
+            const formatToggle = document.getElementById('formatToggle').value;
+            if (formatToggle === 'yaml') {
+                document.getElementById('yamlOutput').textContent = yamlOutput;
+                document.getElementById('jsonOutput').style.display = 'none';
+                document.getElementById('yamlOutput').style.display = 'block';
+            } else {
+                document.getElementById('jsonOutput').textContent = jsonOutput;
+                document.getElementById('yamlOutput').style.display = 'none';
+                document.getElementById('jsonOutput').style.display = 'block';
+            }
+        }
+
+        // Add event listeners to sections that trigger output updates
+        const inputs = document.querySelectorAll('#configForm input, #configForm select');
+        inputs.forEach(input => {
+            input.addEventListener('input', updateOutputs);
+        });
+    </script>
+</body>
+</html>
