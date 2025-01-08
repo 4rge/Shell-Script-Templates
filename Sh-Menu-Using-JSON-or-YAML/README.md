@@ -1,11 +1,10 @@
 # Sh-Menu-Using-YAML/JSON
 
-This project provides a simple, highly modular, and extensible command-line interface built using a Bash script. The script dynamically reads commands from either a JSON or YAML configuration file. Users can easily execute common operations through a straightforward menu by passing the configuration files as arguments to the menu.sh script. The index.html is used for the quick generation of json/yaml config files for the script.
+This project provides a simple, highly modular, and extensible command-line interface built using a Bash script. The script dynamically reads commands from either a JSON or YAML configuration file. Users can easily execute common operations through a straightforward menu by passing the configuration files as arguments to the `menu.sh` script.
 
 ## Files
 
 - `menu.sh`: The main Bash script that displays the menu and executes commands based on user selection.
-- `index.html`: A webui designed to streamline the creation of json and yaml files for this script.
 
 ## Getting Started
 
@@ -15,15 +14,14 @@ Ensure you have the following installed:
 - `bash`
 - `jq`: A command-line JSON processor (can be installed using your package manager).
 - `yq`: A command-line YAML processor (can be installed using your package manager).
--  `A Web Browser`: A web browser. (Not tested on text-based web-browsers.)
 
 ## Usage
 
 **Generating a Configuration File**: If you do not have an existing JSON or YAML config file, the script will prompt you to generate a new one. You'll be able to specify the file name, choose between JSON or YAML formats, define colors for the menu, and add multiple options with associated commands.
-**Via Web Page**: Start by opening the index.html file in your web-browser. Fill out the form and download the generated code. Run the script by calling
-`sh manu.sh <path-to-json/yaml>`.
 
-**Script Useage**: When the script is running, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
+Run the script by calling:
+```bash
+sh menu.sh <path-to-json/yaml>
 
 ## Best Practices for Naming Options in options.yaml
 ##### The webui automatically formats entries according to best pratices.
