@@ -19,9 +19,11 @@ Ensure you have the following installed:
 
 ## Usage
 
-Start by opening the index.html file in your web-browser. Fill out the form and download the generated code. Run the script by calling
+**Generating a Configuration File**: If you do not have an existing JSON or YAML config file, the script will prompt you to generate a new one. You'll be able to specify the file name, choose between JSON or YAML formats, define colors for the menu, and add multiple options with associated commands.
+**Via Web Page**: Start by opening the index.html file in your web-browser. Fill out the form and download the generated code. Run the script by calling
 `sh manu.sh <path-to-json/yaml>`.
-When the script is running, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
+
+**Script Useage**: When the script is running, a menu will be displayed showing the names of commands listed within the provided configuration file. You can select an option by typing its corresponding number, and the associated command will be executed.
 
 ## Best Practices for Naming Options in options.yaml
 ##### The webui automatically formats entries according to best pratices.
