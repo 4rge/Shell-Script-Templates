@@ -34,6 +34,83 @@ set_colors_from_config() {
     fi
 }
 
+# Function to generate a JSON or YAML file based on user input
+generate_custom_file() {
+    read -p "Enter the base name for the file (without extension): " basename
+    read -p "Choose file format (json/yaml): " format
+
+    if [[ "$format" == "json" ]]; then
+        local filename="${basename}.json"
+    elif [[ "$format" == "yaml" || "$format" == "yml" ]]; then
+        local filename="${basename}.yaml"
+    else
+        echo -e "${COLOR_ERROR}Invalid format selected. Exiting...${COLOR_RESET}"
+        exit 1
+    fi
+
+    # Start creating the structure
+    echo -n "Enter header color (cyan, yellow, red, green): "  
+    read header_color
+    echo -n "Enter option color (cyan, yellow, red, green): "  
+    read option_color
+    echo -n "Enter error color (cyan, yellow, red, green): "  
+    read error_color
+    echo -n "Enter command color (cyan, yellow, red, green): "  
+    read command_color
+
+    # Begin JSON/YAML structure
+    if [[ "$format" == "json" ]]; then
+        {
+            echo "{"
+            echo "    \"colors\": {"
+            echo "        \"header\": \"$header_color\","
+            echo "        \"option\": \"$option_color\","
+            echo "        \"error\": \"$error_color\","
+            echo "        \"command\": \"$command_color\""
+            echo "    },"
+            echo "    \"options\": ["
+        } > "$filename"
+    else
+        {
+            echo "colors:"
+            echo "  header: $header_color"
+            echo "  option: $option_color"
+            echo "  error: $error_color"
+            echo "  command: $command_color"
+            echo "options:"
+        } > "$filename"
+    fi
+
+    # Add options
+    while true; do
+        read -p "Enter option name (or type 'done' to finish): " option_name
+        if [[ "$option_name" == "done" ]]; then
+            break
+        fi
+
+        read -p "Enter command for '$option_name': " command
+
+        if [[ "$format" == "json" ]]; then
+            echo "        {" >> "$filename"
+            echo "            \"name\": \"$option_name\"," >> "$filename"
+            echo "            \"command\": \"$command\"" >> "$filename"
+            echo "        }," >> "$filename"
+        else
+            echo "  - name: $option_name" >> "$filename"
+            echo "    command: $command" >> "$filename"
+        fi
+    done
+
+    # Finalize JSON structure
+    if [[ "$format" == "json" ]]; then
+        sed -i '$ s/,$//' "$filename"  # Remove the last comma
+        echo "    ]" >> "$filename"
+        echo "}" >> "$filename"
+    fi
+
+    echo -e "${COLOR_OPTION}Custom file '$filename' created.${COLOR_RESET}"
+}
+
 # Function to display the menu
 display_menu() {
     clear
@@ -93,10 +170,10 @@ execute_command() {
 
     # Replace placeholders in angle brackets with user input
     while [[ "$command" =~ \<([a-zA-Z0-9_]+)\> ]]; do
-        placeholder="${BASH_REMATCH[0]}"            # Full placeholder including <>
-        key="${BASH_REMATCH[1]}"                    # Placeholder name without <>
+        placeholder="${BASH_REMATCH[0]}" # Full placeholder including <>
+        key="${BASH_REMATCH[1]}" # Placeholder name without <>
         read -p "Please enter the value for $key: " user_input
-        command=${command//$placeholder/$user_input}  # Replace with user input
+        command=${command//$placeholder/$user_input} # Replace with user input
     done
 
     # Before executing, check if the command is not empty
@@ -116,7 +193,8 @@ execute_command() {
 # Ensure a file is passed as an argument
 if [ "$#" -ne 1 ]; then
     echo -e "${COLOR_ERROR}Usage: $0 <options.json|options.yaml>${COLOR_RESET}"
-    exit 1
+    generate_custom_file # Generate custom JSON or YAML if no file provided
+    exit 0
 fi
 
 # Load colors from the configuration file
