@@ -1,0 +1,199 @@
+- question: "What is a kernel panic?"
+  options:
+    - "A. A routine shutdown of the operating system"
+    - "B. An unrecoverable error in the kernel"
+    - "C. A user-defined exception"
+    - "D. A normal restart of a service"
+  answer: "B"
+
+- question: "What typically causes a kernel panic?"
+  options:
+    - "A. A memory leak"
+    - "B. Hardware failure"
+    - "C. Software bugs or driver issues"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the first step in diagnosing a kernel panic?"
+  options:
+    - "A. Reinstalling the OS"
+    - "B. Checking system logs for errors"
+    - "C. Updating drivers"
+    - "D. Booting into recovery mode"
+  answer: "B"
+
+- question: "Which command can be used to view system logs in Linux?"
+  options:
+    - "A. history"
+    - "B. logview"
+    - "C. dmesg"
+    - "D. syslog"
+  answer: "C"
+
+- question: "What might a kernel panic screen display?"
+  options:
+    - "A. A graphical user interface"
+    - "B. A log of the error and stack trace"
+    - "C. A progress bar"
+    - "D. A blue wallpaper"
+  answer: "B"
+
+- question: "What action should you take if a kernel panic occurs?"
+  options:
+    - "A. Power off the system immediately"
+    - "B. Write down the error message for further analysis"
+    - "C. Ignore it; it will fix itself"
+    - "D. Restart the system without checking logs"
+  answer: "B"
+
+- question: "Which file in Linux contains the kernel's error messages?"
+  options:
+    - "A. /var/log/syslog"
+    - "B. /usr/log/kmsg"
+    - "C. /etc/kern.log"
+    - "D. /var/log/messages"
+  answer: "A"
+
+- question: "What does the term 'OOM' refer to in the context of the Linux kernel?"
+  options:
+    - "A. Out of Memory"
+    - "B. Object-Oriented Method"
+    - "C. Operational Overhead Mechanism"
+    - "D. Overall Management"
+  answer: "A"
+
+- question: "Which kernel parameter can be used to control behavior after a panic?"
+  options:
+    - "A. panic="
+    - "B. crash="
+    - "C. reboot="
+    - "D. kernel="
+  answer: "A"
+
+- question: "What is a common way to recover from a kernel panic?"
+  options:
+    - "A. Booting into safe mode"
+    - "B. Performing a hardware upgrade"
+    - "C. Restoring from backup"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "Which command can help with recovering a corrupted file system that may cause kernel panic?"
+  options:
+    - "A. rm"
+    - "B. fsck"
+    - "C. reboot"
+    - "D. mount"
+  answer: "B"
+
+- question: "Which of the following can cause kernel panics related to hardware?"
+  options:
+    - "A. Failing hard drive"
+    - "B. Outdated drivers"
+    - "C. Bad RAM"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What does a kernel panic usually indicate?"
+  options:
+    - "A. A minor issue that can be ignored"
+    - "B. A critical error that stops the kernel from functioning"
+    - "C. A normal operation during system shutdown"
+    - "D. A software update is needed"
+  answer: "B"
+
+- question: "How can kernel panic messages help developers?"
+  options:
+    - "A. They provide insights into performance issues"
+    - "B. They help them understand stack traces and failed operations"
+    - "C. They indicate the need for new features"
+    - "D. They have no relevance"
+  answer: "B"
+
+- question: "Which of the following can help prevent kernel panics?"
+  options:
+    - "A. Regular system updates"
+    - "B. Hardware monitoring"
+    - "C. Using stable software versions"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the recommended method for analyzing kernel panic messages?"
+  options:
+    - "A. Use a debugger"
+    - "B. Read documentation"
+    - "C. Consult online forums"
+    - "D. Directly contact the hardware vendor"
+  answer: "A"
+
+- question: "What might you see on the screen during a kernel panic?"
+  options:
+    - "A. A kernel module loading screen"
+    - "B. A diagnostic symbol"
+    - "C. A backtrace of active processes"
+    - "D. A typical desktop interface"
+  answer: "C"
+
+- question: "What is a common kernel panic symptom?"
+  options:
+    - "A. System slowdown"
+    - "B. Black screen with error messages"
+    - "C. Overheating"
+    - "D. Blue screen of death"
+  answer: "B"
+
+- question: "Which utility can show real-time system performance to help diagnose issues?"
+  options:
+    - "A. top"
+    - "B. tail"
+    - "C. pwd"
+    - "D. ls"
+  answer: "A"
+
+- question: "What should you do before performing hardware changes after a kernel panic?"
+  options:
+    - "A. Check system logs for errors"
+    - "B. Shut down the system"
+    - "C. Contact technical support"
+    - "D. None of the above"
+  answer: "A"
+
+- question: "What is a 'reboot' command used to immediately restart after a panic?"
+  options:
+    - "A. sudo reboot"
+    - "B. sudo shutdown -r now"
+    - "C. both A and B"
+    - "D. None of the above"
+  answer: "C"
+
+- question: "After a kernel panic, what logging option ensures logs are persistent?"
+  options:
+    - "A. Persistent logging in /var/log"
+    - "B. Logging to a remote server"
+    - "C. Both A and B"
+    - "D. None of the above"
+  answer: "C"
+
+- question: "Kernel panic recovery can involve adjusting which component?"
+  options:
+    - "A. Bootloader settings"
+    - "B. Firmware updates"
+    - "C. Kernel parameters"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "A kernel panic on boot typically suggests an issue with what?"
+  options:
+    - "A. Boot device order"
+    - "B. Kernel version compatibility"
+    - "C. All of the above"
+    - "D. Monitor configuration"
+  answer: "C"
+
+- question: "Which file can you check for installed kernel versions?"
+  options:
+    - "A. /boot/grub/grub.cfg"
+    - "B. /boot/kernel.img"
+    - "C. /boot/config-$(uname -r)"
+    - "D. /etc/kernel.conf"
+  answer: "C"
