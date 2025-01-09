@@ -1,0 +1,111 @@
+- question: "What is the purpose of the `systemctl` command?"
+  options:
+    - "A. To manage services and system resources"
+    - "B. To configure network settings"
+    - "C. To list installed software packages"
+    - "D. To monitor system performance"
+  answer: "A"
+
+- question: "How do you start a service using `systemctl`?"
+  options:
+    - "A. systemctl start <service_name>"
+    - "B. start <service_name>"
+    - "C. systemctl run <service_name>"
+    - "D. start-service <service_name>"
+  answer: "A"
+
+- question: "Which command would you use to stop a running service?"
+  options:
+    - "A. systemctl halt <service_name>"
+    - "B. systemctl stop <service_name>"
+    - "C. systemctl disable <service_name>"
+    - "D. systemctl end <service_name>"
+  answer: "B"
+
+- question: "What does the `systemctl restart <service_name>` command do?"
+  options:
+    - "A. It stops the service and starts it again"
+    - "B. It only stops the service"
+    - "C. It disables the service"
+    - "D. It checks the service's status"
+  answer: "A"
+
+- question: "How can you check the status of a service?"
+  options:
+    - "A. systemctl state <service_name>"
+    - "B. systemctl status <service_name>"
+    - "C. status <service_name>"
+    - "D. check-service <service_name>"
+  answer: "B"
+
+- question: "What is the purpose of the `enable` option in `systemctl`?"
+  options:
+    - "A. To stop a service from starting at boot"
+    - "B. To ensure a service starts automatically at boot"
+    - "C. To restart a service"
+    - "D. To mask a service"
+  answer: "B"
+
+- question: "Which command would you use to disable a service so it does not start at boot?"
+  options:
+    - "A. systemctl disable <service_name>"
+    - "B. systemctl stop <service_name>"
+    - "C. systemctl mask <service_name>"
+    - "D. systemctl halt <service_name>"
+  answer: "A"
+
+- question: "What does the `mask` option do in `systemctl`?"
+  options:
+    - "A. It allows a service to be started"
+    - "B. It creates a symlink to `/dev/null`, effectively preventing the service from being started"
+    - "C. It enables the service to run at boot"
+    - "D. It stops a running service"
+  answer: "B"
+
+- question: "How would you view all currently running services on the system?"
+  options:
+    - "A. systemctl list-units --type=service"
+    - "B. systemctl view services"
+    - "C. systemctl running --all"
+    - "D. list-services"
+  answer: "A"
+
+- question: "Which command can you use to reload a service configuration without stopping it?"
+  options:
+    - "A. systemctl reload <service_name>"
+    - "B. systemctl restart <service_name>"
+    - "C. systemctl start <service_name>"
+    - "D. systemctl update <service_name>"
+  answer: "A"
+
+- question: "If you need to troubleshoot why a service failed to start, which command would be most helpful?"
+  options:
+    - "A. systemctl logs <service_name>"
+    - "B. systemctl status <service_name>"
+    - "C. systemctl check <service_name>"
+    - "D. systemctl debug <service_name>"
+  answer: "B"
+
+- question: "What is the difference between `stop` and `disable` in `systemctl`?"
+  options:
+    - "A. `stop` stops the service; `disable` prevents it from starting at boot."
+    - "B. `stop` disables the service; `disable` permanently stops it."
+    - "C. `stop` removes the service; `disable` checks its status."
+    - "D. `stop` restarts the service; `disable` stops the service."
+  answer: "A"
+
+- question: "What happens when you run `systemctl mask <service_name>`?"
+  options:
+    - "A. The service is started automatically at boot."
+    - "B. The service's unit file is disabled and cannot be started."
+    - "C. The service is restarted immediately."
+    - "D. The service's log files are deleted."
+  answer: "B"
+
+- question: "To start a service immediately without enabling it for boot, which command should be used?"
+  options:
+    - "A. systemctl enable <service_name>"
+    - "B. systemctl start <service_name>"
+    - "C. systemctl run <service_name>"
+    - "D. systemctl configure <service_name>"
+  answer: "B"
