@@ -1,0 +1,109 @@
+- question: "What is the primary use of the `fdisk` command?"
+  options:
+    - "A. To check disk usage"
+    - "B. To create and manage disk partitions"
+    - "C. To format a disk"
+    - "D. To monitor disk performance"
+  answer: "B"
+
+- question: "Which command would you use to display detailed partition information?"
+  options:
+    - "A. parted"
+    - "B. df"
+    - "C. fdisk -l"
+    - "D. lsblk"
+  answer: "C"
+
+- question: "What functionality does the `parted` command provide that `fdisk` does not?"
+  options:
+    - "A. Creating MBR partitions only"
+    - "B. Managing both MBR and GPT partition tables"
+    - "C. Formatting partitions"
+    - "D. Checking disk health"
+  answer: "B"
+
+- question: "What does the `partprobe` command do?"
+  options:
+    - "A. It creates a new partition"
+    - "B. It synchronizes kernel with partition table changes"
+    - "C. It lists all partitions on a disk"
+    - "D. It deletes a partition"
+  answer: "B"
+
+- question: "Which command is commonly used to interactively create and modify partitions?"
+  options:
+    - "A. fdisk"
+    - "B. lsblk"
+    - "C. df"
+    - "D. dmesg"
+  answer: "A"
+
+- question: "What is a key limitation of the `fdisk` command?"
+  options:
+    - "A. It can't create GPT partitions"
+    - "B. It requires GUI support"
+    - "C. It only works with UEFI-based systems"
+    - "D. It cannot delete partitions"
+  answer: "A"
+
+- question: "When using `parted`, how can you display the current partition layout?"
+  options:
+    - "A. partprobe"
+    - "B. parted -l"
+    - "C. df -h"
+    - "D. lsblk"
+  answer: "B"
+
+- question: "What does the `print` command do when used within a `parted` session?"
+  options:
+    - "A. It displays current disk information"
+    - "B. It prints the contents of a partition"
+    - "C. It shows the current partitioning scheme"
+    - "D. It formats a selected partition"
+  answer: "C"
+
+- question: "Which of the following commands needs superuser privileges to execute?"
+  options:
+    - "A. fdisk"
+    - "B. parted"
+    - "C. partprobe"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What does a partition table allow you to do?"
+  options:
+    - "A. Use the entire disk as a single volume"
+    - "B. Organize a "D. Create RAID arrays"
+  answer: "B"
+
+- question: "Which command can be used to resize a partition?"
+  options:
+    - "A. fdisk"
+    - "B. parted"
+    - "C. partprobe"
+    - "D. mkfs"
+  answer: "B"
+
+- question: "How would you create a new partition using `fdisk`?"
+  options:
+    - "A. Use the `n` command within the `fdisk` interface"
+    - "B. Execute `fdisk -create`"
+    - "C. Run `fdisk --new-partition`"
+    - "D. `fdisk new`"
+  answer: "A"
+
+- question: "What happens if you run `partprobe` after changing partitions?"
+  options:
+    - "A. It saves changes to the disk"
+    - "B. It updates the kernel about the changes made to the partition table"
+    - "C. It deletes all partitions"
+    - "D. It formats the disk"
+  answer: "B"
+
+- question: "Which is a correct command format for listing partitions with `fdisk`?"
+  options:
+    - "A. fdisk /dev/sda"
+    - "B. fdisk -list"
+    - "C. fdisk -p"
+    - "D. fdisk --get-partitions"
+  answer: "A"
