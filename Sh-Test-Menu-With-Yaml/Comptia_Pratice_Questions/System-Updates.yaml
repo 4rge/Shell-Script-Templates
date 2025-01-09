@@ -1,0 +1,119 @@
+- question: "What is the primary purpose of updating the Linux kernel?"
+  options:
+    - "A. To change the desktop environment"
+    - "B. To improve system security and stability"
+    - "C. To update user applications"
+    - "D. To modify the file system"
+  answer: "B"
+
+- question: "Which command is commonly used to install kernel updates using APT?"
+  options:
+    - "A. apt upgrade kernel"
+    - "B. apt install linux-image-<version>"
+    - "C. apt update kernel"
+    - "D. apt refresh linux"
+  answer: "B"
+
+- question: "What does the 'uname -r' command display?"
+  options:
+    - "A. The kernel version currently running"
+    - "B. The system architecture"
+    - "C. The disk space usage"
+    - "D. The version of installed packages"
+  answer: "A"
+
+- question: "What is typically the first step before upgrading packages using DNF?"
+  options:
+    - "A. dnf install <package>"
+    - "B. dnf clean all"
+    - "C. dnf update"
+    - "D. dnf upgrade"
+  answer: "C"
+
+- question: "Why is it important to regularly update system packages?"
+  options:
+    - "A. To ensure compatibility with new hardware"
+    - "B. To receive security patches and bug fixes"
+    - "C. To enhance features and performance"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What command would you use to list all available package updates in APT?"
+  options:
+    - "A. apt list --upgradable"
+    - "B. apt show updates"
+    - "C. apt upgrade"
+    - "D. apt check-updates"
+  answer: "A"
+
+- question: "What does the command 'apt-get dist-upgrade' do?"
+  options:
+    - "A. Upgrades all installed packages and handles dependencies intelligently"
+    - "B. Only upgrades the kernel packages"
+    - "C. Removes unnecessary packages"
+    - "D. Installs the latest distribution version of the OS"
+  answer: "A"
+
+- question: "How can you check the currently installed kernel version?"
+  options:
+    - "A. cat /etc/kernel/version"
+    - "B. ls /boot"
+    - "C. uname -r"
+    - "D. kernel --version"
+  answer: "C"
+
+- question: "Which command is used to restart the system after a kernel update?"
+  options:
+    - "A. reboot"
+    - "B. systemctl restart"
+    - "C. shutdown -r now"
+    - "D. Both A and C"
+  answer: "D"
+
+- question: "What does the 'rpm -qa' command do in the context of package management?"
+  options:
+    - "A. Lists all installed packages and their versions"
+    - "B. Installs a new package"
+    - "C. Removes an installed package"
+    - "D. Updates all installed packages"
+  answer: "A"
+
+- question: "When might you need to perform a kernel update?"
+  options:
+    - "A. To fix security vulnerabilities"
+    - "B. To improve hardware compatibility"
+    - "C. To introduce new features or improve performance"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the danger of not updating the system's packages regularly?"
+  options:
+    - "A. Increased compatibility issues with new software"
+    - "B. Potential exposure to security vulnerabilities"
+    - "C. Decreased performance of the system"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is a common method to revert to a previous kernel version after an update?"
+  options:
+    - "A. Update the system again"
+    - "B. Use the bootloader menu to select the previous kernel version"
+    - "C. Run a specific command to uninstall the current kernel"
+    - "D. Edit the kernel version in the package manager"
+  answer: "B"
+
+- question: "What type of information does the 'apt-mark showhold' command provide?"
+  options:
+    - "A. Lists packages that are on hold and won't be upgraded"
+    - "B. Shows all installed packages"
+    - "C. Displays current security vulnerabilities"
+    - "D. Lists the available package updates"
+  answer: "A"
+
+- question: "Which action is generally required after performing a major kernel update?"
+  options:
+    - "A. Update package dependencies"
+    - "B. Reboot the system"
+    - "C. Check for additional packages to install"
+    - "D. Both A and B"
+  answer: "D"
