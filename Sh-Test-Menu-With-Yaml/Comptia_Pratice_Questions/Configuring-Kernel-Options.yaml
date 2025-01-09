@@ -1,0 +1,111 @@
+- question: "What is the purpose of the 'sysctl' command?"
+  options:
+    - "A. To manage kernel parameters at runtime"
+    - "B. To list shared libraries"
+    - "C. To install kernel modules"
+    - "D. To configure network interfaces"
+  answer: "A"
+
+- question: "Where would you typically make permanent changes to kernel parameters?"
+  options:
+    - "A. /etc/modprobe.conf"
+    - "B. /etc/sysctl.conf"
+    - "C. /etc/kernel.conf"
+    - "D. /etc/security.conf"
+  answer: "B"
+
+- question: "What command would you use to list currently loaded kernel modules?"
+  options:
+    - "A. lsmod"
+    - "B. modinfo"
+    - "C. insmod"
+    - "D. rmmod"
+  answer: "A"
+
+- question: "What does the 'insmod' command do?"
+  options:
+    - "A. Inserts a module into the Linux kernel"
+    - "B. Lists information about a module"
+    - "C. Removes a module from the Linux kernel"
+    - "D. Compiles a new kernel"
+  answer: "A"
+
+- question: "How can you remove a kernel module safely?"
+  options:
+    - "A. rmmod <module>"
+    - "B. kmem <module>"
+    - "C. modprobe -r <module>"
+    - "D. Both A and C"
+  answer: "D"
+
+- question: "What is the function of the 'modprobe' command?"
+  options:
+    - "A. Loads a kernel module and its dependencies"
+    - "B. Displays information about a kernel module"
+    - "C. Compiles kernel modules from source"
+    - "D. Unloads a kernel module"
+  answer: "A"
+
+- question: "Which command helps in viewing the parameters and options of a specific module?"
+  options:
+    - "A. lsmod"
+    - "B. modinfo"
+    - "C. insmod"
+    - "D. modprobe"
+  answer: "B"
+
+- question: "What does the '/etc/sysctl.conf' file typically contain?"
+  options:
+    - "A. User account settings"
+    - "B. Kernel parameters to be loaded at boot"
+    - "C. Module-loading configurations"
+    - "D. Network interface configurations"
+  answer: "B"
+
+- question: "How do you apply changes made to /etc/sysctl.conf without rebooting?"
+  options:
+    - "A. sysctl -p"
+    - "B. sysctl reload"
+    - "C. sysctl apply"
+    - "D. sysctl restart"
+  answer: "A"
+
+- question: "Which command would you use to insert a module and ensure all dependencies are loaded?"
+  options:
+    - "A. insmod"
+    - "B. rmmod"
+    - "C. modprobe"
+    - "D. lsmod"
+  answer: "C"
+
+- question: "What is the role of the 'rmmod' command?"
+  options:
+    - "A. Displays module dependencies"
+    - "B. Compiles a kernel module"
+    - "C. Removes a kernel module from the running kernel"
+    - "D. Lists all loaded modules"
+  answer: "C"
+
+- question: "Which command would you use to show all currently set kernel parameters?"
+  options:
+    - "A. sysctl -a"
+    - "B. sysctl list"
+    - "C. sysctl show"
+    - "D. sysctl get"
+  answer: "A"
+
+- question: "What is a common format to set a kernel parameter in /etc/sysctl.conf?"
+  options:
+    - "A. parameter=value"
+    - "B. value=parameter"
+    - "C. param=value;"
+    - "D. set parameter=value"
+  answer: "A"
+
+- question: "Which of the following commands can load a kernel module from a specified path?"
+  options:
+    - "A. insmod <path/to/module>"
+    - "B. modinfo <path/to/module>"
+    - "C. rmmod <path/to/module>"
+    - "D. modprobe <path/to/module>"
+  answer: "A"
