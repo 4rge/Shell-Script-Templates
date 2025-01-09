@@ -1,0 +1,111 @@
+- question: "What is the primary purpose of the `mdadm` command in Linux?"
+  options:
+    - "A. To create, assemble, manage, and monitor RAID arrays"
+    - "B. To format disk partitions"
+    - "C. To monitor CPU usage"
+    - "D. To display filesystem information"
+  answer: "A"
+
+- question: "What information can you find in the `/proc/mdstat` file?"
+  options:
+    - "A. CPU utilization metrics"
+    - "B. The status of all RAID arrays currently recognized by the kernel"
+    - "C. Disk partition information"
+    - "D. Memory usage statistics"
+  answer: "B"
+
+- question: "How would you check the current status of RAID arrays using the terminal?"
+  options:
+    - "A. cat /proc/mdstat"
+    - "B. showraid"
+    - "C. raidmon"
+    - "D. mdstat --info"
+  answer: "A"
+
+- question: "Which command would you use to create a new RAID array with `mdadm`?"
+  options:
+    - "A. mdadm -create"
+    - "B. mdadm -assemble"
+    - "C. mdadm -build"
+    - "D. mdadm -init"
+  answer: "A"
+
+- question: "What does the `--detail` option do when used with the `mdadm` command?"
+  options:
+    - "A. Shows details about a specific RAID device"
+    - "B. Creates a detailed report on system memory"
+    - "C. Lists all current running processes"
+    - "D. Displays current disk temperatures"
+  answer: "A"
+
+- question: "When using `mdadm`, what happens if you run the command `mdadm --stop /dev/md0`?"
+  options:
+    - "A. It starts the RAID array"
+    - "B. It dismantles the specified RAID array"
+    - "C. It adds a disk to the RAID array"
+    - "D. It checks for errors in the RAID array"
+  answer: "B"
+
+- question: "What does a non-zero value in `/proc/mdstat` indicate during RAID operation?"
+  options:
+    - "A. The array is functional and healthy"
+    - "B. The array is being rebuilt or synced"
+    - "C. There is a failure in one or more disks"
+    - "D. There are no issues with the RAID configuration"
+  answer: "B"
+
+- question: "Which command can be used to monitor the progress of a RAID recovery process?"
+  options:
+    - "A. cat /proc/mdstat"
+    - "B. mdadm --monitor"
+    - "C. df -h"
+    - "D. watch mdadm --detail"
+  answer: "A"
+
+- question: "What is the significance of the 'active' state in the `/proc/mdstat` output?"
+  options:
+    - "A. It indicates that the RAID is being assembled."
+    - "B. It shows that the array is operational and all disks are functioning properly."
+    - "C. It means that the array is in a degraded state."
+    - "D. It represents a completed synchronization."
+  answer: "B"
+
+- question: "If you want to add a new device to an existing RAID 1 array using `mdadm`, which command would you use?"
+  options:
+    - "A. mdadm --add /dev/md0 /dev/sdX"
+    - "B. mdadm --insert /dev/md0 /dev/sdX"
+    - "C. mdadm --append /dev/md0 /dev/sdX"
+    - "D. mdadm --extend /dev/md0 /dev/sdX"
+  answer: "A"
+
+- question: "How can you remove a failed disk from a RAID array managed by `mdadm`?"
+  options:
+    - "A. mdadm --remove /dev/md0 /dev/sdX"
+    - "B. mdadm --delete /dev/md0 /dev/sdX"
+    - "C. mdadm --fail /dev/md0 /dev/sdX"
+    - "D. mdadm --detach /dev/md0 /dev/sdX"
+  answer: "C"
+
+- question: "What is the purpose of using `mdadm` with the `--monitor` option?"
+  options:
+    - "A. To create RAID arrays in real-time"
+    - "B. To monitor the health and status of RAID devices"
+    - "C. To manage disk partitions"
+    - "D. To optimize RAID performance"
+  answer: "B"
+
+- question: "What does the acronym RAID stand for?"
+  options:
+    - "A. Redundant Array of Independent Disks"
+    - "B. Redundant Allocation of Intra-device Data"
+    - "C. Random Access Information Data"
+    - "D. Resilient Array of Integrated Disks"
+  answer: "A"
+
+- question: "What information does `mdadm --detail /dev/md0` provide?"
+  options:
+    - "A. Configuration details for the specified RAID array"
+    - "B. Current disk usage statistics"
+    - "C. CPU status information"
+    - "D. Memory allocation statistics"
+  answer: "A"
