@@ -1,0 +1,207 @@
+- question: "What is the first step in compiling a program from source?"
+  options:
+    - "A. make"
+    - "B. make install"
+    - "C. ./configure"
+    - "D. git clone"
+  answer: "C"
+
+- question: "What does the ./configure command do?"
+  options:
+    - "A. Compiles the source code"
+    - "B. Installs the package"
+    - "C. Prepares the package for building on the system"
+    - "D. Cleans up the installation"
+  answer: "C"
+
+- question: "Which command is used to compile the source code?"
+  options:
+    - "A. ./configure"
+    - "B. make"
+    - "C. make install"
+    - "D. compile"
+  answer: "B"
+
+- question: "What is the purpose of the make install command?"
+  options:
+    - "A. Configure the build"
+    - "B. Compile the sources"
+    - "C. Install the compiled program on the system"
+    - "D. Clean the build directory"
+  answer: "C"
+
+- question: "If ./configure runs successfully, what does it create?"
+  options:
+    - "A. A makefile"
+    - "B. A binary executable"
+    - "C. An installation report"
+    - "D. A compressed file"
+  answer: "A"
+
+- question: "What must be installed for the ./configure script to work?"
+  options:
+    - "A. A package manager"
+    - "B. Development tools and libraries"
+    - "C. A debugger"
+    - "D. A graphical interface"
+  answer: "B"
+
+- question: "What file format is typically used for source code?"
+  options:
+    - "A. .tar.gz"
+    - "B. .zip"
+    - "C. .exe"
+    - "D. .bin"
+  answer: "A"
+
+- question: "What does the make command rely on?"
+  options:
+    - "A. Python scripts"
+    - "B. Java dependencies"
+    - "C. The Makefile created by ./configure"
+    - "D. Shell scripts"
+  answer: "C"
+
+- question: "What happens if you run make without running ./configure first?"
+  options:
+    - "A. It compiles successfully"
+    - "B. An error will occur"
+    - "C. It installs the program"
+    - "D. It runs a test case"
+  answer: "B"
+
+- question: "Where is the compiled program typically installed when using make install?"
+  options:
+    - "A. /usr/bin"
+    - "B. /home/user"
+    - "C. /tmp"
+    - "D. /var"
+  answer: "A"
+
+- question: "What command option can you use with ./configure to specify a different installation directory?"
+  options:
+    - "A. --prefix="
+    - "B. --install-dir="
+    - "C. --root="
+    - "D. --path="
+  answer: "A"
+
+- question: "What should you do if make fails due to missing dependencies?"
+  options:
+    - "A. Ignore the error"
+    - "B. Install the required packages"
+    - "C. Reboot the system"
+    - "D. Delete the source directory"
+  answer: "B"
+
+- question: "What is usually included in a source package?"
+  options:
+    - "A. Only the executable files"
+    - "B. Source code, Makefiles, and documentation"
+    - "C. Just the libraries"
+    - "D. Configuration files only"
+  answer: "B"
+
+- question: "What command can be used to clean up the compilation files after installation?"
+  options:
+    - "A. make clean"
+    - "B. make uninstall"
+    - "C. make remove"
+    - "D. make tidy"
+  answer: "A"
+
+- question: "How do you check the configuration options available for a package?"
+  options:
+    - "A. ./configure --help"
+    - "B. make --options"
+    - "C. makefile --list"
+    - "D. ./configure --list"
+  answer: "A"
+
+- question: "What should you do before compiling from source?"
+  options:
+    - "A. Check the README or INSTALL files"
+    - "B. Run make install"
+    - "C. Delete the source directory"
+    - "D. Ignore the README"
+  answer: "A"
+
+- question: "What is contained in the Makefile?"
+  options:
+    - "A. Dependencies and build instructions"
+    - "B. Only a list of files"
+    - "C. User permissions"
+    - "D. System logs"
+  answer: "A"
+
+- question: "Which environment variable is commonly used to manage libraries during installation?"
+  options:
+    - "A. LIBRARY_PATH"
+    - "B. PATH"
+    - "C. LD_LIBRARY_PATH"
+    - "D. Reboot_PATH"
+  answer: "C"
+
+- question: "What command can you run to verify the installed version of a package?"
+  options:
+    - "A. checkversion <package>"
+    - "B. version <package>"
+    - "C. <package> --version"
+    - "D. which <package>"
+  answer: "C"
+
+- question: "If a program does not work after installation, what is the first troubleshooting step?"
+  options:
+    - "A. Uninstall and reinstall the package"
+    - "B. Check the configuration options"
+    - "C. Run make clean"
+    - "D. Refer to the manual"
+  answer: "B"
+
+- question: "What can happen if you run make install as a non-root user?"
+  options:
+    - "A. It installs successfully"
+    - "B. It will not have permission to write to system directories"
+    - "C. It will prompt for a password"
+    - "D. It doesn't affect the installation"
+  answer: "B"
+
+- question: "What does the command 'make uninstall' do?"
+  options:
+    - "A. Deletes the source code"
+    - "B. Removes the installed files"
+    - "C. Compiles the application again"
+    - "D. None of the above"
+  answer: "B"
+
+- question: "What file might you need to edit if you want custom flags while running the ./configure script?"
+  options:
+    - "A. .bashrc"
+    - "B. Makefile"
+    - "C. config.log"
+    - "D. configure.ac"
+  answer: "D"
+
+- question: "Which of the following indicates a successful configuration?"
+  options:
+    - "A. No errors in terminal output"
+    - "B. A new file appears in the directory"
+    - "C. 'make' command is successful"
+    - "D. You can run the software immediately"
+  answer: "A"
+
+- question: "What might be indicated by 'dependency error' messages during make?"
+  options:
+    - "A. Missing required libraries or header files"
+    - "B. Incorrect configuration options"
+    - "C. Insufficient permissions"
+    - "D. All of the above"
+  answer: "A"
+
+- question: "When is it appropriate to use 'make -jN'?"
+  options:
+    - "A. To specify the toolchain"
+    - "B. To compile faster using N parallel jobs"
+    - "C. To clean build directories"
+    - "D. To install specific packages"
+  answer: "B"
