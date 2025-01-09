@@ -1,0 +1,111 @@
+- question: "What action should you take after modifying a configuration file for a running service?"
+  options:
+    - "A. Restart the service"
+    - "B. Reload the service"
+    - "C. Both A and B if necessary"
+    - "D. Reinstall the service"
+  answer: "C"
+
+- question: "What does the '.rpmnew' file extension indicate?"
+  options:
+    - "A. A backup of the original configuration file"
+    - "B. A new configuration file from a package update"
+    - "C. A configuration file that has been manually modified"
+    - "D. A deprecated configuration file"
+  answer: "B"
+
+- question: "What does the '.rpmsave' file extension represent?"
+  options:
+    - "A. A configuration file created during an RPM package installation"
+    - "B. An updated configuration file that replaces an existing one"
+    - "C. A backup of the previous configuration file before replacement"
+    - "D. A log of configuration changes"
+  answer: "C"
+
+- question: "Which command is commonly used to apply changes made to a configuration file without restarting the service?"
+  options:
+    - "A. systemctl reload <service>"
+    - "B. systemctl restart <service>"
+    - "C. systemctl apply <service>"
+    - "D. systemctl update <service>"
+  answer: "A"
+
+- question: "Where is the main configuration file for APT located?"
+  options:
+    - "A. /etc/yum.conf"
+    - "B. /etc/dnf/dnf.conf"
+    - "C. /etc/apt.conf"
+    - "D. /etc/apt/sources.list.d"
+  answer: "C"
+
+- question: "What is the primary purpose of the '/etc/yum.conf' file?"
+  options:
+    - "A. To define YUM repository settings"
+    - "B. To specify configuration options for DNF"
+    - "C. To manage APT package sources"
+    - "D. To hold user-defined Aliases for commands"
+  answer: "A"
+
+- question: "Which directory contains individual repository configuration files for YUM?"
+  options:
+    - "A. /etc/yum.repo.d"
+    - "B. /etc/dnf/dnf.conf"
+    - "C. /etc/apt.conf"
+    - "D. /etc/apt/sources.list.d"
+  answer: "A"
+
+- question: "What is the purpose of the '/etc/dnf/dnf.conf' configuration file?"
+  options:
+    - "A. To store APT repository configurations"
+    - "B. To configure settings for DNF package manager"
+    - "C. To hold system-wide environment configurations"
+    - "D. To manage system users"
+  answer: "B"
+
+- question: "Where can you find additional APT repositories in a Debian-based system?"
+  options:
+    - "A. /etc/yum.conf"
+    - "B. /etc/apt.sources.list"
+    - "C. /etc/apt/sources.list.d/"
+    - "D. /etc/dnf/dnf.conf"
+  answer: "C"
+
+- question: "What command would you use to check the status of a service after updating its configuration?"
+  options:
+    - "A. systemctl status <service>"
+    - "B. systemctl check <service>"
+    - "C. systemctl info <service>"
+    - "D. systemctl verify <service>"
+  answer: "A"
+
+- question: "What happens when a configuration file is replaced during an RPM update?"
+  options:
+    - "A. The original file is deleted."
+    - "B. The original is moved to a .rpmsave file."
+    - "C. The new file is ignored."
+    - "D. The original file is automatically restored."
+  answer: "B"
+
+- question: "When should you typically choose to reload a service instead of restarting it?"
+  options:
+    - "A. When no configuration changes have been made."
+    - "B. When you want to apply configuration changes without interrupting active connections."
+    - "C. When the service is unresponsive."
+    - "D. When you need to change the service's executable."
+  answer: "B"
+
+- question: "What should you do after manually modifying a repository configuration file?"
+  options:
+    - "A. Restart the package manager"
+    - "B. Check for updates"
+    - "C. Run a validation tool"
+    - "D. No action necessary"
+  answer: "B"
+
+- question: "What file would you check to confirm the sources from which APT will fetch packages?"
+  options:
+    - "A. /etc/yum.conf"
+    - "B. /etc/apt/sources.list"
+    - "C. /etc/dnf/dnf.conf"
+    - "D. /etc/yum.repo.d"
+  answer: "B"
