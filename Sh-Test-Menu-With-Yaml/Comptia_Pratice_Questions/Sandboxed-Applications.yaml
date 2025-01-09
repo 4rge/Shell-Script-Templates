@@ -1,0 +1,119 @@
+- question: "What is the primary purpose of snapd?"
+  options:
+    - "A. To manage traditional software installations in Linux"
+    - "B. To run applications in isolated environments"
+    - "C. To deploy and manage snap packages"
+    - "D. To create Docker containers"
+  answer: "C"
+
+- question: "Which command is used to install a snap package?"
+  options:
+    - "A. snap install <package>"
+    - "B. snap add <package>"
+    - "C. snap get <package>"
+    - "D. snap fetch <package>"
+  answer: "A"
+
+- question: "What is the main benefit of using Flatpak?"
+  options:
+    - "A. It allows installation only from the official repositories"
+    - "B. It provides a consistent environment for applications across different distributions"
+    - "C. It strictly limits user permissions"
+    - "D. It is the only way to run applications in a VM"
+  answer: "B"
+
+- question: "Which command would you use to run a Flatpak application?"
+  options:
+    - "A. flatpak run <app_id>"
+    - "B. flatpak start <app_id>"
+    - "C. flatpak execute <app_id>"
+    - "D. flatpak launch <app_id>"
+  answer: "A"
+
+- question: "What file format does AppImage use for packaging applications?"
+  options:
+    - "A. .tar.gz"
+    - "B. .deb"
+    - "C. .AppImage"
+    - "D. .snap"
+  answer: "C"
+
+- question: "Which of the following statements about AppImage is true?"
+  options:
+    - "A. AppImage packages require installation through a package manager."
+    - "B. AppImage allows running applications without needing root access."
+    - "C. AppImage applications cannot be updated."
+    - "D. AppImage is only compatible with Debian-based systems."
+  answer: "B"
+
+- question: "How do you make an AppImage executable?"
+  options:
+    - "A. chmod +x <file>.AppImage"
+    - "B. appimage make <file>.AppImage"
+    - "C. chown +x <file>.AppImage"
+    - "D. file executable <file>.AppImage"
+  answer: "A"
+
+- question: "What is a drawback of using Snap packages?"
+  options:
+    - "A. They are slower to start because of the sandboxing."
+    - "B. They can only be installed on Ubuntu-based systems."
+    - "C. They require root access to run."
+    - "D. They can't run on wirelessly connected devices."
+  answer: "A"
+
+- question: "Which command is used to list installed Flatpak applications?"
+  options:
+    - "A. flatpak list"
+    - "B. flatpak show"
+    - "C. flatpak apps"
+    - "D. flatpak installed"
+  answer: "A"
+
+- question: "What advantage does AppImage offer over other containerized application formats?"
+  options:
+    - "A. It has a strict packaging requirement."
+    - "B. It does not rely on a package manager or installation."
+    - "C. It automatically updates itself."
+    - "D. It requires a specific version of Linux."
+  answer: "B"
+
+- question: "Which command would you use to remove a Snap package?"
+  options:
+    - "A. snap uninstall <package>"
+    - "B. snap remove <package>"
+    - "C. snap delete <package>"
+    - "D. snap erase <package>"
+  answer: "B"
+
+- question: "What type of applications can be packaged in Flatpak?"
+  options:
+    - "A. Only command-line applications"
+    - "B. GUI applications with graphical interfaces"
+    - "C. Only applications developed with certain frameworks"
+    - "D. System-level applications only"
+  answer: "B"
+
+- question: "In the context of Flatpak, what is a runtime?"
+  options:
+    - "A. A prebuilt application package"
+    - "B. A shared library environment for applications"
+    - "C. The version of the OS needed to run Flatpak"
+    - "D. The executable file format of Flatpak applications"
+  answer: "B"
+
+- question: "How do you update a Flatpak application?"
+  options:
+    - "A. flatpak upgrade <app_id>"
+    - "B. flatpak update <app_id>"
+    - "C. flatpak refresh <app_id>"
+    - "D. flatpak install <app_id>"
+  answer: "A"
+
+- question: "What is the purpose of the 'snapcraft' command?"
+  options:
+    - "A. To run Snap applications"
+    - "B. To package applications into Snap format"
+    - "C. To manage Snap installations"
+    - "D. To list installed Snaps"
+  answer: "B"
