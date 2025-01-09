@@ -1,0 +1,127 @@
+- question: "What is the main difference between file storage and block storage?"
+  options:
+    - "A. File storage stores data in files, while block storage stores data in blocks."
+    - "B. File storage is faster than block storage."
+    - "C. Block storage is designed for media files only."
+    - "D. File storage requires a separate file system."
+  answer: "A"
+
+- question: "Which storage is best suited for unstructured data like photos and videos?"
+  options:
+    - "A. Block storage"
+    - "B. Object storage"
+    - "C. File storage"
+    - "D. Tape storage"
+  answer: "B"
+
+- question: "What does MBR stand for in the context of partition types?"
+  options:
+    - "A. Master Boot Record"
+    - "B. Main Boot Resource"
+    - "C. Memory Block Record"
+    - "D. Maximum Boot Range"
+  answer: "A"
+
+- question: "What is the primary purpose of a GUID Partition Table (GPT)?"
+  options:
+    - "A. Create partitions on a hard drive"
+    - "B. Store partition data in a file"
+    - "C. Define logical volumes"
+    - "D. Manage dynamic disks"
+  answer: "A"
+
+- question: "What is Filesystem in Userspace (FUSE) used for?"
+  options:
+    - "A. To run file systems in user space rather than kernel space"
+    - "B. To manage hardware components"
+    - "C. To speed up file access"
+    - "D. To format disk partitions"
+  answer: "A"
+
+- question: "Which of the following describes RAID 0?"
+  options:
+    - "A. Mirroring data across multiple disks"
+    - "B. Striping data across multiple disks for performance"
+    - "C. Combining disks without redundancy"
+    - "D. Using parity bits for data verification"
+  answer: "B"
+
+- question: "What is the main advantage of RAID 1?"
+  options:
+    - "A. Increased speed"
+    - "B. Data redundancy"
+    - "C. Cost-effectiveness"
+    - "D. Scalability"
+  answer: "B"
+
+- question: "In RAID configurations, what is the purpose of parity?"
+  options:
+    - "A. Boosts read speed"
+    - "B. Provides data redundancy"
+    - "C. Optimizes write speed"
+    - "D. Allows for data recovery"
+  answer: "D"
+
+- question: "Which RAID level combines striping and parity for data redundancy?"
+  options:
+    - "A. RAID 0"
+    - "B. RAID 1"
+    - "C. RAID 5"
+    - "D. RAID 10"
+  answer: "C"
+
+- question: "What is not a benefit of FUSE?"
+  options:
+    - "A. Simplifies file system development"
+    - "B. Runs file systems safely in user space"
+    - "C. Provides high performance for intensive applications"
+    - "D. Supports various file systems on non-native platforms"
+  answer: "C"
+
+- question: "How does RAID 10 improve performance?"
+  options:
+    - "A. By only using one disk"
+    - "B. By striping data and providing mirroring across multiple disks"
+    - "C. By writing data to a single disk"
+    - "D. By combining RAID 0 and RAID 5"
+  answer: "B"
+
+- question: "What is the main drawback of RAID 0?"
+  options:
+    - "A. Is not fault-tolerant"
+    - "B. Requires more disks than RAID 1"
+    - "C. Has high read/write speed"
+    - "D. Uses parity for data integrity"
+  answer: "A"
+
+- question: "How many disks are needed for RAID 5?"
+  options:
+    - "A. At least 1"
+    - "B. At least 2"
+    - "C. At least 3"
+    - "D. At least 4"
+  answer: "C"
+
+- question: "What happens if a disk fails in a RAID 1 setup?"
+  options:
+    - "A. All data is lost"
+    - "B. The system continues to operate normally using the mirrored disk"
+    - "C. The RAID array will not function"
+    - "D. The data is automatically replicated to a backup drive"
+  answer: "B"
+
+- question: "Which partition table supports disks larger than 2 TB?"
+  options:
+    - "A. MBR"
+    - "B. GPT"
+    - "C. Extended partition"
+    - "D. Logical partition"
+  answer: "B"
+
+- question: "What is the primary function of a RAID controller?"
+  options:
+    - "A. To connect the computer to the network"
+    - "B. To manage RAID arrays and optimize performance"
+    - "C. To create backups of data"
+    - "D. To enable file sharing"
+  answer: "B"
