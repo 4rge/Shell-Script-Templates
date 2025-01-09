@@ -1,0 +1,119 @@
+- question: "What does the `pvs` command do in LVM?"
+  options:
+    - "A. Displays information about physical volumes"
+    - "B. Lists logical volumes"
+    - "C. Displays volume group status"
+    - "D. Creates new physical volumes"
+  answer: "A"
+
+- question: "How do you create a new volume group in LVM?"
+  options:
+    - "A. vgcreate <vg_name> <pv_name>"
+    - "B. vgs <vg_name>"
+    - "C. lvcreate <lv_name> <size>"
+    - "D. pvcreate <pv_name>"
+  answer: "A"
+
+- question: "What does the `lvcreate` command do?"
+  options:
+    - "A. Creates a new logical volume"
+    - "B. Creates a new volume group"
+    - "C. Resizes an existing logical volume"
+    - "D. Displays information about logical volumes"
+  answer: "A"
+
+- question: "Which command is used to display information about logical volumes?"
+  options:
+    - "A. lvs"
+    - "B. lvdisplay"
+    - "C. vgdisplay"
+    - "D. lvinfo"
+  answer: "A"
+
+- question: "What is the purpose of the `lvresize` command?"
+  options:
+    - "A. To create new logical volumes"
+    - "B. To display the size of existing logical volumes"
+    - "C. To change the size of an existing logical volume"
+    - "D. To delete a logical volume"
+  answer: "C"
+
+- question: "How do you extend an existing volume group with a new physical volume?"
+  options:
+    - "A. vgextend <vg_name> <pv_name>"
+    - "B. vgcreate <vg_name> <pv_name>"
+    - "C. pvcreate <pv_name> <vg_name>"
+    - "D. lvextend <lv_name> <size>"
+  answer: "A"
+
+- question: "What does the `lvchange` command allow you to do?"
+  options:
+    - "A. Change attributes of a logical volume, such as activation state"
+    - "B. Modify the metadata of a volume group"
+    - "C. Resize a logical volume"
+    - "D. Convert a physical volume to a logical volume"
+  answer: "A"
+
+- question: "Which command initializes a physical volume for LVM usage?"
+  options:
+    - "A. pvcreate"
+    - "B. vgcreate"
+    - "C. lvcreate"
+    - "D. pvs"
+  answer: "A"
+
+- question: "What key information is presented when you run the `vgs` command?"
+  options:
+    - "A. Information about physical volumes"
+    - "B. Details about volume groups and their statuses"
+    - "C. Details about logical volumes"
+    - "D. Information on free space available"
+  answer: "B"
+
+- question: "Which command can you use to delete a logical volume?"
+  options:
+    - "A. lvremove"
+    - "B. lvdelete"
+    - "C. lvs -d"
+    - "D. vgreduce"
+  answer: "A"
+
+- question: "What happens when you use the `vgextend` command?"
+  options:
+    - "A. You create a new volume group"
+    - "B. You add a new physical volume to an existing volume group"
+    - "C. You delete a volume group"
+    - "D. You resize the volume group"
+  answer: "B"
+
+- question: "What is the effect of using the command `lvextend -L +5G <lv_name>`?"
+  options:
+    - "A. Reduces the size of the logical volume by 5 GB"
+    - "B. Increases the size of the logical volume by 5 GB"
+    - "C. Creates a new logical volume of 5 GB"
+    - "D. Displays information about the specified logical volume"
+  answer: "B"
+
+- question: "Which command is used to show the current size and usage of logical volumes?"
+  options:
+    - "A. lvdisplay"
+    - "B. lvs"
+    - "C. vgs"
+    - "D. pvs"
+  answer: "B"
+
+- question: "How do you create a new logical volume with a specific size?"
+  options:
+    - "A. lvcreate -n <lv_name> -L <size> <vg_name>"
+    - "B. lvcreate <lv_name> <vg_name> <size>"
+    - "C. create lv <lv_name> <size> in <vg_name>"
+    - "D. lvm create <lv_name> -size <size>"
+  answer: "A"
+
+- question: "What command would you use to see physical volumes that are part of the LVM configuration?"
+  options:
+    - "A. pvs"
+    - "B. lvs"
+    - "C. vgs"
+    - "D. pvdisplay"
+  answer: "A"
