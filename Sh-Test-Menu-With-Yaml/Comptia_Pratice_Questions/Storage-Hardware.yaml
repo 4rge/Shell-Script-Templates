@@ -1,0 +1,108 @@
+- question: "What does the `lsscsi` command do?"
+  options:
+    - "A. Lists SCSI devices connected to the system"
+    - "B. Displays block device information"
+    - "C. Shows filesystem type and UUID"
+    - "D. Provides statistics for Fibre Channel devices"
+  answer: "A"
+
+- question: "Which command is used to display all the block devices and their mount points?"
+  options:
+    - "A. blkid"
+    - "B. lsblk"
+    - "C. lsscsi"
+    - "D. df"
+  answer: "B"
+
+- question: "What information does the `blkid` command provide?"
+  options:
+    - "A. List of all logical volumes"
+    - "B. Detailed information about block devices, including UUID and filesystem types"
+    - "C. Statistics for I/O operations"
+    - "D. Information about RAID configurations"
+  answer: "B"
+
+- question: "What type of devices does the `fcstat` command monitor?"
+  options:
+    - "A. USB devices"
+    - "B. SCSI devices"
+    - "C. Fibre Channel devices"
+    - "D. Network interface cards"
+  answer: "C"
+
+- question: "Which command can show detailed information about a specific block device including the size and partition layout?"
+  options:
+    - "A. lsblk -f"
+    - "B. lsscsi -l"
+    - "C. fdisk -l"
+    - "D. blkid -o list"
+  answer: "A"
+
+- question: "What would you expect the output of `lsblk` to look like?"
+  options:
+    - "A. A tabulated list of block devices, their sizes, types, and mount points"
+    - "B. A single line showing disk space usage"
+    - "C. A graphical representation of disk utilization"
+    - "D. A list of file systems present on the system"
+  answer: "A"
+
+- question: "When using `blkid`, what does UUID represent?"
+  options:
+    - "A. Unique User Identifier"
+    - "B. Unique Universal Identifier for a filesystem"
+    - "C. User and Group Identifier"
+    - "D. User-defined Unique Identifier"
+  answer: "B"
+
+- question: "What output would you expect from the `lsscsi` command?"
+  options:
+    - "A. Detailed statistics of storage performance"
+    - "B. A list of SCSI devices with information such as device ID, type, and vendor"
+    - "C. The current status of mounted filesystems"
+    - "D. Information related to block device partitions"
+  answer: "B"
+
+- question: "What kind of information can you gather from `fcstat`?"
+  options:
+    - "A. Statistics about the Fibre Channel classes"
+    - "B. Performance metrics of SCSI devices"
+    - "C. Data transfer rates and link status of Fibre Channel connections"
+    - "D. List of available block devices"
+  answer: "C"
+
+- question: "How can you find the filesystem type of a specific block device?"
+  options:
+    - "A. Using `blkid <device_name>`"
+    - "B. Using `lsblk -t <device_name>`"
+    - "C. Using `lsscsi -f <device_name>`"
+    - "D. Using `fdisk -t <device_name>`"
+  answer: "A"
+
+- question: "What does the `-o` option do when used with the `blkid` command?"
+  options:
+    - "A. Specifies the output format"
+    - "B. Outputs only the UUID of the specified device"
+    - "C. Shows hidden devices"
+    - "D. command?"
+  options:
+    - "A. To create a new filesystem"
+    - "B. To format a block device"
+    - "C. To inspect and display information about SCSI devices on your system"
+    - "D. To monitor disk space"
+  answer: "C"
+
+- question: "How is the `lsblk` command different from `df`?"
+  options:
+    - "A. `lsblk` shows block device information, while `df` shows disk space usage."
+    - "B. `lsblk` lists files, while `df` lists block devices."
+    - "C. `df` shows block devices, while `lsblk` does not."
+    - "D. They provide identical output."
+  answer: "A"
+
+- question: "Can `blkid` display information about devices that are not currently mounted?"
+  options:
+    - "A. Yes, it can display information about all known block devices regardless of their mount status."
+    - "B. No, it only shows information about mounted filesystems."
+    - "C. It only works with removable storage devices."
+    - "D. Yes, but only for USB devices."
+  answer: "A"
