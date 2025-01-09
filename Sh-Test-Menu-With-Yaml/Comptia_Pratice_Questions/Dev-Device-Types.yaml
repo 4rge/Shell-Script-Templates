@@ -1,0 +1,183 @@
+- question: "What is a block device?"
+  options:
+    - "A. A device that can read and write data in blocks"
+    - "B. A non-volatile storage device"
+    - "C. A device that streams data"
+    - "D. A type of network device"
+  answer: "A"
+
+- question: "What is a character device?"
+  options:
+    - "A. A device that communicates in bytes"
+    - "B. A device that handles data in fixed-size blocks"
+    - "C. A device for network communication"
+    - "D. A type of input device only"
+  answer: "A"
+
+- question: "Which of the following is an example of a block device?"
+  options:
+    - "A. /dev/sda"
+    - "B. /dev/tty"
+    - "C. /dev/null"
+    - "D. /dev/zero"
+  answer: "A"
+
+- question: "Which of the following is an example of a character device?"
+  options:
+    - "A. /dev/sda"
+    - "B. /dev/random"
+    - "C. /dev/hd0"
+    - "D. /dev/fd0"
+  answer: "B"
+
+- question: "What does /dev/null represent?"
+  options:
+    - "A. A standard input device"
+    - "B. A null device that discards all data"
+    - "C. A temporary file storage"
+    - "D. A memory buffer"
+  answer: "B"
+
+- question: "What does writing to /dev/zero create?"
+  options:
+    - "A. An endless stream of zeros"
+    - "B. Random data"
+    - "C. A temporary file"
+    - "D. An infinite loop"
+  answer: "A"
+
+- question: "What is the purpose of /dev/urandom?"
+  options:
+    - "A. To provide cryptographically secure random numbers"
+    - "B. To generate continuous streams of null bytes"
+    - "C. To store device information"
+    - "D. To simulate random disk reads"
+  answer: "A"
+
+- question: "Which device type would you use for a hard drive?"
+  options:
+    - "A. Character device"
+    - "B. Block device"
+    - "C. Special device"
+    - "D. Network device"
+  answer: "B"
+
+- question: "What does the command 'ls -l /dev' show?"
+  options:
+    - "A. The permissions and details of devices in /dev"
+    - "B. A list of system services"
+    - "C. A summary of memory usage"
+    - "D. The active processes on the system"
+  answer: "A"
+
+- question: "What type of devices can you expect to find in /dev/"
+  options:
+    - "A. Only filesystems"
+    - "B. Block and character devices"
+    - "C. Network devices only"
+    - "D. Non-character devices"
+  answer: "B"
+
+- question: "What are special character devices?"
+  options:
+    - "A. Devices that can store data permanently"
+    - "B. Devices that have unique properties, like /dev/null"
+    - "C. Devices with read-only access"
+    - "D. Only devices for processing characters"
+  answer: "B"
+
+- question: "What is the primary function of /dev/random?"
+  options:
+    - "A. To produce a stream of random bytes"
+    - "B. To simulate random input devices"
+    - "C. To manage memory storage"
+    - "D. To generate a fixed number of bytes"
+  answer: "A"
+
+- question: "How can you check detailed information about a device file?"
+  options:
+    - "A. Using the 'stat' command"
+    - "B. Using the 'cat' command"
+    - "C. Using the 'du' command"
+    - "D. Using the 'df' command"
+  answer: "A"
+
+- question: "Which command can create a file with content from /dev/zero?"
+  options:
+    - "A. cowfile < /dev/zero"
+    - "B. dd if=/dev/zero of=file.txt bs=1 count=10"
+    - "C. echo < /dev/zero > file.txt"
+    - "D. cp /dev/zero file.txt"
+  answer: "B"
+
+- question: "What is the difference between /dev/random and /dev/urandom?"
+  options:
+    - "A. /dev/random is faster"
+    - "B. /dev/random blocks if there's insufficient randomness; /dev/urandom does not"
+    - "C. /dev/urandom is for binary files"
+    - "D. There is no difference"
+  answer: "B"
+
+- question: "Which command would you use to find the major and minor numbers of a device?"
+  options:
+    - "A. ls -l"
+    - "B. stat"
+    - "C. udevadm info"
+    - "D. iostat"
+  answer: "C"
+
+- question: "What type of device is typically represented by /dev/tty?"
+  options:
+    - "A. A block device"
+    - "B. A character device for terminal input/output"
+    - "C. A special character device"
+    - "D. A network device"
+  answer: "B"
+
+- question: "Are there devices linked to hardware in /dev/"
+  options:
+    - "A. Yes, often linked to hardware devices"
+    - "B. No, they are virtual files only"
+    - "C. Only for USB devices"
+    - "D. Only for built-in components"
+  answer: "A"
+
+- question: "What is the major number in a device file's specification?"
+  options:
+    - "A. It identifies the driver associated with the device"
+    - "B. It denotes the type of the device"
+    - "C. It is the device's physical size"
+    - "D. It represents a special feature"
+  answer: "A"
+
+- question: "What is the minor number in a device specification?"
+  options:
+    - "A. It distinguishes between different devices handled by the same driver"
+    - "B. It represents the file type"
+    - "C. It indicates a version number"
+    - "D. It is always zero"
+  answer: "A"
+
+- question: "What would 'mknod' command do in Linux?"
+  options:
+    - "A. Create a new directory"
+    - "B. Create a special or ordinary file"
+    - "C. Remove a device entry"
+    - "D. Rename a device file"
+  answer: "B"
+
+- question: "What is the purpose of /dev/ptmx?"
+  options:
+    - "A. For pseudo-terminal devices"
+    - "B. For managing physical memory"
+    - "C. For filesystem mounts"
+    - "D. For data storage"
+  answer: "A"
+
+- question: "What role does /dev/shm play in Linux?"
+  options:
+    - "A. Shared memory storage"
+    - "B. Temporary file storage"
+    - "C. Logs for system errors"
+    - "D. Kernel image storage"
+  answer: "A"
