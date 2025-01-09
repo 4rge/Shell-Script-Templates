@@ -1,0 +1,119 @@
+- question: "What is the primary tool for managing XFS filesystems?"
+  options:
+    - "A. xfs_repair"
+    - "B. e2fsck"
+    - "C. btrfsck"
+    - "D. xfs_create"
+  answer: "A"
+
+- question: "Which command would you use to check and repair an Ext4 filesystem?"
+  options:
+    - "A. fsck.ext4"
+    - "B. e2fsck"
+    - "C. xfs_repair"
+    - "D. btrfs check"
+  answer: "B"
+
+- question: "What is the purpose of the `xfs_growfs` command?"
+  options:
+    - "A. To shrink an XFS filesystem"
+    - "B. To check an XFS filesystem for errors"
+    - "C. To increase the size of an XFS filesystem"
+    - "D. To create a new XFS filesystem"
+  answer: "C"
+
+- question: "Which filesystem type does `mkfs.ext4` create?"
+  options:
+    - "A. XFS"
+    - "B. Btrfs"
+    - "C. Ext3"
+    - "D. Ext4"
+  answer: "D"
+
+- question: "What is a unique feature of Btrfs compared to Ext4 and XFS?"
+  options:
+    - "A. Support for snapshots and subvolumes"
+    - "B. More efficient disk space allocation"
+    - "C. Faster read and write speeds"
+    - "D. Simpler filesystem management"
+  answer: "A"
+
+- question: "What command can be used to create a Btrfs filesystem?"
+  options:
+    - "A. mkfs.xfs"
+    - "B. mkfs.ext4"
+    - "C. mkfs.btrfs"
+    - "D. btrfs create"
+  answer: "C"
+
+- question: "Which tool is specifically used to manage snapshots in Btrfs?"
+  options:
+    - "A. btrfs subvolume snapshot"
+    - "B. btrfs snapshot"
+    - "C. btrfs create-snapshot"
+    - "D. fsck.btrfs"
+  answer: "A"
+
+- question: "What is the `xfs_repair` command used for?"
+  options:
+    - "A. To create an XFS filesystem"
+    - "B. To check and repair an XFS filesystem having issues"
+    - "C. To format a disk"
+    - "D. To grow an XFS filesystem"
+  answer: "B"
+
+- question: "Which command would you use to list the properties of a Btrfs filesystem?"
+  options:
+    - "A. btrfs filesystem show"
+    - "B. btrfs info"
+    - "C. btrfs list"
+    - "D. btrfs status"
+  answer: "A"
+
+- question: "What kind of data structure does Ext4 use for its filesystem journaling?"
+  options:
+    - "A. Write-ahead logging"
+    - "B. Copy-on-write"
+    - "C. Delayed allocation"
+    - "D. Metadata journaling"
+  answer: "A"
+
+- question: "Which command is used to defragment an XFS filesystem?"
+  options:
+    - "A. xfs_fsr"
+    - "B. xfs_repair"
+    - "C. xfs_growfs"
+    - "D. xfs_check"
+  answer: "A"
+
+- question: "What does the `btrfs balance` command do?"
+  options:
+    - "A. Optimizes the allocation of free space across the Btrfs filesystem"
+    - "B. Creates a snapshot of the current filesystem"
+    - "C. Resizes the filesystem"
+    - "D. Runs a check for filesystem errors"
+  answer: "A"
+
+- question: "Which utility allows you to manage Ext4 filesystem quotas?"
+  options:
+    - "A. quotaon"
+    - "B. edquota"
+    - "C. setquota"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the maximum size of a single file in an Ext4 filesystem?"
+  options:
+    - "A. 2 TiB"
+    - "B. 16 TiB"
+    - "C. 1 EiB"
+    - "D. 256 TiB"
+  answer: "B"
+
+- question: "Which command is used to convert an existing Ext3 filesystem to Ext4?"
+  options:
+    - "A. mkfs.ext4"
+    - "B. tune2fs -O extents,uninit_bg,dir_index"
+    - "C. e2fsck"
+    - "D. convert.ext3.ext4"
+  answer: "B"
