@@ -1,0 +1,119 @@
+- question: "What is the primary function of the DNF package manager?"
+  options:
+    - "A. Manage software packages in Debian-based systems"
+    - "B. Manage software packages in Red Hat-based systems"
+    - "C. Track and manage package dependencies"
+    - "D. Both B and C"
+  answer: "D"
+
+- question: "Which command is used to install a package using YUM?"
+  options:
+    - "A. yum install <package>"
+    - "B. yum add <package>"
+    - "C. yum get <package>"
+    - "D. yum update <package>"
+  answer: "A"
+
+- question: "What is APT primarily used for?"
+  options:
+    - "A. Package management in RPM-based systems"
+    - "B. Package management in Debian-based systems"
+    - "C. Install and manage Flatpak applications"
+    - "D. None of the above"
+  answer: "B"
+
+- question: "What does the RPM command stand for?"
+  options:
+    - "A. Red Hat Package Manager"
+    - "B. Rapid Package Management"
+    - "C. Random Package Manager"
+    - "D. Reliable Package Management"
+  answer: "A"
+
+- question: "Which command is used to install a .deb package using dpkg?"
+  options:
+    - "A. dpkg install <package>.deb"
+    - "B. dpkg -i <package>.deb"
+    - "C. dpkg add <package>.deb"
+    - "D. dpkg -a <package>.deb"
+  answer: "B"
+
+- question: "ZYpp is the package manager used in which Linux distribution?"
+  options:
+    - "A. Fedora"
+    - "B. OpenSUSE"
+    - "C. Debian"
+    - "D. Arch Linux"
+  answer: "B"
+
+- question: "How can you remove a package using APT?"
+  options:
+    - "A. apt remove <package>"
+    - "B. apt delete <package>"
+    - "C. apt uninstall <package>"
+    - "D. apt purge <package>"
+  answer: "A"
+
+- question: "What command would you use to update all installed packages with DNF?"
+  options:
+    - "A. dnf upgrade"
+    - "B. dnf refresh"
+    - "C. dnf update"
+    - "D. dnf install"
+  answer: "C"
+
+- question: "What information can you get using the RPM command?"
+  options:
+    - "A. List installed packages"
+    - "B. Verify package integrity"
+    - "C. Query package details"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "Which command would you use to search for a package with APT?"
+  options:
+    - "A. apt search <package>"
+    - "B. apt find <package>"
+    - "C. apt lookup <package>"
+    - "D. apt query <package>"
+  answer: "A"
+
+- question: "What does the 'yum clean all' command do?"
+  options:
+    - "A. Removes all installed packages"
+    - "B. Cleans up the local cache and metadata"
+    - "C. Updates all packages"
+    - "D. Checks for package dependencies"
+  answer: "B"
+
+- question: "What option would you use with dpkg to list all installed packages?"
+  options:
+    - "A. dpkg -l"
+    - "B. dpkg -list"
+    - "C. dpkg --installed"
+    - "D. dpkg -query"
+  answer: "A"
+
+- question: "Which package manager uses 'zypper' as its command line interface?"
+  options:
+    - "A. DNF"
+    - "B. APT"
+    - "C. ZYpp"
+    - "D. RPM"
+  answer: "C"
+
+- question: "If you wanted to check for dependencies of an RPM package, which command would you use?"
+  options:
+    - "A. rpm -qR <package.rpm>"
+    - "B. yum deplist <package>"
+    - "C. dnf repoquery --requires <package>"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the difference between 'apt install' and 'apt-get install'?"
+  options:
+    - "A. No difference; they are interchangeable"
+    - "B. 'apt' is more user-friendly and includes progress bars, while 'apt-get' is for scripting"
+    - "C. 'apt' can only install applications, while 'apt-get' can manage repositories"
+    - "D. 'apt' is obsolete; use 'apt-get' instead"
+  answer: "B"
