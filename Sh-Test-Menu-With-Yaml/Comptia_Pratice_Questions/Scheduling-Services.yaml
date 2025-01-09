@@ -1,0 +1,111 @@
+- question: "What is the purpose of the `cron` service in Linux?"
+  options:
+    - "A. To manage user sessions"
+    - "B. To schedule and execute recurring tasks automatically"
+    - "C. To provide real-time system monitoring"
+    - "D. To configure network settings"
+  answer: "B"
+
+- question: "What does the command `crontab -e` do?"
+  options:
+    - "A. Edits the crontab file for the current user"
+    - "B. Displays the list of all scheduled cron jobs"
+    - "C. Executes the current crontab jobs"
+    - "D. Exports the crontab configuration to a file"
+  answer: "A"
+
+- question: "Which file contains the system-wide crontab entries?"
+  options:
+    - "A. /etc/crontab"
+    - "B. /var/spool/cron/crontabs"
+    - "C. /etc/cron.d"
+    - "D. /usr/spool/cron"
+  answer: "A"
+
+- question: "What does the `at` command do?"
+  options:
+    - "A. Schedules one-time tasks to be executed at a specified time"
+    - "B. Configures recurring tasks"
+    - "C. Displays the current time and date"
+    - "D. Edits scheduled cron jobs"
+  answer: "A"
+
+- question: "How can you view the current user's crontab entries?"
+  options:
+    - "A. crontab -l"
+    - "B. crontab -v"
+    - "C. crontab -s"
+    - "D. crontab -view"
+  answer: "A"
+
+- question: "What is the correct syntax for a cron job entry?"
+  options:
+    - "A. minute hour day month command"
+    - "B. hour minute day month week command"
+    - "C. second minute hour day month command"
+    - "D. minute hour day month year command"
+  answer: "A"
+
+- question: "Which of the following characters is used to represent every possible value in a cron schedule?"
+  options:
+    - "A. *"
+    - "B. ?"
+    - "C. @"
+    - "D. $"
+  answer: "A"
+
+- question: "How would you schedule a job to run every Sunday at 5 PM using `cron`?"
+  options:
+    - "A. 0 17 * * 0 command"
+    - "B. 0 17 * * 7 command"
+    - "C. 0 17 * Sunday command"
+    - "D. 0 17 * * Mon command"
+  answer: "A"
+
+- question: "What command would you use to remove a user's crontab entries?"
+  options:
+    - "A. crontab -r"
+    - "B. crontab -d"
+    - "C. crontab -e -remove"
+    - "D. crontab -delete"
+  answer: "A"
+
+- question: "Can the `cron` service be used to schedule tasks that require user interaction?"
+  options:
+    - "A. Yes, but only if they are configured correctly."
+    - "B. No, `cron` is for non-interactive tasks only."
+    - "C. Yes, but only for system tasks."
+    - "D. No, tasks must be handled by the `at` command."
+  answer: "B"
+
+- question: "What does the `*` character represent in a crontab entry?"
+  options:
+    - "A. Any value"
+    - "B. No value"
+    - "C. A specific minute"
+    - "D. An ignored field"
+  answer: "A"
+
+- question: "If you want a job to run at 1:00 AM every day, what would your crontab entry look like?"
+  options:
+    - "A. 0 1 * * * command"
+    - "B. 1 0 * * * command"
+    - "C. 00 01 * * * command"
+    - "D. 1 0 * * * command"
+  answer: "A"
+
+- question: "How can you schedule a command to run at a specific time using the `at` command?"
+  options:
+    - "A. at 2:00 PM command"
+    - "B. at 14:00 command"
+    - "C. echo 'command' | at 14:00"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the effect of using `atq` command?"
+  options:
+    - "A. It displays the list of scheduled jobs for the current user via `at`"
+    - "B. It executes the next scheduled `at` job"
+    - "C. It deletes all jobs scheduled by `at`"
+    - "D. It creates a new scheduled job"
+  answer: "A"
