@@ -1,0 +1,207 @@
+- question: "What is the primary function of the Basic Input/Output System (BIOS)?"
+  options:
+    - "A. Manage hardware resources"
+    - "B. Boot the operating system"
+    - "C. Provide a user interface"
+    - "D. Run applications"
+  answer: "B"
+
+- question: "What does UEFI stand for?"
+  options:
+    - "A. Unified Extension Firmware Interface"
+    - "B. Universal Extensible Firmware Interface"
+    - "C. Unified Extensible Firmware Interface"
+    - "D. Universal Extended Firmware Interface"
+  answer: "C"
+
+- question: "Which command prepares the initial RAM disk for use?"
+  options:
+    - "A. mkinitrd"
+    - "B. initramfs"
+    - "C. dracut"
+    - "D. grub-install"
+  answer: "A"
+
+- question: "What is the role of the `grub2-install` command?"
+  options:
+    - "A. Create a GRUB configuration file"
+    - "B. Install the GRUB boot loader"
+    - "C. Update kernel images"
+    - "D. Create an initrd image"
+  answer: "B"
+
+- question: "Which command generates a GRUB configuration file?"
+  options:
+    - "A. grub2-install"
+    - "B. grub2-mkconfig"
+    - "C. grub2-update"
+    - "D. dracut"
+  answer: "B"
+
+- question: "What does the command `grub2-update` do?"
+  options:
+    - "A. Installs the GRUB2 bootloader"
+    - "B. Updates GRUB2 with new entries"
+    - "C. Creates an initrd image"
+    - "D. Configures kernel parameters"
+  answer: "B"
+
+- question: "What is the purpose of the `dracut` tool?"
+  options:
+    - "A. Manage boot loaders"
+    - "B. Generate initramfs images"
+    - "C. Install firmware"
+    - "D. Boot the operating system"
+  answer: "B"
+
+- question: "What does `initrd.img` represent?"
+  options:
+    - "A. The bootloader configuration"
+    - "B. The initial RAM disk file"
+    - "C. The Linux kernel image"
+    - "D. The UEFI firmware"
+  answer: "B"
+
+- question: "What is `vmlinuz` commonly recognized as?"
+  options:
+    - "A. The boot configuration file"
+    - "B. The initial RAM disk image"
+    - "C. The compressed Linux kernel binary"
+    - "D. The GRUB configuration"
+  answer: "C"
+
+- question: "What does GRUB2 stand for?"
+  options:
+    - "A. Generic Real-time Universal Bootloader"
+    - "B. Grand Unified Bootloader version 2"
+    - "C. Generalized Boot Utility Version 2"
+    - "D. Grand Unified Bootloader version 1"
+  answer: "B"
+
+- question: "Which of the following is a boot source option?"
+  options:
+    - "A. Hard drive"
+    - "B. USB drive"
+    - "C. Network (PXE)"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What does PXE stand for?"
+  options:
+    - "A. Preboot eXecution Environment"
+    - "B. Postboot eXecution Environment"
+    - "C. Preboot Executable Extension"
+    - "D. Postboot Execution Engine"
+  answer: "A"
+
+- question: "Which method allows booting from a USB device?"
+  options:
+    - "A. BIOS only"
+    - "B. UEFI only"
+    - "C. Both BIOS and UEFI"
+    - "D. Neither"
+  answer: "C"
+
+- question: "What is needed to boot from an ISO file?"
+  options:
+    - "A. A boot disk"
+    - "B. A BIOS setting"
+    - "C. A supported bootloader"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the primary use of the `mkinitrd` command?"
+  options:
+    - "A. Install GRUB"
+    - "B. Create an initial RAM disk"
+    - "C. Update kernel configurations"
+    - "D. Manage boot parameters"
+  answer: "B"
+
+- question: "What file format is commonly used for kernel images?"
+  options:
+    - "A. .iso"
+    - "B. .img"
+    - "C. .bz2"
+    - "D. .z"
+  answer: "B"
+
+- question: "What device file would be used for USB booting?"
+  options:
+    - "A. /dev/sda"
+    - "B. /dev/sdb"
+    - "C. /dev/usb"
+    - "D. /dev/hd"
+  answer: "B"
+
+- question: "Which file contains bootloader configuration in GRUB2?"
+  options:
+    - "A. /boot/grub/grub.cfg"
+    - "B. /etc/default/grub"
+    - "C. /boot/grub/grub.cfg.d"
+    - "D. /etc/grub.conf"
+  answer: "A"
+
+- question: "What is a common command to reboot the system after configuration changes?"
+  options:
+    - "A. reboot"
+    - "B. start"
+    - "C. restart"
+    - "D. boot"
+  answer: "A"
+
+- question: "Which command is used to list available kernels?"
+  options:
+    - "A. showkernels"
+    - "B. ls /boot"
+    - "C. grub2-kernel-list"
+    - "D. listkernels"
+  answer: "B"
+
+- question: "In GRUB2, what does the 'set root=' command do?"
+  options:
+    - "A. Defines the boot partition"
+    - "B. Sets the default kernel"
+    - "C. Sets the location of the USB drive"
+    - "D. Specifies the backup kernel"
+  answer: "A"
+
+- question: "What is the purpose of the `update-initramfs` command?"
+  options:
+    - "A. To install the initramfs"
+    - "B. To update the initial RAM file system"
+    - "C. To create the kernel image"
+    - "D. To install GRUB"
+  answer: "B"
+
+- question: "What happens if the bootloader fails to load?"
+  options:
+    - "A. The system will reboot"
+    - "B. The OS will load"
+    - "C. An error message will display"
+    - "D. The kernel will still load"
+  answer: "C"
+
+- question: "How can you check for GRUB2 version information?"
+  options:
+    - "A. grub2 --version"
+    - "B. grub --info"
+    - "C. grub2-version"
+    - "D. version grub"
+  answer: "A"
+  
+- question: "Where is the GRUB2 bootloader commonly installed?"
+  options:
+    - "A. /usr/local/bin"
+    - "B. /boot"
+    - "C. /etc"
+    - "D. /usr/share"
+  answer: "B"
+
+- question: "Which command is used to view the GRUB menu during boot?"
+  options:
+    - "A. Shift"
+    - "B. Esc"
+    - "C. F2"
+    - "D. Ctrl+X"
+  answer: "B"
