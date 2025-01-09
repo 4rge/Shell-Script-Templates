@@ -1,0 +1,143 @@
+- question: "What is the purpose of the SIGTERM signal?"
+  options:
+    - "A. To immediately terminate a process"
+    - "B. To request a process to terminate gracefully"
+    - "C. To suspend a process"
+    - "D. To reload a process"
+  answer: "B"
+
+- question: "What does the SIGKILL signal do?"
+  options:
+    - "A. It interrupts a process"
+    - "B. It requests a process to terminate gracefully"
+    - "C. It cannot be caught or ignored, forcefully stopping the process"
+    - "D. It puts a process to sleep"
+  answer: "C"
+
+- question: "Which command is used to view running processes?"
+  options:
+    - "A. top"
+    - "B. list"
+    - "C. runps"
+    - "D. viewprocess"
+  answer: "A"
+
+- question: "What is the purpose of the 'nice' command?"
+  options:
+    - "A. To change the priority of a running process"
+    - "B. To start a process with a specific priority"
+    - "C. To display system load"
+    - "D. To terminate a process"
+  answer: "B"
+
+- question: "What does the 'ps' command do?"
+  options:
+    - "A. It lists open files"
+    - "B. It shows detailed information about processes"
+    - "C. It manages job control"
+    - "D. It kills processes"
+  answer: "B"
+
+- question: "What is a Zombie process?"
+  options:
+    - "A. A process that is waiting for an event"
+    - "B. A process that has completed execution but still has a record in the process table"
+    - "C. A running process consuming too much CPU"
+    - "D. A background job that can be resumed"
+  answer: "B"
+
+- question: "What command can be used to list open files by a specific process?"
+  options:
+    - "A. lsof"
+    - "B. listopen"
+    - "C. openfiles"
+    - "D. procfiles"
+  answer: "A"
+
+- question: "Which signal is sent by the Ctrl+C keyboard shortcut?"
+  options:
+    - "A. SIGHUP"
+    - "B. SIGTERM"
+    - "C. SIGKILL"
+    - "D. SIGINT"
+  answer: "D"
+
+- question: "Which command can be used to change the priority of a running process?"
+  options:
+    - "A. nice"
+    - "B. ps"
+    - "C. renice"
+    - "D. priority"
+  answer: "C"
+
+- question: "What does the command 'bg' do?"
+  options:
+    - "A. Brings a job to the foreground"
+    - "B. Terminates a background job"
+    - "C. Runs a job in the background"
+    - "D. Lists all background jobs"
+  answer: "C"
+
+- question: "Which signal is used to restart a stopped process?"
+  options:
+    - "A. SIGSTOP"
+    - "B. SIGCONT"
+    - "C. SIGKILL"
+    - "D. SIGTERM"
+  answer: "B"
+
+- question: "What does the 'htop' command provide?"
+  options:
+    - "A. A tree view of processes"
+    - "B. A simple process listing"
+    - "C. An interactive process viewer"
+    - "D. A command to kill processes"
+  answer: "C"
+
+- question: "What does the 'jobs' command display?"
+  options:
+    - "A. Running processes only"
+    - "B. Background and stopped jobs"
+    - "C. Current system load"
+    - "D. Open files by processes"
+  answer: "B"
+
+- question: "What is the command to search for processes by name using pgrep?"
+  options:
+    - "A. psearch"
+    - "B. findproc"
+    - "C. pgrep"
+    - "D. checkproc"
+  answer: "C"
+
+- question: "Which command can forcibly terminate a process?"
+  options:
+    - "A. kill"
+    - "B. terminate"
+    - "C. stop"
+    - "D. end"
+  answer: "A"
+
+- question: "What is the purpose of the 'pidof' command?"
+  options:
+    - "A. To display the process ID(s) of a running program"
+    - "B. To kill a process by its ID"
+    - "C. To pause a process"
+    - "D. To list all running processes"
+  answer: "A"
+
+- question: "What does the Ctrl+Z keyboard shortcut do?"
+  options:
+    - "A. Starts a job in the foreground"
+    - "B. Stops a foreground job and sends it to the background"
+    - "C. Lists background jobs"
+    - "D. Terminates the current process"
+  answer: "B"
+
+- question: "What state is a process in when it's currently executing?"
+  options:
+    - "A. Zombie"
+    - "B. Sleeping"
+    - "C. Running"
+    - "D. Stopped"
+  answer: "C"
