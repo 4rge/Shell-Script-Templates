@@ -1,0 +1,119 @@
+- question: "What is the purpose of the `multipathd` daemon in a SAN environment?"
+  options:
+    - "A. To manage multiple paths to storage devices for redundancy and performance"
+    - "B. To handle network file sharing services"
+    - "C. To create a backup of filesystem data"
+    - "D. To monitor disk health across the network"
+  answer: "A"
+
+- question: "Which network filesystem allows clients to access files over a network as if they were local?"
+  options:
+    - "A. NFS"
+    - "B. SMB/CIFS"
+    - "C. Both A and B"
+    - "D. iSCSI"
+  answer: "C"
+
+- question: "What does NFS stand for?"
+  options:
+    - "A. Network File System"
+    - "B. Network File Share"
+    - "C. New File System"
+    - "D. Network Format Standard"
+  answer: "A"
+
+- question: "What is the function of the SMB protocol?"
+  options:
+    - "A. To provide block-level storage over a network"
+    - "B. To share files and printers between computers"
+    - "C. To create and manage logical volumes"
+    - "D. To monitor network performance"
+  answer: "B"
+
+- question: "Which command can be used to manage the multipath devices in Linux?"
+  options:
+    - "A. multipath"
+    - "B. multipathd"
+    - "C. mpstat"
+    - "D. multipathd -monitor"
+  answer: "A"
+
+- question: "What does the 'CIFS' acronym stand for in file sharing?"
+  options:
+    - "A. Common Internet File System"
+    - "B. Client Internet File System"
+    - "C. Controlled Internet File System"
+    - "D. Centralized Internet File System"
+  answer: "A"
+
+- question: "How can you mount an NFS share on a Linux client?"
+  options:
+    - "A. mount -t nfs <server_ip>:<exported_path> <mount_point>"
+    - "B. nfs mount <server_ip>:<exported_path> <mount_point>"
+    - "C. smbclient //server/share <mount_point>"
+    - "D. net use <mount_point> //server/share"
+  answer: "A"
+
+- question: "What is a drawback of using NFS for file sharing?"
+  options:
+    - "A. No support for file permissions"
+    - "B. Slower performance than SMB/CIFS"
+    - "C. Potential security risks if not configured properly"
+    - "D. Limited to use within the same subnet"
+  answer: "C"
+
+- question: "Which of the following best describes how SMB/CIFS operates?"
+  options:
+    - "A. Allows file and resource sharing over a TCP/IP network"
+    - "B. Provides block storage services"
+    - "C. Monitors disk allocations"
+    - "D. Used primarily for backup purposes"
+  answer: "A"
+
+- question: "What is the command to start the `multipathd` daemon?"
+  options:
+    - "A. multipathd start"
+    - "B. systemctl start multipathd"
+    - "C. service multipathd start"
+    - "D. multipath start"
+  answer: "B"
+
+- question: "Which file is commonly used to configure NFS exports?"
+  options:
+    - "A. /etc/exports"
+    - "B. /proc/nfs"
+    - "C. /etc/nfs.conf"
+    - "D. /etc/fstab"
+  answer: "A"
+
+- question: "What does the `nfsstat` command do?"
+  options:
+    - "A. Displays information about NFS mounts"
+    - "B. Shows NFS client and server statistics"
+    - "C. Configures NFS exports"
+    - "D. Monitors NFS traffic"
+  answer: "B"
+
+- question: "Which of the following commands can be used to troubleshoot SMB connections?"
+  options:
+    - "A. testparm"
+    - "B. smbstatus"
+    - "C. net use"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is a benefit of using a SAN?"
+  options:
+    - "A. Faster data access with lower latency"
+    - "B. Greater flexibility in file sharing"
+    - "C. Simplified network configuration"
+    - "D. Easier backup management"
+  answer: "A"
+
+- question: "What is the primary function of the Network File System (NFS)?"
+  options:
+    - "A. To provide disk-block access to files on remote storage"
+    - "B. To allow file sharing across different platforms"
+    - "C. To configure network settings"
+    - "D. To manage user permissions on a network"
+  answer: "B"
