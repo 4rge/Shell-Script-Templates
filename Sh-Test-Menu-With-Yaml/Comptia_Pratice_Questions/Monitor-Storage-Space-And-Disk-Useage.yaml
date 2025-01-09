@@ -1,0 +1,119 @@
+- question: "Which command is typically used to display disk usage for files and directories?"
+  options:
+    - "A. du"
+    - "B. df"
+    - "C. lsblk"
+    - "D. mount"
+  answer: "A"
+
+- question: "What does the `df` command show?"
+  options:
+    - "A. Disk usage for all mounted filesystems"
+    - "B. Detailed information about a specific file"
+    - "C. Lists files in a directory"
+    - "D. Displays content of files"
+  answer: "A"
+
+- question: "What is the purpose of the `-h` option when using the `df` command?"
+  options:
+    - "A. To show human-readable output (e.g., in GB/MB)"
+    - "B. To filter output to specific filesystems"
+    - "C. To hide filesystem types"
+    - "D. To display hidden files"
+  answer: "A"
+
+- question: "Which command can provide a detailed view of disk usage including hidden files?"
+  options:
+    - "A. du -h"
+    - "B. df -m"
+    - "C. ls -a"
+    - "D. find . -size"
+  answer: "A"
+
+- question: "What does the `du -sh` command do?"
+  options:
+    - "A. Displays the total disk usage of the current directory in a human-readable format"
+    - "B. Lists the sizes of all hidden files"
+    - "C. Shows the disk space available on all mounted filesystems"
+    - "D. Displays information about disk partitions"
+  answer: "A"
+
+- question: "Which command can show you disk space usage for all mounted filesystems?"
+  options:
+    - "A. df -i"
+    - "B. lsblk"
+    - "C. mount"
+    - "D. du -sh"
+  answer: "A"
+
+- question: "What does the `-i` option do when used with the `df` command?"
+  options:
+    - "A. Displays inode usage"
+    - "B. Shows disk usage in gigabytes"
+    - "C. Ignores filesystems with no usage"
+    - "D. Displays hidden files"
+  answer: "A"
+
+- question: "How would you find out which directory is consuming the most disk space?"
+  options:
+    - "A. df -h"
+    - "B. du -sh * | sort -h"
+    - "C. ls -l"
+    - "D. find / -type d"
+  answer: "B"
+
+- question: "Which of the following commands can be used to monitor real-time disk usage?"
+  options:
+    - "A. iostat"
+    - "B. df"
+    - "C. du"
+    - "D. fstrim"
+  answer: "A"
+
+- question: "What does the `-a` option do when used with the `du` command?"
+  options:
+    - "A. It shows all files and directories, including hidden ones"
+    - "B. It displays only the total disk usage"
+    - "C. It lists files and directories recursively"
+    - "D. It provides output in ASCII format"
+  answer: "A"
+
+- question: "What is the purpose of the `nproc` command in monitoring storage?"
+  options:
+    - "A. Displays the number of available processors"
+    - "B. Shows network configurations"
+    - "C. Monitors disk I/O performance"
+    - "D. Lists process IDs"
+  answer: "A"
+
+- question: "How can you check for unused files and directories that are taking up space?"
+  options:
+    - "A. du -sh"
+    - "B. find . -type f -empty"
+    - "C. df -h"
+    - "D. ls -lt"
+  answer: "B"
+
+- question: "What command can you use to display the total allocated size of a mounted filesystem?"
+  options:
+    - "A. df -T"
+    - "B. lsblk"
+    - "C. mountpoint"
+    - "D. du -sh"
+  answer: "A"
+
+- question: "Which command would you use to specifically check inode usage of a filesystem?"
+  options:
+    - "A. df -i"
+    - "B. ls -i"
+    - "C. du -i"
+    - "D. mount -i"
+  answer: "A"
+
+- question: "What does the command `sudo apt clean` do in the context of disk usage?"
+  options:
+    - "A. It removes all temporary files from the system."
+    - "B. It clears out the local repository of retrieved package files."
+    - "C. It optimizes file storage."
+    - "D. It lists disk usage statistics."
+  answer: "B"
