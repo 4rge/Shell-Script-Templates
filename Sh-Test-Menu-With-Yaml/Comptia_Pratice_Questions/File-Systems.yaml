@@ -1,0 +1,217 @@
+- question: "What is the root directory of the filesystem?"
+  options:
+    - "A. /"
+    - "B. /home"
+    - "C. /usr"
+    - "D. /var"
+  answer: "A"
+
+- question: "Which directory contains user home directories?"
+  options:
+    - "A. /etc"
+    - "B. /home"
+    - "C. /tmp"
+    - "D. /bin"
+  answer: "B"
+
+- question: "Where are system configuration files typically stored?"
+  options:
+    - "A. /lib"
+    - "B. /etc"
+    - "C. /dev"
+    - "D. /var"
+  answer: "B"
+
+- question: "What does the /usr directory contain?"
+  options:
+    - "A. User executables and files"
+    - "B. Temporary files"
+    - "C. System configuration files"
+    - "D. Log files"
+  answer: "A"
+
+- question: "Where are temporary files typically stored?"
+  options:
+    - "A. /bin"
+    - "B. /tmp"
+    - "C. /usr"
+    - "D. /opt"
+  answer: "B"
+
+- question: "Which command would you use to list files in a directory?"
+  options:
+    - "A. list"
+    - "B. ls"
+    - "C. dir"
+    - "D. show"
+  answer: "B"
+  
+- question: "What directory usually contains binary executables?"
+  options:
+    - "A. /local"
+    - "B. /proc"
+    - "C. /bin"
+    - "D. /lib"
+  answer: "C"
+  
+- question: "Where can you find system log files?"
+  options:
+    - "A. /var/log"
+    - "B. /bin"
+    - "C. /tmp"
+    - "D. /dev"
+  answer: "A"
+  
+- question: "What does the /dev directory contain?"
+  options:
+    - "A. Device files"
+    - "B. User data"
+    - "C. System scripts"
+    - "D. Software packages"
+  answer: "A"
+  
+- question: "Which of the following is a directory for optional applications?"
+  options:
+    - "A. /usr"
+    - "B. /opt"
+    - "C. /etc"
+    - "D. /bin"
+  answer: "B"
+
+- question: "What command allows you to change directories?"
+  options:
+    - "A. move"
+    - "B. change"
+    - "C. chdir"
+    - "D. cd"
+  answer: "D"
+
+- question: "Which command would show your current directory?"
+  options:
+    - "A. pwd"
+    - "B. cd"
+    - "C. dir"
+    - "D. ls"
+  answer: "A"
+
+- question: "What does /etc/passwd typically contain?"
+  options:
+    - "A. System logs"
+    - "B. User accounts and passwords"
+    - "C. System configuration"
+    - "D. Application data"
+  answer: "B"
+
+- question: "Where can you find installed software packages?"
+  options:
+    - "A. /usr"
+    - "B. /lib"
+    - "C. /opt"
+    - "D. /var"
+  answer: "C"
+
+- question: "What command would you use to copy files?"
+  options:
+    - "A. copy"
+    - "B. cp"
+    - "C. if"
+    - "D. replace"
+  answer: "B"
+
+- question: "Which command deletes files?"
+  options:
+    - "A. del"
+    - "B. remove"
+    - "C. rm"
+    - "D. erase"
+  answer: "C"
+
+- question: "What does the /root directory typically contain?"
+  options:
+    - "A. Home directory of the root user"
+    - "B. Shared files"
+    - "C. System binaries"
+    - "D. Configuration files"
+  answer: "A"
+
+- question: "Which of the following is not a standard directory under the root?"
+  options:
+    - "A. /home"
+    - "B. /var"
+    - "C. /playground"
+    - "D. /usr"
+  answer: "C"
+
+- question: "Where are installed libraries typically stored?"
+  options:
+    - "A. /lib"
+    - "B. /usr/bin"
+    - "C. /etc"
+    - "D. /tmp"
+  answer: "A"
+
+- question: "Which of the following is the directory for manually installed software?"
+  options:
+    - "A. /usr"
+    - "B. /src"
+    - "C. /opt"
+    - "D. /dev"
+  answer: "C"
+
+- question: "What does the command 'chmod' do?"
+  options:
+    - "A. Change file ownership"
+    - "B. Change file permissions"
+    - "C. Change directory"
+    - "D. Change filename"
+  answer: "B"
+
+- question: "What type of files are typically found in the /mnt directory?"
+  options:
+    - "A. User home directories"
+    - "B. Temporary files"
+    - "C. Mounted filesystems"
+    - "D. Executables"
+  answer: "C"
+
+- question: "What is usually stored in /srv?"
+  options:
+    - "A. Service data"
+    - "B. Log files"
+    - "C. User data"
+    - "D. Application binaries"
+  answer: "A"
+
+- question: "Which command is used to move files?"
+  options:
+    - "A. move"
+    - "B. cp"
+    - "C. mv"
+    - "D. transfer"
+  answer: "C"
+
+- question: "What indicates a directory in a terminal output?"
+  options:
+    - "A. A slash (/)"
+    - "B. An asterisk (*)"
+    - "C. A dash (-)"
+    - "D. A plus (+)"
+  answer: "A"
+
+- question: "Where is system-wide documentation usually found?"
+  options:
+    - "A. /usr/share/doc"
+    - "B. /etc"
+    - "C. /var/log"
+    - "D. /home"
+  answer: "A"
+
+- question: "What does the /proc directory represent?"
+  options:
+    - "A. Current processes"
+    - "B. Configuration files"
+    - "C. Temporary files"
+    - "D. User directories"
+  answer: "A"
+
+# Ensure there are no trailing spaces or invalid characters at the end
