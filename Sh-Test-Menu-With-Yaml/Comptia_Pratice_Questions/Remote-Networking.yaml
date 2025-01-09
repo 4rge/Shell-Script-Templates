@@ -1,0 +1,111 @@
+- question: "What is the primary purpose of Secure Shell (SSH)?"
+  options:
+    - "A. To provide remote login and secure data transmission"
+    - "B. To sync files between servers"
+    - "C. To download files from the internet"
+    - "D. To transfer files securely using FTP"
+  answer: "A"
+
+- question: "What does the 'cURL' command do?"
+  options:
+    - "A. Transfers files over a network with FTP only"
+    - "B. A command-line tool to transfer data using various protocols"
+    - "C. Connects to remote servers using SSH"
+    - "D. Synchronizes files between local and remote systems"
+  answer: "B"
+
+- question: "What is 'wget' primarily used for?"
+  options:
+    - "A. Securely transferring files to remote servers"
+    - "B. Downloading files from the internet"
+    - "C. Displaying active network connections"
+    - "D. Monitoring remote systems"
+  answer: "B"
+
+- question: "What is the purpose of the 'nc' (netcat) command?"
+  options:
+    - "A. To securely copy files"
+    - "B. To create TCP/UDP connections and read/write data"
+    - "C. To transfer data using FTP"
+    - "D. To manage SSH sessions"
+  answer: "B"
+
+- question: "How does 'rsync' primarily function?"
+  options:
+    - "A. Syncs files and directories between local and remote systems"
+    - "B. Transfers files over SSH only"
+    - "C. Downloads web pages"
+    - "D. Manages remote processes"
+  answer: "A"
+
+- question: "What does the Secure Copy Protocol (SCP) specifically do?"
+  options:
+    - "A. Transfers files between systems over a secure connection"
+    - "B. Creates secure SSH tunnels"
+    - "C. Downloads files from web servers"
+    - "D. Syncs directories between local and remote systems"
+  answer: "A"
+
+- question: "What is the difference between SCP and SFTP?"
+  options:
+    - "A. SCP is faster than SFTP"
+    - "B. SFTP provides interactive file transfer capabilities"
+    - "C. SCP encrypts data while SFTP does not"
+    - "D. There is no difference; they are the same"
+  answer: "B"
+
+- question: "Which command would you use to copy a local file to a remote server using SCP?"
+  options:
+    - "A. scp localfile user@remote:/path/"
+    - "B. cp localfile user@remote:/path/"
+    - "C. rsync localfile user@remote:/path/"
+    - "D. curl -O user@remote:/path/localfile"
+  answer: "A"
+
+- question: "What does the '-O' option in 'wget' do?"
+  options:
+    - "A. Saves the file with its original name"
+    - "B. Outputs the result to standard output instead of saving it"
+    - "C. Sets the download speed limit"
+    - "D. Enables recursive downloading"
+  answer: "A"
+
+- question: "If you want to test a TCP connection to a remote host on port 80, which command would you use?"
+  options:
+    - "A. ssh user@host -p 80"
+    - "B. nc host 80"
+    - "C. rsync host 80"
+    - "D. scp host:80"
+  answer: "B"
+
+- question: "Which command can be used to upload files to a remote server over SFTP?"
+  options:
+    - "A. scp"
+    - "B. sftp"
+    - "C. curl"
+    - "D. rsync"
+  answer: "B"
+
+- question: "What does the command 'rsync -avz /local/dir user@remote:/remote/dir' do?"
+  options:
+    - "A. Syncs directories without compression"
+    - "B. Syncs directories, showing verbose output and compressing data during transfer"
+    - "C. Only compresses files for transfer"
+    - "D. Copies files without syncing"
+  answer: "B"
+
+- question: "Which command can be used to download a file from a URL using cURL?"
+  options:
+    - "A. curl -O http://example.com/file.txt"
+    - "B. curl -D http://example.com/file.txt"
+    - "C. curl --download http://example.com/file.txt"
+    - "D. curl ftp://example.com/file.txt"
+  answer: "A"
+
+- question: "What type of protocol is SFTP based on?"
+  options:
+    - "A. FTP"
+    - "B. FTPS"
+    - "C. SSH"
+    - "D. HTTP"
+  answer: "C"
