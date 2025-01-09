@@ -1,0 +1,127 @@
+- question: "What is the primary purpose of the 'ip' command in iproute2?"
+  options:
+    - "A. Manage network interfaces"
+    - "B. Configure routing"
+    - "C. Display network hardware properties"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What does the 'ss' command do?"
+  options:
+    - "A. Show socket statistics"
+    - "B. Set socket options"
+    - "C. List network interface configurations"
+    - "D. Manage firewall rules"
+  answer: "A"
+
+- question: "Which command is used by NetworkManager to manage network connections from the command line?"
+  options:
+    - "A. nmcli"
+    - "B. ifconfig"
+    - "C. ip"
+    - "D. netmgr"
+  answer: "A"
+
+- question: "What does the 'ifconfig' command do?"
+  options:
+    - "A. Configure and display network interfaces"
+    - "B. Manage routing tables"
+    - "C. Show active socket connections"
+    - "D. Display interface metrics"
+  answer: "A"
+
+- question: "Which file contains network interface configuration scripts in a Red Hat-based system?"
+  options:
+    - "A. /etc/network/interfaces"
+    - "B. /etc/sysconfig/network-scripts/"
+    - "C. /etc/netplan/config.yaml"
+    - "D. /etc/sysconfig/interfaces"
+  answer: "B"
+
+- question: "What is the purpose of the 'hostname' command?"
+  options:
+    - "A. Display the current network configuration"
+    - "B. Set or display the system's host name"
+    - "C. Show all active network connections"
+    - "D. Manage network protocols"
+  answer: "B"
+
+- question: "What does the 'arp' command display?"
+  options:
+    - "A. The routing table"
+    - "B. Active TCP connections"
+    - "C. Address Resolution Protocol entries"
+    - "D. All network interfaces"
+  answer: "C"
+
+- question: "What is a common use of the 'route' command?"
+  options:
+    - "A. View or manipulate the IP routing table"
+    - "B. Manage interface configurations"
+    - "C. Set the system hostname"
+    - "D. Show network statistics"
+  answer: "A"
+
+- question: "Which command would you use to display the current IP address of your network interfaces using iproute2?"
+  options:
+    - "A. ip addr"
+    - "B. ifconfig"
+    - "C. ipconfig"
+    - "D. network show"
+  answer: "A"
+
+- question: "What is the function of NetworkManager?"
+  options:
+    - "A. To manage local network interface settings"
+    - "B. To provide a graphical user interface for network configurations"
+    - "C. To handle both wired and wireless network connections dynamically"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "How can you view the list of available connections using 'nmcli'?"
+  options:
+    - "A. nmcli connection show"
+    - "B. nmcli list connections"
+    - "C. nmcli show"
+    - "D. nmcli connections"
+  answer: "A"
+
+- question: "In /etc/sysconfig/network-scripts/, what is a common file name for configuring a specific interface?"
+  options:
+    - "A. ifcfg-eth0"
+    - "B. config-eth0"
+    - "C. interfaces-eth0"
+    - "D. interface-eth0.cfg"
+  answer: "A"
+
+- question: "Which command displays TCP and UDP socket connections along with their state?"
+  options:
+    - "A. netstat"
+    - "B. ss"
+    - "C. ip"
+    - "D. ifconfig"
+  answer: "B"
+
+- question: "What does the option 'up' in an ifcfg file signify?"
+  options:
+    - "A. The interface should be configured"
+    - "B. The interface should be brought up"
+    - "C. The interface should be down"
+    - "D. The interface should be ignored"
+  answer: "B"
+
+- question: "How can you disable a specific network interface using the ip command?"
+  options:
+    - "A. ip down <interface>"
+    - "B. ip link set <interface> down"
+    - "C. ip interface <interface> disable"
+    - "D. ip set <interface> off"
+  answer: "B"
+
+- question: "What command would you use to change the MAC address of a network interface?"
+  options:
+    - "A. ip link set <interface> address <mac>"
+    - "B. ifconfig <interface> hw ether <mac>"
+    - "C. macchanger --change <interface> <mac>"
+    - "D. All of the above"
+  answer: "D"
