@@ -1,0 +1,119 @@
+- question: "What is the purpose of the `/etc/fstab` file in Linux?"
+  options:
+    - "A. It defines how partitions are mounted at boot time"
+    - "B. It contains user permissions for mounted filesystems"
+    - "C. It stores temporary mount points for external devices"
+    - "D. It lists all currently mounted filesystems"
+  answer: "A"
+
+- question: "Which command is used to manually mount a filesystem in Linux?"
+  options:
+    - "A. fstab"
+    - "B. mount"
+    - "C. systemd.mount"
+    - "D. mknod"
+  answer: "B"
+
+- question: "What does the `systemd.mount` unit file specify?"
+  options:
+    - "A. Configuration for mounting in systemd"
+    - "B. Default mount point for system disks"
+    - "C. User permissions for mounting filesystems"
+    - "D. Disk partition layout"
+  answer: "A"
+
+- question: "How do you specify a permanent mount for an external device?"
+  options:
+    - "A. Use the `mount` command in a script"
+    - "B. Add an entry in the `/etc/fstab` file"
+    - "C. Utilize the `systemctl` command"
+    - "D. Mount it manually every session"
+  answer: "B"
+
+- question: "What is LUKS used for in Linux?"
+  options:
+    - "A. Formatting partitions"
+    - "B. Encrypting disk partitions"
+    - "C. Mounting filesystems"
+    - "D. Managing USB devices"
+  answer: "B"
+
+- question: "What is the typical syntax for the `mount` command?"
+  options:
+    - "A. mount [options] <device> <mount_point>"
+    - "B. mount <mount_point> [options] <device>"
+    - "C. mount --add [options] <device> <mount_point>"
+    - "D. mount <device> --to <mount_point>"
+  answer: "A"
+
+- question: "Where would you find the default mount point for external USB devices?"
+  options:
+    - "A. /etc/fstab"
+    - "B. /mnt"
+    - "C. /dev"
+    - "D. /var"
+  answer: "B"
+
+- question: "What command can be used to unmount a mounted filesystem?"
+  options:
+    - "A. umount"
+    - "B. remount"
+    - "C. dettach"
+    - "D. unmount"
+  answer: "A"
+
+- question: "Which of the following is a benefit of using LUKS?"
+  options:
+    - "A. Faster read/write speed"
+    - "B. Enhanced data security through disk encryption"
+    - "C. Easier mount management"
+    - "D. Improved performance for SSDs"
+  answer: "B"
+
+- question: "What is the effect of a successful `mount` command?"
+  options:
+    - "A. It deletes the mounted filesystem"
+    - "B. It makes the filesystem accessible at the specified mount point"
+    - "C. It permanently changes the partition table"
+    - "D. It formats the external device"
+  answer: "B"
+
+- question: "What information does LUKS store in its header?"
+  options:
+    - "A. File permissions"
+    - "B. Mount options"
+    - "C. Encryption keys and related metadata"
+    - "D. Disk layout details"
+  answer: "C"
+
+- question: "How can you check all currently mounted filesystems?"
+  options:
+    - "A. cat /mnt"
+    - "B. df -h"
+    - "C. ls /media"
+    - "D. mount | grep mounted"
+  answer: "B"
+
+- question: "What kind of devices can `mount` handle?"
+  options:
+    - "A. Only local devices"
+    - "B. Only remote devices"
+    - "C. Both local and remote devices"
+    - "D. Only devices with a graphical interface"
+  answer: "C"
+
+- question: "What option can you use with `mount` to mount an encrypted device using LUKS?"
+  options:
+    - "A. -o crypt"
+    - "B. -o luks"
+    - "C. -o encrypt"
+    - "D. -o mount"
+  answer: "B"
+
+- question: "What is the purpose of the `options` field in the `/etc/fstab` entries?"
+  options:
+    - "A. To specify which filesystems to ignore"
+    - "B. To configure parameters such as read/write permissions during the mount process"
+    - "C. To define the disk partition order"
+    - "D. To determine the filesystem type"
+  answer: "B"
