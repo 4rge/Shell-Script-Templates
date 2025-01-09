@@ -1,0 +1,119 @@
+- question: "What is the primary function of the SSH service?"
+  options:
+    - "A. To synchronize system time"
+    - "B. To provide secure remote access to the system"
+    - "C. To manage logging for system events"
+    - "D. To monitor network traffic"
+  answer: "B"
+
+- question: "Which file is the main configuration file for SSH?"
+  options:
+    - "A. /etc/ssh/sshd_config"
+    - "B. /etc/ssh/config"
+    - "C. /etc/ssh/ssh_config"
+    - "D. /etc/ssh/hosts"
+  answer: "A"
+
+- question: "How can you enable SSH service to start on boot using systemctl?"
+  options:
+    - "A. systemctl enable ssh"
+    - "B. systemctl start ssh"
+    - "C. systemctl activate sshd"
+    - "D. systemctl enable sshd"
+  answer: "D"
+
+- question: "What is the purpose of the NTP service?"
+  options:
+    - "A. To provide real-time clock synchronization over networks"
+    - "B. To log system events"
+    - "C. To manage network interfaces"
+    - "D. To establish secure shell connections"
+  answer: "A"
+
+- question: "Which command is commonly used to check the status of an NTP service?"
+  options:
+    - "A. ntpstat"
+    - "B. ntpq -p"
+    - "C. timequery"
+    - "D. ntpstat -s"
+  answer: "B"
+
+- question: "What is the default configuration file for NTP?"
+  options:
+    - "A. /etc/ntp.conf"
+    - "B. /etc/ntp/ntp.conf"
+    - "C. /etc/sysconfig/ntp"
+    - "D. /etc/network/ntp.conf"
+  answer: "A"
+
+- question: "Which service is often used as a lightweight alternative to the traditional NTP service?"
+  options:
+    - "A. TimeSync"
+    - "B. chrony"
+    - "C. ntpd"
+    - "D. sntp"
+  answer: "B"
+
+- question: "What command is used to start the chronyd service?"
+  options:
+    - "A. chrony start"
+    - "B. systemctl start chronyd"
+    - "C. service chrony start"
+    - "D. start chronyd"
+  answer: "B"
+
+- question: "Which command can be used to check current time synchronization status with chrony?"
+  options:
+    - "A. chronyc tracking"
+    - "B. chronyc status"
+    - "C. chronyc check"
+    - "D. chronyc sync"
+  answer: "A"
+
+- question: "What does the 'syslog' service do?"
+  options:
+    - "A. Manages package installations"
+    - "B. Collects and stores log messages from various system services"
+    - "C. Provides time synchronization"
+    - "D. Monitors network connections"
+  answer: "B"
+
+- question: "Which configuration file is commonly associated with rsyslog, a popular syslog service?"
+  options:
+    - "A. /etc/syslog.conf"
+    - "B. /etc/rsyslog.conf"
+    - "C. /etc/log.conf"
+    - "D. /etc/logrotate.conf"
+  answer: "B"
+
+- question: "How can you see the log messages managed by the syslog service?"
+  options:
+    - "A. /var/log/syslog"
+    - "B. /var/log/messages"
+    - "C. /var/log/daemon.log"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the process of adjusting the SSH service to only allow key-based authentication?"
+  options:
+    - "A. Set PasswordAuthentication no in /etc/ssh/sshd_config"
+    - "B. Disable SSH service"
+    - "C. Set AllowUsers <user> in /etc/ssh/sshd_config"
+    - "D. Enable PasswordAuthentication in /etc/ssh/sshd_config"
+  answer: "A"
+
+- question: "Which directive in the NTP configuration file defines NTP servers to synchronize time?"
+  options:
+    - "A. server"
+    - "B. ntp_server"
+    - "C. sync"
+    - "D. time_server"
+  answer: "A"
+
+- question: "In chrony, what is the purpose of the 'server' directive in the configuration file?"
+  options:
+    - "A. To set up a local server for log messages"
+    - "B. To define time sources for synchronization"
+    - "C. To block certain time requests"
+    - "D. To send log messages to a remote server"
+  answer: "B"
