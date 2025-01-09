@@ -1,0 +1,119 @@
+- question: "What is the primary function of the 'tcpdump' command?"
+  options:
+    - "A. To analyze network traffic in real-time"
+    - "B. To display active network connections"
+    - "C. To send ICMP echo requests"
+    - "D. To trace the route to a host"
+  answer: "A"
+
+- question: "Which tool is commonly used for deep packet inspection and network traffic analysis?"
+  options:
+    - "A. ping"
+    - "B. netstat"
+    - "C. traceroute"
+    - "D. Wireshark"
+  answer: "D"
+
+- question: "What does the 'tshark' command represent?"
+  options:
+    - "A. A textual interface for Wireshark"
+    - "B. A command-line version of tcpdump"
+    - "C. A tool for tracing network routes"
+    - "D. A utility that does not display packet contents"
+  answer: "A"
+
+- question: "What information does the 'netstat' command provide?"
+  options:
+    - "A. Routing information"
+    - "B. Active TCP/IP connections and listening ports"
+    - "C. Network interface statistics"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What does the 'traceroute' command do?"
+  options:
+    - "A. Displays the current routing table"
+    - "B. Shows the path packets take to reach a destination"
+    - "C. Sends echo requests to check connectivity"
+    - "D. Monitors bandwidth usage"
+  answer: "B"
+
+- question: "What is the purpose of the 'ping' command?"
+  options:
+    - "A. To trace the route to another host"
+    - "B. To send packets to a host to test network connectivity"
+    - "C. To display network statistics"
+    - "D. To configure network interfaces"
+  answer: "B"
+
+- question: "Which tool provides a continuous ping and route monitoring utility?"
+  options:
+    - "A. mtr"
+    - "B. traceroute"
+    - "C. netstat"
+    - "D. tcpdump"
+  answer: "A"
+
+- question: "Which command would you use to capture packets on a specific interface using tcpdump?"
+  options:
+    - "A. tcpdump -i <interface>"
+    - "B. tcpdump --capture <interface>"
+    - "C. tcpdump --interface <interface>"
+    - "D. tcpdump -p <interface>"
+  answer: "A"
+
+- question: "What does the 'mtr' command combine?"
+  options:
+    - "A. ping and netstat functionalities"
+    - "B. traceroute and ping capabilities"
+    - "C. tcpdump and Wireshark features"
+    - "D. arp and netstat functionalities"
+  answer: "B"
+
+- question: "How can you view the results of an ongoing tcpdump capture?"
+  options:
+    - "A. tcpdump -v"
+    - "B. tcpdump -c"
+    - "C. tcpdump -s"
+    - "D. tcpdump -r"
+  answer: "A"
+
+- question: "What type of traffic can 'wireshark' analyze?"
+  options:
+    - "A. Layer 2 (Ethernet) packets"
+    - "B. Layer 3 (IP) packets"
+    - "C. Application layer packets"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What option in 'ping' would you use to send a specific number of packets?"
+  options:
+    - "A. -n"
+    - "B. -c"
+    - "C. -p"
+    - "D. -i"
+  answer: "B"
+
+- question: "What general information will 'netstat -r' display?"
+  options:
+    - "A. Active TCP connections"
+    - "B. The system's routing table"
+    - "C. Listening ports and their status"
+    - "D. Network interface statistics"
+  answer: "B"
+
+- question: "Which command can be used to show who is connected to your server and their respective connections?"
+  options:
+    - "A. tcpdump"
+    - "B. netstat"
+    - "C. mtr"
+    - "D. traceroute"
+  answer: "B"
+
+- question: "If you want to visualize packet loss along a network path, which tool would you likely use?"
+  options:
+    - "A. netstat"
+    - "B. traceroute"
+    - "C. mtr"
+    - "D. tcpdump"
+  answer: "C"
