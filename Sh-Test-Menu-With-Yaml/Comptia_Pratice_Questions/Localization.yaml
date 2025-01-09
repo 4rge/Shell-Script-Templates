@@ -1,0 +1,79 @@
+- question: "What is the primary function of the 'timedatectl' command?"
+  options:
+    - "A. To manage time zones and system time settings"
+    - "B. To change the system language"
+    - "C. To configure network settings"
+    - "D. To handle user account permissions"
+  answer: "A"
+
+- question: "Which command would you use to set the system timezone using timedatectl?"
+  options:
+    - "A. timedatectl set-timezone <timezone>"
+    - "B. timedatectl set-clock <timezone>"
+    - "C. timedatectl change-timezone <timezone>"
+    - "D. timedatectl update-timezone <timezone>"
+  answer: "A"
+
+- question: "What does 'localectl' manage in the system?"
+  options:
+    - "A. Network settings"
+    - "B. System localization settings such as language and keyboard layout"
+    - "C. Time synchronization"
+    - "D. Package installations"
+  answer: "B"
+
+- question: "How can you check the current system locale using localectl?"
+  options:
+    - "A. localectl status"
+    - "B. localectl show"
+    - "C. localectl info"
+    - "D. localectl get"
+  answer: "A"
+
+- question: "What information can you set using 'localectl'?"
+  options:
+    - "A. Language and character encoding"
+    - "B. Time zones"
+    - "C. Hostname"
+    - "D. All of the above"
+  answer: "A"
+
+- question: "Which command would you use to change the system locale to en_US.UTF-8?"
+  options:
+    - "A. localectl set-locale LANG=en_US.UTF-8"
+    - "B. localectl change-locale LANG=en_US.UTF-8"
+    - "C. localectl update-locale LANG=en_US.UTF-8"
+    - "D. localectl configure-locale LANG=en_US.UTF-8"
+  answer: "A"
+
+- question: "What command can be used to display the current timezone set in the system?"
+  options:
+    - "A. timedatectl show-timezone"
+    - "B. timedatectl display-timezone"
+    - "C. timedatectl list-timezones"
+    - "D. timedatectl status"
+  answer: "D"
+
+- question: "How do you list all available time zones using timedatectl?"
+  options:
+    - "A. timedatectl list-timezones"
+    - "B. timedatectl show-timezones"
+    - "C. timedatectl available-timezones"
+    - "D. timedatectl get-timezones"
+  answer: "A"
+
+- question: "In the context of localization, what does the LANG variable control?"
+  options:
+    - "A. The display format of system logs"
+    - "B. The language and character encoding used by the system"
+    - "C. The timezone settings"
+    - "D. The network settings"
+  answer: "B"
+
+- question: "After changing the locale settings using localectl, what action is generally recommended?"
+  options:
+    - "A. Reboot the system"
+    - "B. Restart the graphical session"
+    - "C. Logout and log back in"
+    - "D. No action is required"
+  answer: "C"
