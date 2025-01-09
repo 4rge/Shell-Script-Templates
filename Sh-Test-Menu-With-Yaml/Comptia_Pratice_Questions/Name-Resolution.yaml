@@ -1,0 +1,119 @@
+- question: "What is the purpose of the 'nsswitch.conf' file?"
+  options:
+    - "A. To configure the order of name service resolution"
+    - "B. To define network interfaces"
+    - "C. To manage system services"
+    - "D. To configure firewall rules"
+  answer: "A"
+
+- question: "What is typically found in the '/etc/resolv.conf' file?"
+  options:
+    - "A. DNS server IP addresses"
+    - "B. Hostname configurations"
+    - "C. Network interface settings"
+    - "D. User account settings"
+  answer: "A"
+
+- question: "What command is used to display and modify the system's hostname with systemd?"
+  options:
+    - "A. hostname"
+    - "B. hostnamectl"
+    - "C. sethostname"
+    - "D. sysctl"
+  answer: "B"
+
+- question: "What does the 'resolvectl' command do?"
+  options:
+    - "A. Manage firewall rules"
+    - "B. Control system hostname settings"
+    - "C. Resolve domain names and display DNS information"
+    - "D. Change network interfaces"
+  answer: "C"
+
+- question: "Which command is used to query DNS information using the DNS protocol?"
+  options:
+    - "A. nslookup"
+    - "B. dig"
+    - "C. host"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is the primary function of the 'dig' command?"
+  options:
+    - "A. To lookup local hostnames"
+    - "B. To query DNS servers for information"
+    - "C. To modify DNS server configurations"
+    - "D. To display routing information"
+  answer: "B"
+
+- question: "What does the 'nslookup' command return?"
+  options:
+    - "A. The system's current hostname"
+    - "B. Information about a specific domain's DNS records"
+    - "C. The default gateway"
+    - "D. The running services on the system"
+  answer: "B"
+
+- question: "What is the primary use of the 'host' command?"
+  options:
+    - "A. To display the DNS records associated with a domain"
+    - "B. To change the system hostname"
+    - "C. To manage network configurations"
+    - "D. To display active network connections"
+  answer: "A"
+
+- question: "What type of information can you query using the WHOIS command?"
+  options:
+    - "A. Public details about a domain registration"
+    - "B. DNS server settings"
+    - "C. Network interface configurations"
+    - "D. The system’s hostname"
+  answer: "A"
+
+- question: "What is the effect of modifying the '/etc/resolv.conf' file?"
+  options:
+    - "A. Changing the default network interface"
+    - "B. Altering the domain name resolution settings"
+    - "C. Configuring user privileges"
+    - "D. Updating the system kernel"
+  answer: "B"
+
+- question: "How can you check the current DNS resolution settings using systemd?"
+  options:
+    - "A. resolvectl status"
+    - "B. systemctl status dns"
+    - "C. dig status"
+    - "D. nslookup status"
+  answer: "A"
+
+- question: "Which of the following commands would you use to find the IP address of a domain?"
+  options:
+    - "A. host example.com"
+    - "B. nslookup example.com"
+    - "C. dig example.com"
+    - "D. All of the above"
+  answer: "D"
+
+- question: "What is typically the format of entries in the '/etc/resolv.conf' file?"
+  options:
+    - "A. server=IP_address"
+    - "B. nameserver IP_address"
+    - "C. dns_IP_address"
+    - "D. resolver IP_address"
+  answer: "B"
+
+- question: "Which command is now preferred in systemd-based systems over 'resolv.conf' for querying DNS?"
+  options:
+    - "A. systemd-resolve"
+    - "B. host"
+    - "C. resolvectl"
+    - "D. dnsquery"
+  answer: "C"
+
+- question: "What can be inferred if a DNS query returns a 'NXDOMAIN' error?"
+  options:
+    - "A. The domain does not exist"
+    - "B. The DNS server is unreachable"
+    - "C. The query was successful"
+    - "D. The hostname is correct, but the DNS server is not responding"
+  answer: "A"
