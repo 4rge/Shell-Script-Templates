@@ -1,0 +1,3106 @@
+{
+  "states": {
+    "it is a": [
+      "is a truth",
+      "is a damp",
+      "is a treasure",
+      "is a beautiful"
+    ],
+    "is a truth": [
+      "a truth universally"
+    ],
+    "a truth universally": [
+      "truth universally acknowledged"
+    ],
+    "truth universally acknowledged": [
+      "universally acknowledged that"
+    ],
+    "universally acknowledged that": [
+      "acknowledged that a"
+    ],
+    "acknowledged that a": [
+      "that a single"
+    ],
+    "that a single": [
+      "a single man"
+    ],
+    "a single man": [
+      "single man in",
+      "single man of"
+    ],
+    "single man in": [
+      "man in possession"
+    ],
+    "man in possession": [
+      "in possession of"
+    ],
+    "in possession of": [
+      "possession of a"
+    ],
+    "possession of a": [
+      "of a good"
+    ],
+    "of a good": [
+      "a good fortune"
+    ],
+    "a good fortune": [
+      "good fortune must"
+    ],
+    "good fortune must": [
+      "fortune must be"
+    ],
+    "fortune must be": [
+      "must be in"
+    ],
+    "must be in": [
+      "be in want"
+    ],
+    "be in want": [
+      "in want of"
+    ],
+    "in want of": [
+      "want of a"
+    ],
+    "want of a": [
+      "of a wife"
+    ],
+    "of a wife": [
+      "a wife however"
+    ],
+    "a wife however": [
+      "wife however little"
+    ],
+    "wife however little": [
+      "however little known"
+    ],
+    "however little known": [
+      "little known the"
+    ],
+    "little known the": [
+      "known the feelings"
+    ],
+    "known the feelings": [
+      "the feelings or"
+    ],
+    "the feelings or": [
+      "feelings or views"
+    ],
+    "feelings or views": [
+      "or views of"
+    ],
+    "or views of": [
+      "views of such"
+    ],
+    "views of such": [
+      "of such a"
+    ],
+    "of such a": [
+      "such a man"
+    ],
+    "such a man": [
+      "a man may"
+    ],
+    "a man may": [
+      "man may be"
+    ],
+    "man may be": [
+      "may be on"
+    ],
+    "may be on": [
+      "be on his"
+    ],
+    "be on his": [
+      "on his first"
+    ],
+    "on his first": [
+      "his first entering"
+    ],
+    "his first entering": [
+      "first entering a"
+    ],
+    "first entering a": [
+      "entering a neighbourhood"
+    ],
+    "entering a neighbourhood": [
+      "a neighbourhood this"
+    ],
+    "a neighbourhood this": [
+      "neighbourhood this truth"
+    ],
+    "neighbourhood this truth": [
+      "this truth is"
+    ],
+    "this truth is": [
+      "truth is so"
+    ],
+    "truth is so": [
+      "is so well"
+    ],
+    "is so well": [
+      "so well fixed"
+    ],
+    "so well fixed": [
+      "well fixed in"
+    ],
+    "well fixed in": [
+      "fixed in the"
+    ],
+    "fixed in the": [
+      "in the minds"
+    ],
+    "in the minds": [
+      "the minds of"
+    ],
+    "the minds of": [
+      "minds of the"
+    ],
+    "minds of the": [
+      "of the surrounding"
+    ],
+    "of the surrounding": [
+      "the surrounding families"
+    ],
+    "the surrounding families": [
+      "surrounding families that"
+    ],
+    "surrounding families that": [
+      "families that he"
+    ],
+    "families that he": [
+      "that he is"
+    ],
+    "that he is": [
+      "he is considered",
+      "he is to"
+    ],
+    "he is considered": [
+      "is considered as"
+    ],
+    "is considered as": [
+      "considered as the"
+    ],
+    "considered as the": [
+      "as the rightful"
+    ],
+    "as the rightful": [
+      "the rightful property"
+    ],
+    "the rightful property": [
+      "rightful property of"
+    ],
+    "rightful property of": [
+      "property of some"
+    ],
+    "property of some": [
+      "of some one"
+    ],
+    "of some one": [
+      "some one or"
+    ],
+    "some one or": [
+      "one or other"
+    ],
+    "one or other": [
+      "or other of"
+    ],
+    "or other of": [
+      "other of their"
+    ],
+    "other of their": [
+      "of their daughters"
+    ],
+    "of their daughters": [],
+    "my dear mr": [
+      "dear mr bennet"
+    ],
+    "dear mr bennet": [
+      "mr bennet said",
+      "mr bennet replied"
+    ],
+    "mr bennet said": [
+      "bennet said his"
+    ],
+    "bennet said his": [
+      "said his wife"
+    ],
+    "said his wife": [
+      "his wife to"
+    ],
+    "his wife to": [
+      "wife to him"
+    ],
+    "wife to him": [
+      "to him one"
+    ],
+    "to him one": [
+      "him one day"
+    ],
+    "him one day": [
+      "one day have"
+    ],
+    "one day have": [
+      "day have you"
+    ],
+    "day have you": [
+      "have you heard"
+    ],
+    "have you heard": [
+      "you heard that"
+    ],
+    "you heard that": [
+      "heard that netherfield"
+    ],
+    "heard that netherfield": [
+      "that netherfield park"
+    ],
+    "that netherfield park": [
+      "netherfield park is"
+    ],
+    "netherfield park is": [
+      "park is let"
+    ],
+    "park is let": [
+      "is let at"
+    ],
+    "is let at": [
+      "let at last"
+    ],
+    "let at last": [],
+    "mr bennet replied": [
+      "bennet replied that",
+      "bennet replied his"
+    ],
+    "bennet replied that": [
+      "replied that he"
+    ],
+    "replied that he": [
+      "that he had"
+    ],
+    "that he had": [
+      "he had not"
+    ],
+    "he had not": [],
+    "but it is": [
+      "it is returned",
+      "it is very",
+      "it is a"
+    ],
+    "it is returned": [
+      "is returned she"
+    ],
+    "is returned she": [
+      "returned she for"
+    ],
+    "returned she for": [
+      "she for mrs"
+    ],
+    "she for mrs": [
+      "for mrs long"
+    ],
+    "for mrs long": [
+      "mrs long has"
+    ],
+    "mrs long has": [
+      "long has just"
+    ],
+    "long has just": [
+      "has just been"
+    ],
+    "has just been": [
+      "just been here"
+    ],
+    "just been here": [
+      "been here and"
+    ],
+    "been here and": [
+      "here and she"
+    ],
+    "here and she": [
+      "and she told"
+    ],
+    "and she told": [
+      "she told me"
+    ],
+    "she told me": [
+      "told me all"
+    ],
+    "told me all": [
+      "me all about"
+    ],
+    "me all about": [
+      "all about it"
+    ],
+    "all about it": [],
+    "mr bennet made": [
+      "bennet made no"
+    ],
+    "bennet made no": [
+      "made no answer"
+    ],
+    "made no answer": [],
+    "do not you": [
+      "not you want"
+    ],
+    "not you want": [
+      "you want to"
+    ],
+    "you want to": [
+      "want to know",
+      "want to tell"
+    ],
+    "want to know": [
+      "to know who"
+    ],
+    "to know who": [
+      "know who has"
+    ],
+    "know who has": [
+      "who has taken"
+    ],
+    "who has taken": [
+      "has taken it"
+    ],
+    "has taken it": [
+      "taken it cried"
+    ],
+    "taken it cried": [
+      "it cried his"
+    ],
+    "it cried his": [
+      "cried his wife"
+    ],
+    "cried his wife": [
+      "his wife impatiently"
+    ],
+    "his wife impatiently": [],
+    "want to tell": [
+      "to tell me"
+    ],
+    "to tell me": [
+      "tell me and"
+    ],
+    "tell me and": [
+      "me and i"
+    ],
+    "me and i": [
+      "and i have"
+    ],
+    "and i have": [
+      "i have no"
+    ],
+    "i have no": [
+      "have no objection"
+    ],
+    "have no objection": [
+      "no objection to"
+    ],
+    "no objection to": [
+      "objection to hearing"
+    ],
+    "objection to hearing": [
+      "to hearing it"
+    ],
+    "to hearing it": [],
+    "this was invitation": [
+      "was invitation enough"
+    ],
+    "was invitation enough": [],
+    "why my dear": [
+      "my dear you"
+    ],
+    "my dear you": [
+      "dear you must",
+      "dear you flatter"
+    ],
+    "dear you must": [
+      "you must know",
+      "you must indeed"
+    ],
+    "you must know": [
+      "must know mrs",
+      "must know that"
+    ],
+    "must know mrs": [
+      "know mrs long"
+    ],
+    "know mrs long": [
+      "mrs long says"
+    ],
+    "mrs long says": [
+      "long says that"
+    ],
+    "long says that": [
+      "says that netherfield"
+    ],
+    "says that netherfield": [
+      "that netherfield is"
+    ],
+    "that netherfield is": [
+      "netherfield is taken"
+    ],
+    "netherfield is taken": [
+      "is taken at"
+    ],
+    "is taken at": [
+      "taken at last"
+    ],
+    "taken at last": [
+      "at last by"
+    ],
+    "at last by": [
+      "last by a"
+    ],
+    "last by a": [
+      "by a young"
+    ],
+    "by a young": [
+      "a young man"
+    ],
+    "a young man": [
+      "young man of"
+    ],
+    "young man of": [
+      "man of large"
+    ],
+    "man of large": [
+      "of large fortune"
+    ],
+    "of large fortune": [
+      "large fortune from",
+      "large fortune four"
+    ],
+    "large fortune from": [
+      "fortune from the"
+    ],
+    "fortune from the": [
+      "from the north"
+    ],
+    "from the north": [
+      "the north of"
+    ],
+    "the north of": [
+      "north of england"
+    ],
+    "north of england": [
+      "of england that"
+    ],
+    "of england that": [
+      "england that he"
+    ],
+    "england that he": [
+      "that he came"
+    ],
+    "that he came": [
+      "he came down"
+    ],
+    "he came down": [
+      "came down on"
+    ],
+    "came down on": [
+      "down on monday"
+    ],
+    "down on monday": [
+      "on monday in"
+    ],
+    "on monday in": [
+      "monday in a"
+    ],
+    "monday in a": [
+      "in a chaise"
+    ],
+    "in a chaise": [
+      "a chaise and"
+    ],
+    "a chaise and": [
+      "chaise and four"
+    ],
+    "chaise and four": [
+      "and four to"
+    ],
+    "and four to": [
+      "four to see"
+    ],
+    "four to see": [
+      "to see the"
+    ],
+    "to see the": [
+      "see the place"
+    ],
+    "see the place": [
+      "the place and"
+    ],
+    "the place and": [
+      "place and was"
+    ],
+    "place and was": [
+      "and was so"
+    ],
+    "and was so": [
+      "was so much"
+    ],
+    "was so much": [
+      "so much delighted"
+    ],
+    "so much delighted": [
+      "much delighted with"
+    ],
+    "much delighted with": [
+      "delighted with it"
+    ],
+    "delighted with it": [
+      "with it that"
+    ],
+    "with it that": [
+      "it that he"
+    ],
+    "it that he": [
+      "that he agreed"
+    ],
+    "that he agreed": [
+      "he agreed with"
+    ],
+    "he agreed with": [
+      "agreed with mr"
+    ],
+    "agreed with mr": [
+      "with mr morris"
+    ],
+    "with mr morris": [
+      "mr morris immediately"
+    ],
+    "mr morris immediately": [
+      "morris immediately that"
+    ],
+    "morris immediately that": [
+      "immediately that he"
+    ],
+    "immediately that he": [
+      "that he is"
+    ],
+    "he is to": [
+      "is to take"
+    ],
+    "is to take": [
+      "to take possession"
+    ],
+    "to take possession": [
+      "take possession before"
+    ],
+    "take possession before": [
+      "possession before michaelmas"
+    ],
+    "possession before michaelmas": [
+      "before michaelmas and"
+    ],
+    "before michaelmas and": [
+      "michaelmas and some"
+    ],
+    "michaelmas and some": [
+      "and some of"
+    ],
+    "and some of": [
+      "some of his"
+    ],
+    "some of his": [
+      "of his servants"
+    ],
+    "of his servants": [
+      "his servants are"
+    ],
+    "his servants are": [
+      "servants are to"
+    ],
+    "servants are to": [
+      "are to be"
+    ],
+    "are to be": [
+      "to be in"
+    ],
+    "to be in": [
+      "be in the"
+    ],
+    "be in the": [
+      "in the house"
+    ],
+    "in the house": [
+      "the house by"
+    ],
+    "the house by": [
+      "house by the"
+    ],
+    "house by the": [
+      "by the end"
+    ],
+    "by the end": [
+      "the end of"
+    ],
+    "the end of": [
+      "end of next"
+    ],
+    "end of next": [
+      "of next week"
+    ],
+    "of next week": [],
+    "what is his": [
+      "is his name"
+    ],
+    "is his name": [],
+    "is he married": [
+      "he married or"
+    ],
+    "he married or": [
+      "married or single"
+    ],
+    "married or single": [],
+    "oh single my": [
+      "single my dear"
+    ],
+    "single my dear": [
+      "my dear to"
+    ],
+    "my dear to": [
+      "dear to be"
+    ],
+    "dear to be": [
+      "to be sure"
+    ],
+    "to be sure": [
+      "be sure a"
+    ],
+    "be sure a": [
+      "sure a single"
+    ],
+    "sure a single": [
+      "a single man"
+    ],
+    "single man of": [
+      "man of large"
+    ],
+    "large fortune four": [
+      "fortune four or"
+    ],
+    "fortune four or": [
+      "four or five"
+    ],
+    "four or five": [
+      "or five thousand"
+    ],
+    "or five thousand": [
+      "five thousand a"
+    ],
+    "five thousand a": [
+      "thousand a year"
+    ],
+    "thousand a year": [
+      "a year what"
+    ],
+    "a year what": [
+      "year what a"
+    ],
+    "year what a": [
+      "what a fine"
+    ],
+    "what a fine": [
+      "a fine thing"
+    ],
+    "a fine thing": [
+      "fine thing for"
+    ],
+    "fine thing for": [
+      "thing for our"
+    ],
+    "thing for our": [
+      "for our girls"
+    ],
+    "for our girls": [],
+    "how so how": [
+      "so how can"
+    ],
+    "so how can": [
+      "how can it"
+    ],
+    "how can it": [
+      "can it affect"
+    ],
+    "can it affect": [
+      "it affect them"
+    ],
+    "it affect them": [],
+    "bennet replied his": [
+      "replied his wife"
+    ],
+    "replied his wife": [
+      "his wife how"
+    ],
+    "his wife how": [
+      "wife how can"
+    ],
+    "wife how can": [
+      "how can you"
+    ],
+    "how can you": [
+      "can you be",
+      "can you talk"
+    ],
+    "can you be": [
+      "you be so"
+    ],
+    "you be so": [
+      "be so tiresome"
+    ],
+    "be so tiresome": [
+      "so tiresome you"
+    ],
+    "so tiresome you": [
+      "tiresome you must"
+    ],
+    "tiresome you must": [
+      "you must know"
+    ],
+    "must know that": [
+      "know that i"
+    ],
+    "know that i": [
+      "that i am"
+    ],
+    "that i am": [
+      "i am thinking"
+    ],
+    "i am thinking": [
+      "am thinking of"
+    ],
+    "am thinking of": [
+      "thinking of his"
+    ],
+    "thinking of his": [
+      "of his marrying"
+    ],
+    "of his marrying": [
+      "his marrying one"
+    ],
+    "his marrying one": [
+      "marrying one of"
+    ],
+    "marrying one of": [
+      "one of them"
+    ],
+    "one of them": [
+      "of them and",
+      "of them sir"
+    ],
+    "is that his": [
+      "that his design"
+    ],
+    "that his design": [
+      "his design in"
+    ],
+    "his design in": [
+      "design in settling"
+    ],
+    "design in settling": [
+      "in settling here"
+    ],
+    "in settling here": [],
+    "design nonsense how": [
+      "nonsense how can"
+    ],
+    "nonsense how can": [
+      "how can you"
+    ],
+    "can you talk": [
+      "you talk so"
+    ],
+    "you talk so": [
+      "talk so but"
+    ],
+    "talk so but": [
+      "so but it"
+    ],
+    "so but it": [
+      "but it is"
+    ],
+    "it is very": [
+      "is very likely"
+    ],
+    "is very likely": [
+      "very likely that"
+    ],
+    "very likely that": [
+      "likely that he"
+    ],
+    "likely that he": [
+      "that he may"
+    ],
+    "that he may": [
+      "he may fall"
+    ],
+    "he may fall": [
+      "may fall in"
+    ],
+    "may fall in": [
+      "fall in love"
+    ],
+    "fall in love": [
+      "in love with"
+    ],
+    "in love with": [
+      "love with one"
+    ],
+    "love with one": [
+      "with one of"
+    ],
+    "with one of": [
+      "one of them"
+    ],
+    "of them and": [
+      "them and therefore"
+    ],
+    "them and therefore": [
+      "and therefore you"
+    ],
+    "and therefore you": [
+      "therefore you must"
+    ],
+    "therefore you must": [
+      "you must visit"
+    ],
+    "you must visit": [
+      "must visit him"
+    ],
+    "must visit him": [
+      "visit him as"
+    ],
+    "visit him as": [
+      "him as soon"
+    ],
+    "him as soon": [
+      "as soon as"
+    ],
+    "as soon as": [
+      "soon as he",
+      "soon as i"
+    ],
+    "soon as he": [
+      "as he comes"
+    ],
+    "as he comes": [],
+    "i see no": [
+      "see no occasion"
+    ],
+    "see no occasion": [
+      "no occasion for"
+    ],
+    "no occasion for": [
+      "occasion for that"
+    ],
+    "occasion for that": [
+      "for that you"
+    ],
+    "for that you": [
+      "that you and"
+    ],
+    "that you and": [
+      "you and the"
+    ],
+    "you and the": [
+      "and the girls"
+    ],
+    "and the girls": [
+      "the girls may"
+    ],
+    "the girls may": [
+      "girls may go"
+    ],
+    "girls may go": [
+      "may go or"
+    ],
+    "may go or": [
+      "go or you"
+    ],
+    "go or you": [
+      "or you may"
+    ],
+    "or you may": [
+      "you may send"
+    ],
+    "you may send": [
+      "may send them"
+    ],
+    "may send them": [
+      "send them by"
+    ],
+    "send them by": [
+      "them by themselves"
+    ],
+    "them by themselves": [
+      "by themselves which"
+    ],
+    "by themselves which": [
+      "themselves which perhaps"
+    ],
+    "themselves which perhaps": [
+      "which perhaps will"
+    ],
+    "which perhaps will": [
+      "perhaps will be"
+    ],
+    "perhaps will be": [
+      "will be still"
+    ],
+    "will be still": [
+      "be still better"
+    ],
+    "be still better": [
+      "still better for"
+    ],
+    "still better for": [
+      "better for as"
+    ],
+    "better for as": [
+      "for as you"
+    ],
+    "for as you": [
+      "as you are"
+    ],
+    "as you are": [
+      "you are as"
+    ],
+    "you are as": [
+      "are as handsome"
+    ],
+    "are as handsome": [
+      "as handsome as"
+    ],
+    "as handsome as": [
+      "handsome as any"
+    ],
+    "handsome as any": [
+      "as any of"
+    ],
+    "as any of": [
+      "any of them"
+    ],
+    "any of them": [
+      "of them mr"
+    ],
+    "of them mr": [
+      "them mr bingley"
+    ],
+    "them mr bingley": [
+      "mr bingley might"
+    ],
+    "mr bingley might": [
+      "bingley might like"
+    ],
+    "bingley might like": [
+      "might like you"
+    ],
+    "might like you": [
+      "like you the"
+    ],
+    "like you the": [
+      "you the best"
+    ],
+    "you the best": [
+      "the best of"
+    ],
+    "the best of": [
+      "best of the"
+    ],
+    "best of the": [
+      "of the party"
+    ],
+    "of the party": [],
+    "dear you flatter": [
+      "you flatter me"
+    ],
+    "you flatter me": [
+      "flatter me i"
+    ],
+    "flatter me i": [
+      "me i certainly"
+    ],
+    "me i certainly": [
+      "i certainly have"
+    ],
+    "i certainly have": [
+      "certainly have had"
+    ],
+    "certainly have had": [
+      "have had my"
+    ],
+    "have had my": [
+      "had my share"
+    ],
+    "had my share": [
+      "my share of"
+    ],
+    "my share of": [
+      "share of beauty"
+    ],
+    "share of beauty": [
+      "of beauty but"
+    ],
+    "of beauty but": [
+      "beauty but i"
+    ],
+    "beauty but i": [
+      "but i do"
+    ],
+    "but i do": [
+      "i do not"
+    ],
+    "i do not": [
+      "do not pretend"
+    ],
+    "do not pretend": [
+      "not pretend to"
+    ],
+    "not pretend to": [
+      "pretend to be"
+    ],
+    "pretend to be": [
+      "to be any"
+    ],
+    "to be any": [
+      "be any thing"
+    ],
+    "be any thing": [
+      "any thing extraordinary"
+    ],
+    "any thing extraordinary": [
+      "thing extraordinary now"
+    ],
+    "thing extraordinary now": [
+      "extraordinary now when"
+    ],
+    "extraordinary now when": [
+      "now when a"
+    ],
+    "now when a": [
+      "when a woman"
+    ],
+    "when a woman": [
+      "a woman has"
+    ],
+    "a woman has": [
+      "woman has five",
+      "woman has not"
+    ],
+    "woman has five": [
+      "has five grownup"
+    ],
+    "has five grownup": [
+      "five grownup daughters"
+    ],
+    "five grownup daughters": [
+      "grownup daughters she"
+    ],
+    "grownup daughters she": [
+      "daughters she ought"
+    ],
+    "daughters she ought": [
+      "she ought to"
+    ],
+    "she ought to": [
+      "ought to give"
+    ],
+    "ought to give": [
+      "to give over"
+    ],
+    "to give over": [
+      "give over thinking"
+    ],
+    "give over thinking": [
+      "over thinking of"
+    ],
+    "over thinking of": [
+      "thinking of her"
+    ],
+    "thinking of her": [
+      "of her own"
+    ],
+    "of her own": [
+      "her own beauty"
+    ],
+    "her own beauty": [],
+    "in such cases": [
+      "such cases a"
+    ],
+    "such cases a": [
+      "cases a woman"
+    ],
+    "cases a woman": [
+      "a woman has"
+    ],
+    "woman has not": [
+      "has not often"
+    ],
+    "has not often": [
+      "not often much"
+    ],
+    "not often much": [
+      "often much beauty"
+    ],
+    "often much beauty": [
+      "much beauty to"
+    ],
+    "much beauty to": [
+      "beauty to think"
+    ],
+    "beauty to think": [
+      "to think of"
+    ],
+    "to think of": [],
+    "but my dear": [
+      "my dear you"
+    ],
+    "you must indeed": [
+      "must indeed go"
+    ],
+    "must indeed go": [
+      "indeed go and"
+    ],
+    "indeed go and": [
+      "go and see"
+    ],
+    "go and see": [
+      "and see mr"
+    ],
+    "and see mr": [
+      "see mr bingley"
+    ],
+    "see mr bingley": [
+      "mr bingley when"
+    ],
+    "mr bingley when": [
+      "bingley when he"
+    ],
+    "bingley when he": [
+      "when he comes"
+    ],
+    "when he comes": [
+      "he comes into"
+    ],
+    "he comes into": [
+      "comes into the"
+    ],
+    "comes into the": [
+      "into the neighbourhood"
+    ],
+    "into the neighbourhood": [],
+    "it is more": [
+      "is more than"
+    ],
+    "is more than": [
+      "more than i"
+    ],
+    "more than i": [
+      "than i engage"
+    ],
+    "than i engage": [
+      "i engage for"
+    ],
+    "i engage for": [
+      "engage for i"
+    ],
+    "engage for i": [
+      "for i assure"
+    ],
+    "for i assure": [
+      "i assure you"
+    ],
+    "i assure you": [],
+    "but consider your": [
+      "consider your daughters"
+    ],
+    "consider your daughters": [
+      "your daughters only"
+    ],
+    "your daughters only": [
+      "daughters only think"
+    ],
+    "daughters only think": [
+      "only think what"
+    ],
+    "only think what": [
+      "think what an"
+    ],
+    "think what an": [
+      "what an establishment"
+    ],
+    "what an establishment": [
+      "an establishment it"
+    ],
+    "an establishment it": [
+      "establishment it would"
+    ],
+    "establishment it would": [
+      "it would be"
+    ],
+    "it would be": [
+      "would be for"
+    ],
+    "would be for": [
+      "be for one"
+    ],
+    "be for one": [
+      "for one of"
+    ],
+    "for one of": [
+      "one of them"
+    ],
+    "of them sir": [
+      "them sir william"
+    ],
+    "them sir william": [
+      "sir william lucas"
+    ],
+    "sir william lucas": [
+      "william lucas and"
+    ],
+    "william lucas and": [
+      "lucas and dear"
+    ],
+    "lucas and dear": [
+      "and dear mrs"
+    ],
+    "and dear mrs": [
+      "dear mrs lucas"
+    ],
+    "dear mrs lucas": [
+      "mrs lucas will"
+    ],
+    "mrs lucas will": [
+      "lucas will be"
+    ],
+    "lucas will be": [
+      "will be travelling"
+    ],
+    "will be travelling": [
+      "be travelling back"
+    ],
+    "be travelling back": [
+      "travelling back and"
+    ],
+    "travelling back and": [
+      "back and forth"
+    ],
+    "back and forth": [
+      "and forth wishing"
+    ],
+    "and forth wishing": [
+      "forth wishing all"
+    ],
+    "forth wishing all": [
+      "wishing all the"
+    ],
+    "wishing all the": [
+      "all the best"
+    ],
+    "all the best": [],
+    "true but the": [
+      "but the beauty"
+    ],
+    "but the beauty": [
+      "the beauty of"
+    ],
+    "the beauty of": [
+      "beauty of it"
+    ],
+    "beauty of it": [
+      "of it all"
+    ],
+    "of it all": [
+      "it all is"
+    ],
+    "it all is": [
+      "all is in"
+    ],
+    "all is in": [
+      "is in the"
+    ],
+    "is in the": [
+      "in the pursuit"
+    ],
+    "in the pursuit": [
+      "the pursuit of"
+    ],
+    "the pursuit of": [
+      "pursuit of happiness"
+    ],
+    "pursuit of happiness": [
+      "of happiness is"
+    ],
+    "of happiness is": [
+      "happiness is it"
+    ],
+    "happiness is it": [
+      "is it not"
+    ],
+    "is it not": [],
+    "call me ishmael": [
+      "me ishmael some"
+    ],
+    "me ishmael some": [
+      "ishmael some years"
+    ],
+    "ishmael some years": [
+      "some years ago—never"
+    ],
+    "some years ago—never": [
+      "years ago—never mind"
+    ],
+    "years ago—never mind": [
+      "ago—never mind how"
+    ],
+    "ago—never mind how": [
+      "mind how long"
+    ],
+    "mind how long": [
+      "how long precisely—i"
+    ],
+    "how long precisely—i": [
+      "long precisely—i had"
+    ],
+    "long precisely—i had": [
+      "precisely—i had little"
+    ],
+    "precisely—i had little": [
+      "had little or"
+    ],
+    "had little or": [
+      "little or no"
+    ],
+    "little or no": [
+      "or no money"
+    ],
+    "or no money": [
+      "no money in"
+    ],
+    "no money in": [
+      "money in my"
+    ],
+    "money in my": [
+      "in my purse"
+    ],
+    "in my purse": [
+      "my purse and"
+    ],
+    "my purse and": [
+      "purse and nothing"
+    ],
+    "purse and nothing": [
+      "and nothing particular"
+    ],
+    "and nothing particular": [
+      "nothing particular to"
+    ],
+    "nothing particular to": [
+      "particular to interest"
+    ],
+    "particular to interest": [
+      "to interest me"
+    ],
+    "to interest me": [
+      "interest me on"
+    ],
+    "interest me on": [
+      "me on shore"
+    ],
+    "me on shore": [
+      "on shore so"
+    ],
+    "on shore so": [
+      "shore so whenever"
+    ],
+    "shore so whenever": [
+      "so whenever i"
+    ],
+    "so whenever i": [
+      "whenever i find"
+    ],
+    "whenever i find": [
+      "i find myself"
+    ],
+    "i find myself": [
+      "find myself growing",
+      "find myself involuntarily",
+      "find myself too"
+    ],
+    "find myself growing": [
+      "myself growing grim"
+    ],
+    "myself growing grim": [
+      "growing grim about"
+    ],
+    "growing grim about": [
+      "grim about the"
+    ],
+    "grim about the": [
+      "about the mouth"
+    ],
+    "about the mouth": [
+      "the mouth whenever"
+    ],
+    "the mouth whenever": [
+      "mouth whenever it"
+    ],
+    "mouth whenever it": [
+      "whenever it is"
+    ],
+    "whenever it is": [
+      "it is a"
+    ],
+    "is a damp": [
+      "a damp drizzly"
+    ],
+    "a damp drizzly": [
+      "damp drizzly november"
+    ],
+    "damp drizzly november": [
+      "drizzly november in"
+    ],
+    "drizzly november in": [
+      "november in my"
+    ],
+    "november in my": [
+      "in my soul"
+    ],
+    "in my soul": [
+      "my soul whenever"
+    ],
+    "my soul whenever": [
+      "soul whenever i"
+    ],
+    "soul whenever i": [
+      "whenever i find"
+    ],
+    "find myself involuntarily": [
+      "myself involuntarily pausing"
+    ],
+    "myself involuntarily pausing": [
+      "involuntarily pausing before"
+    ],
+    "involuntarily pausing before": [
+      "pausing before coffin"
+    ],
+    "pausing before coffin": [
+      "before coffin warehouses"
+    ],
+    "before coffin warehouses": [
+      "coffin warehouses and"
+    ],
+    "coffin warehouses and": [
+      "warehouses and bringing"
+    ],
+    "warehouses and bringing": [
+      "and bringing up"
+    ],
+    "and bringing up": [
+      "bringing up the"
+    ],
+    "bringing up the": [
+      "up the rear"
+    ],
+    "up the rear": [
+      "the rear of"
+    ],
+    "the rear of": [
+      "rear of every"
+    ],
+    "rear of every": [
+      "of every funeral"
+    ],
+    "of every funeral": [
+      "every funeral i"
+    ],
+    "every funeral i": [
+      "funeral i meet"
+    ],
+    "funeral i meet": [
+      "i meet and"
+    ],
+    "i meet and": [
+      "meet and especially"
+    ],
+    "meet and especially": [
+      "and especially whenever"
+    ],
+    "and especially whenever": [
+      "especially whenever my"
+    ],
+    "especially whenever my": [
+      "whenever my hypos"
+    ],
+    "whenever my hypos": [
+      "my hypos get"
+    ],
+    "my hypos get": [
+      "hypos get such"
+    ],
+    "hypos get such": [
+      "get such an"
+    ],
+    "get such an": [
+      "such an upper"
+    ],
+    "such an upper": [
+      "an upper hand"
+    ],
+    "an upper hand": [
+      "upper hand of"
+    ],
+    "upper hand of": [
+      "hand of me"
+    ],
+    "hand of me": [
+      "of me that"
+    ],
+    "of me that": [
+      "me that it"
+    ],
+    "me that it": [
+      "that it requires"
+    ],
+    "that it requires": [
+      "it requires a"
+    ],
+    "it requires a": [
+      "requires a strong"
+    ],
+    "requires a strong": [
+      "a strong moral"
+    ],
+    "a strong moral": [
+      "strong moral principle"
+    ],
+    "strong moral principle": [
+      "moral principle to"
+    ],
+    "moral principle to": [
+      "principle to prevent"
+    ],
+    "principle to prevent": [
+      "to prevent me"
+    ],
+    "to prevent me": [
+      "prevent me from"
+    ],
+    "prevent me from": [
+      "me from deliberately"
+    ],
+    "me from deliberately": [
+      "from deliberately stepping"
+    ],
+    "from deliberately stepping": [
+      "deliberately stepping into"
+    ],
+    "deliberately stepping into": [
+      "stepping into the"
+    ],
+    "stepping into the": [
+      "into the street"
+    ],
+    "into the street": [
+      "the street and"
+    ],
+    "the street and": [
+      "street and methodically"
+    ],
+    "street and methodically": [
+      "and methodically knocking"
+    ],
+    "and methodically knocking": [
+      "methodically knocking people’s"
+    ],
+    "methodically knocking people’s": [
+      "knocking people’s hats"
+    ],
+    "knocking people’s hats": [
+      "people’s hats off—then"
+    ],
+    "people’s hats off—then": [
+      "hats off—then i"
+    ],
+    "hats off—then i": [
+      "off—then i account"
+    ],
+    "off—then i account": [
+      "i account it"
+    ],
+    "i account it": [
+      "account it high"
+    ],
+    "account it high": [
+      "it high time"
+    ],
+    "it high time": [
+      "high time to"
+    ],
+    "high time to": [
+      "time to get"
+    ],
+    "time to get": [
+      "to get to"
+    ],
+    "to get to": [
+      "get to sea"
+    ],
+    "get to sea": [
+      "to sea as"
+    ],
+    "to sea as": [
+      "sea as soon"
+    ],
+    "sea as soon": [
+      "as soon as"
+    ],
+    "soon as i": [
+      "as i can"
+    ],
+    "as i can": [],
+    "this is my": [
+      "is my substitute"
+    ],
+    "is my substitute": [
+      "my substitute for"
+    ],
+    "my substitute for": [
+      "substitute for pistol"
+    ],
+    "substitute for pistol": [
+      "for pistol and"
+    ],
+    "for pistol and": [
+      "pistol and ball"
+    ],
+    "pistol and ball": [
+      "and ball with"
+    ],
+    "and ball with": [
+      "ball with a"
+    ],
+    "ball with a": [
+      "with a philosophical"
+    ],
+    "with a philosophical": [
+      "a philosophical flourish"
+    ],
+    "a philosophical flourish": [
+      "philosophical flourish cato"
+    ],
+    "philosophical flourish cato": [
+      "flourish cato throws"
+    ],
+    "flourish cato throws": [
+      "cato throws himself"
+    ],
+    "cato throws himself": [
+      "throws himself upon"
+    ],
+    "throws himself upon": [
+      "himself upon his"
+    ],
+    "himself upon his": [
+      "upon his sword"
+    ],
+    "upon his sword": [
+      "his sword i"
+    ],
+    "his sword i": [
+      "sword i quietly"
+    ],
+    "sword i quietly": [
+      "i quietly take"
+    ],
+    "i quietly take": [
+      "quietly take to"
+    ],
+    "quietly take to": [
+      "take to the"
+    ],
+    "take to the": [
+      "to the sea"
+    ],
+    "to the sea": [
+      "the sea there"
+    ],
+    "the sea there": [
+      "sea there is"
+    ],
+    "sea there is": [
+      "there is nothing"
+    ],
+    "there is nothing": [
+      "is nothing surprising"
+    ],
+    "is nothing surprising": [
+      "nothing surprising in"
+    ],
+    "nothing surprising in": [
+      "surprising in this"
+    ],
+    "surprising in this": [
+      "in this if"
+    ],
+    "in this if": [
+      "this if they"
+    ],
+    "this if they": [
+      "if they but"
+    ],
+    "if they but": [
+      "they but knew"
+    ],
+    "they but knew": [
+      "but knew it"
+    ],
+    "but knew it": [
+      "knew it almost"
+    ],
+    "knew it almost": [
+      "it almost all"
+    ],
+    "it almost all": [
+      "almost all men"
+    ],
+    "almost all men": [
+      "all men in"
+    ],
+    "all men in": [
+      "men in their"
+    ],
+    "men in their": [
+      "in their degree"
+    ],
+    "in their degree": [
+      "their degree some"
+    ],
+    "their degree some": [
+      "degree some time"
+    ],
+    "degree some time": [
+      "some time or"
+    ],
+    "some time or": [
+      "time or other"
+    ],
+    "time or other": [
+      "or other cherish"
+    ],
+    "or other cherish": [
+      "other cherish very"
+    ],
+    "other cherish very": [
+      "cherish very nearly"
+    ],
+    "cherish very nearly": [
+      "very nearly the"
+    ],
+    "very nearly the": [
+      "nearly the same"
+    ],
+    "nearly the same": [
+      "the same feelings"
+    ],
+    "the same feelings": [
+      "same feelings towards"
+    ],
+    "same feelings towards": [
+      "feelings towards the"
+    ],
+    "feelings towards the": [
+      "towards the ocean"
+    ],
+    "towards the ocean": [
+      "the ocean with"
+    ],
+    "the ocean with": [
+      "ocean with me"
+    ],
+    "ocean with me": [],
+    "there now is": [
+      "now is your"
+    ],
+    "now is your": [
+      "is your insular"
+    ],
+    "is your insular": [
+      "your insular city"
+    ],
+    "your insular city": [
+      "insular city of"
+    ],
+    "insular city of": [
+      "city of the"
+    ],
+    "city of the": [
+      "of the manhattoes"
+    ],
+    "of the manhattoes": [
+      "the manhattoes lying"
+    ],
+    "the manhattoes lying": [
+      "manhattoes lying well"
+    ],
+    "manhattoes lying well": [
+      "lying well out"
+    ],
+    "lying well out": [
+      "well out towards"
+    ],
+    "well out towards": [
+      "out towards the"
+    ],
+    "out towards the": [
+      "towards the sea"
+    ],
+    "towards the sea": [
+      "the sea and"
+    ],
+    "the sea and": [
+      "sea and the"
+    ],
+    "sea and the": [
+      "and the longest"
+    ],
+    "and the longest": [
+      "the longest strip"
+    ],
+    "the longest strip": [
+      "longest strip of"
+    ],
+    "longest strip of": [
+      "strip of water"
+    ],
+    "strip of water": [
+      "of water for"
+    ],
+    "of water for": [
+      "water for it"
+    ],
+    "water for it": [
+      "for it to"
+    ],
+    "for it to": [
+      "it to lie"
+    ],
+    "it to lie": [
+      "to lie beside"
+    ],
+    "to lie beside": [
+      "lie beside the"
+    ],
+    "lie beside the": [
+      "beside the ocean"
+    ],
+    "beside the ocean": [
+      "the ocean is"
+    ],
+    "the ocean is": [
+      "ocean is the"
+    ],
+    "ocean is the": [
+      "is the great"
+    ],
+    "is the great": [
+      "the great unifier",
+      "the great teacher",
+      "the great psychologist"
+    ],
+    "the great unifier": [
+      "great unifier it"
+    ],
+    "great unifier it": [
+      "unifier it is"
+    ],
+    "unifier it is": [
+      "it is the"
+    ],
+    "it is the": [
+      "is the great"
+    ],
+    "the great teacher": [
+      "great teacher it"
+    ],
+    "great teacher it": [
+      "teacher it is"
+    ],
+    "teacher it is": [
+      "it is the"
+    ],
+    "the great psychologist": [
+      "great psychologist feeding"
+    ],
+    "great psychologist feeding": [
+      "psychologist feeding upon"
+    ],
+    "psychologist feeding upon": [
+      "feeding upon men’s"
+    ],
+    "feeding upon men’s": [
+      "upon men’s thoughts"
+    ],
+    "upon men’s thoughts": [
+      "men’s thoughts and"
+    ],
+    "men’s thoughts and": [
+      "thoughts and dreams"
+    ],
+    "thoughts and dreams": [],
+    "in a word": [
+      "a word the"
+    ],
+    "a word the": [
+      "word the sea"
+    ],
+    "word the sea": [
+      "the sea is"
+    ],
+    "the sea is": [
+      "sea is a"
+    ],
+    "sea is a": [
+      "is a wonderful"
+    ],
+    "is a wonderful": [
+      "a wonderful place"
+    ],
+    "a wonderful place": [
+      "wonderful place full"
+    ],
+    "wonderful place full": [
+      "place full of"
+    ],
+    "place full of": [
+      "full of beautiful"
+    ],
+    "full of beautiful": [
+      "of beautiful mysteries"
+    ],
+    "of beautiful mysteries": [
+      "beautiful mysteries and"
+    ],
+    "beautiful mysteries and": [
+      "mysteries and natural"
+    ],
+    "mysteries and natural": [
+      "and natural wonders"
+    ],
+    "and natural wonders": [
+      "natural wonders the"
+    ],
+    "natural wonders the": [
+      "wonders the beauty"
+    ],
+    "wonders the beauty": [
+      "the beauty about"
+    ],
+    "the beauty about": [
+      "beauty about it"
+    ],
+    "beauty about it": [
+      "about it simply"
+    ],
+    "about it simply": [
+      "it simply overwhelms"
+    ],
+    "it simply overwhelms": [
+      "simply overwhelms all"
+    ],
+    "simply overwhelms all": [
+      "overwhelms all its"
+    ],
+    "overwhelms all its": [
+      "all its inhabitants"
+    ],
+    "all its inhabitants": [
+      "its inhabitants it"
+    ],
+    "its inhabitants it": [
+      "inhabitants it is"
+    ],
+    "inhabitants it is": [
+      "it is a"
+    ],
+    "is a treasure": [
+      "a treasure that"
+    ],
+    "a treasure that": [
+      "treasure that bestows"
+    ],
+    "treasure that bestows": [
+      "that bestows upon"
+    ],
+    "that bestows upon": [
+      "bestows upon all"
+    ],
+    "bestows upon all": [
+      "upon all its"
+    ],
+    "upon all its": [
+      "all its countless"
+    ],
+    "all its countless": [
+      "its countless passengers"
+    ],
+    "its countless passengers": [
+      "countless passengers stories"
+    ],
+    "countless passengers stories": [
+      "passengers stories worth"
+    ],
+    "passengers stories worth": [
+      "stories worth telling"
+    ],
+    "stories worth telling": [
+      "worth telling they"
+    ],
+    "worth telling they": [
+      "telling they come"
+    ],
+    "telling they come": [
+      "they come they"
+    ],
+    "they come they": [
+      "come they go"
+    ],
+    "come they go": [
+      "they go and"
+    ],
+    "they go and": [
+      "go and they"
+    ],
+    "go and they": [
+      "and they leave"
+    ],
+    "and they leave": [
+      "they leave but"
+    ],
+    "they leave but": [
+      "leave but a"
+    ],
+    "leave but a": [
+      "but a trail"
+    ],
+    "but a trail": [],
+    "find myself too": [
+      "myself too far"
+    ],
+    "myself too far": [
+      "too far apart"
+    ],
+    "too far apart": [
+      "far apart from"
+    ],
+    "far apart from": [
+      "apart from it"
+    ],
+    "apart from it": [
+      "from it i"
+    ],
+    "from it i": [
+      "it i know"
+    ],
+    "it i know": [
+      "i know it"
+    ],
+    "i know it": [
+      "know it is"
+    ],
+    "know it is": [
+      "it is time"
+    ],
+    "it is time": [
+      "is time to"
+    ],
+    "is time to": [
+      "time to return"
+    ],
+    "time to return": [],
+    "you will rejoice": [
+      "will rejoice to"
+    ],
+    "will rejoice to": [
+      "rejoice to hear"
+    ],
+    "rejoice to hear": [
+      "to hear that"
+    ],
+    "to hear that": [
+      "hear that no"
+    ],
+    "hear that no": [
+      "that no disaster"
+    ],
+    "that no disaster": [
+      "no disaster has"
+    ],
+    "no disaster has": [
+      "disaster has accompanied"
+    ],
+    "disaster has accompanied": [
+      "has accompanied the"
+    ],
+    "has accompanied the": [
+      "accompanied the commencement"
+    ],
+    "accompanied the commencement": [
+      "the commencement of"
+    ],
+    "the commencement of": [
+      "commencement of an"
+    ],
+    "commencement of an": [
+      "of an enterprise"
+    ],
+    "of an enterprise": [
+      "an enterprise which"
+    ],
+    "an enterprise which": [
+      "enterprise which you"
+    ],
+    "enterprise which you": [
+      "which you have"
+    ],
+    "which you have": [
+      "you have regarded"
+    ],
+    "you have regarded": [
+      "have regarded with"
+    ],
+    "have regarded with": [
+      "regarded with such"
+    ],
+    "regarded with such": [
+      "with such evil"
+    ],
+    "with such evil": [
+      "such evil forebodings"
+    ],
+    "such evil forebodings": [
+      "evil forebodings i"
+    ],
+    "evil forebodings i": [
+      "forebodings i arrived"
+    ],
+    "forebodings i arrived": [
+      "i arrived here"
+    ],
+    "i arrived here": [
+      "arrived here yesterday"
+    ],
+    "arrived here yesterday": [
+      "here yesterday and"
+    ],
+    "here yesterday and": [
+      "yesterday and my"
+    ],
+    "yesterday and my": [
+      "and my first"
+    ],
+    "and my first": [
+      "my first task"
+    ],
+    "my first task": [
+      "first task is"
+    ],
+    "first task is": [
+      "task is to"
+    ],
+    "task is to": [
+      "is to assure"
+    ],
+    "is to assure": [
+      "to assure my"
+    ],
+    "to assure my": [
+      "assure my dear"
+    ],
+    "assure my dear": [
+      "my dear sister"
+    ],
+    "my dear sister": [
+      "dear sister of"
+    ],
+    "dear sister of": [
+      "sister of my"
+    ],
+    "sister of my": [
+      "of my welfare"
+    ],
+    "of my welfare": [
+      "my welfare and"
+    ],
+    "my welfare and": [
+      "welfare and increasing"
+    ],
+    "welfare and increasing": [
+      "and increasing confidence"
+    ],
+    "and increasing confidence": [
+      "increasing confidence in"
+    ],
+    "increasing confidence in": [
+      "confidence in the"
+    ],
+    "confidence in the": [
+      "in the success"
+    ],
+    "in the success": [
+      "the success of"
+    ],
+    "the success of": [
+      "success of my"
+    ],
+    "success of my": [
+      "of my undertaking"
+    ],
+    "of my undertaking": [],
+    "i am already": [
+      "am already far"
+    ],
+    "am already far": [
+      "already far north"
+    ],
+    "already far north": [
+      "far north of"
+    ],
+    "far north of": [
+      "north of london"
+    ],
+    "north of london": [
+      "of london and"
+    ],
+    "of london and": [
+      "london and as"
+    ],
+    "london and as": [
+      "and as i"
+    ],
+    "and as i": [
+      "as i walk"
+    ],
+    "as i walk": [
+      "i walk in"
+    ],
+    "i walk in": [
+      "walk in the"
+    ],
+    "walk in the": [
+      "in the streets"
+    ],
+    "in the streets": [
+      "the streets of"
+    ],
+    "the streets of": [
+      "streets of petersburgh"
+    ],
+    "streets of petersburgh": [
+      "of petersburgh i"
+    ],
+    "of petersburgh i": [
+      "petersburgh i feel"
+    ],
+    "petersburgh i feel": [
+      "i feel a"
+    ],
+    "i feel a": [
+      "feel a cold"
+    ],
+    "feel a cold": [
+      "a cold northern"
+    ],
+    "a cold northern": [
+      "cold northern breeze"
+    ],
+    "cold northern breeze": [
+      "northern breeze play"
+    ],
+    "northern breeze play": [
+      "breeze play upon"
+    ],
+    "breeze play upon": [
+      "play upon my"
+    ],
+    "play upon my": [
+      "upon my cheeks"
+    ],
+    "upon my cheeks": [
+      "my cheeks which"
+    ],
+    "my cheeks which": [
+      "cheeks which braces"
+    ],
+    "cheeks which braces": [
+      "which braces my"
+    ],
+    "which braces my": [
+      "braces my nerves"
+    ],
+    "braces my nerves": [
+      "my nerves and"
+    ],
+    "my nerves and": [
+      "nerves and fills"
+    ],
+    "nerves and fills": [
+      "and fills me"
+    ],
+    "and fills me": [
+      "fills me with"
+    ],
+    "fills me with": [
+      "me with delight"
+    ],
+    "me with delight": [
+      "with delight do"
+    ],
+    "with delight do": [
+      "delight do you"
+    ],
+    "delight do you": [
+      "do you understand"
+    ],
+    "do you understand": [
+      "you understand this"
+    ],
+    "you understand this": [
+      "understand this feeling"
+    ],
+    "understand this feeling": [
+      "this feeling this"
+    ],
+    "this feeling this": [
+      "feeling this breeze"
+    ],
+    "feeling this breeze": [
+      "this breeze which"
+    ],
+    "this breeze which": [
+      "breeze which has"
+    ],
+    "breeze which has": [
+      "which has travelled"
+    ],
+    "which has travelled": [
+      "has travelled from"
+    ],
+    "has travelled from": [
+      "travelled from the"
+    ],
+    "travelled from the": [
+      "from the regions"
+    ],
+    "from the regions": [
+      "the regions towards"
+    ],
+    "the regions towards": [
+      "regions towards which"
+    ],
+    "regions towards which": [
+      "towards which i"
+    ],
+    "towards which i": [
+      "which i am"
+    ],
+    "which i am": [
+      "i am advancing"
+    ],
+    "i am advancing": [
+      "am advancing gives"
+    ],
+    "am advancing gives": [
+      "advancing gives me"
+    ],
+    "advancing gives me": [
+      "gives me a"
+    ],
+    "gives me a": [
+      "me a foretaste"
+    ],
+    "me a foretaste": [
+      "a foretaste of"
+    ],
+    "a foretaste of": [
+      "foretaste of those"
+    ],
+    "foretaste of those": [
+      "of those snowy"
+    ],
+    "of those snowy": [
+      "those snowy climes"
+    ],
+    "those snowy climes": [],
+    "i cannot describe": [
+      "cannot describe to"
+    ],
+    "cannot describe to": [
+      "describe to you"
+    ],
+    "describe to you": [
+      "to you the"
+    ],
+    "to you the": [
+      "you the coldness"
+    ],
+    "you the coldness": [
+      "the coldness that"
+    ],
+    "the coldness that": [
+      "coldness that i"
+    ],
+    "coldness that i": [
+      "that i felt"
+    ],
+    "that i felt": [
+      "i felt in"
+    ],
+    "i felt in": [
+      "felt in my"
+    ],
+    "felt in my": [
+      "in my journey"
+    ],
+    "in my journey": [
+      "my journey nor"
+    ],
+    "my journey nor": [
+      "journey nor the"
+    ],
+    "journey nor the": [
+      "nor the anxiety"
+    ],
+    "nor the anxiety": [
+      "the anxiety which"
+    ],
+    "the anxiety which": [
+      "anxiety which almost"
+    ],
+    "anxiety which almost": [
+      "which almost amounted"
+    ],
+    "which almost amounted": [
+      "almost amounted to"
+    ],
+    "almost amounted to": [
+      "amounted to agony"
+    ],
+    "amounted to agony": [
+      "to agony with"
+    ],
+    "to agony with": [
+      "agony with which"
+    ],
+    "agony with which": [
+      "with which i"
+    ],
+    "with which i": [
+      "which i returned"
+    ],
+    "which i returned": [
+      "i returned to"
+    ],
+    "i returned to": [
+      "returned to my"
+    ],
+    "returned to my": [
+      "to my native"
+    ],
+    "to my native": [
+      "my native country"
+    ],
+    "my native country": [
+      "native country but"
+    ],
+    "native country but": [
+      "country but it"
+    ],
+    "country but it": [
+      "but it is"
+    ],
+    "is a beautiful": [
+      "a beautiful place"
+    ],
+    "a beautiful place": [
+      "beautiful place and"
+    ],
+    "beautiful place and": [
+      "place and i"
+    ],
+    "place and i": [
+      "and i am"
+    ],
+    "and i am": [
+      "i am a"
+    ],
+    "i am a": [
+      "am a man"
+    ],
+    "am a man": [
+      "a man of"
+    ],
+    "a man of": [
+      "man of great"
+    ],
+    "man of great": [
+      "of great promise"
+    ],
+    "of great promise": [
+      "great promise i"
+    ],
+    "great promise i": [
+      "promise i longed"
+    ],
+    "promise i longed": [
+      "i longed to"
+    ],
+    "i longed to": [
+      "longed to see"
+    ],
+    "longed to see": [
+      "to see this"
+    ],
+    "to see this": [
+      "see this wonderful"
+    ],
+    "see this wonderful": [
+      "this wonderful spectacle"
+    ],
+    "this wonderful spectacle": [
+      "wonderful spectacle of"
+    ],
+    "wonderful spectacle of": [
+      "spectacle of nature"
+    ],
+    "spectacle of nature": [
+      "of nature to"
+    ],
+    "of nature to": [
+      "nature to receive"
+    ],
+    "nature to receive": [
+      "to receive the"
+    ],
+    "to receive the": [
+      "receive the testimony"
+    ],
+    "receive the testimony": [
+      "the testimony of"
+    ],
+    "the testimony of": [
+      "testimony of my"
+    ],
+    "testimony of my": [
+      "of my works"
+    ],
+    "of my works": [],
+    "i am by": [
+      "am by birth"
+    ],
+    "am by birth": [
+      "by birth a"
+    ],
+    "by birth a": [
+      "birth a genevese"
+    ],
+    "birth a genevese": [
+      "a genevese and"
+    ],
+    "a genevese and": [
+      "genevese and my"
+    ],
+    "genevese and my": [
+      "and my family"
+    ],
+    "and my family": [
+      "my family is"
+    ],
+    "my family is": [
+      "family is one"
+    ],
+    "family is one": [
+      "is one of"
+    ],
+    "is one of": [
+      "one of the"
+    ],
+    "one of the": [
+      "of the most"
+    ],
+    "of the most": [
+      "the most distinguished"
+    ],
+    "the most distinguished": [
+      "most distinguished of"
+    ],
+    "most distinguished of": [
+      "distinguished of that"
+    ],
+    "distinguished of that": [
+      "of that republic"
+    ],
+    "of that republic": [
+      "that republic my"
+    ],
+    "that republic my": [
+      "republic my ancestors"
+    ],
+    "republic my ancestors": [
+      "my ancestors had"
+    ],
+    "my ancestors had": [
+      "ancestors had been"
+    ],
+    "ancestors had been": [
+      "had been counsellors"
+    ],
+    "had been counsellors": [
+      "been counsellors and"
+    ],
+    "been counsellors and": [
+      "counsellors and syndics"
+    ],
+    "counsellors and syndics": [
+      "and syndics and"
+    ],
+    "and syndics and": [
+      "syndics and my"
+    ],
+    "syndics and my": [
+      "and my father"
+    ],
+    "and my father": [
+      "my father had"
+    ],
+    "my father had": [
+      "father had filled"
+    ],
+    "father had filled": [
+      "had filled several"
+    ],
+    "had filled several": [
+      "filled several public"
+    ],
+    "filled several public": [
+      "several public situations"
+    ],
+    "several public situations": [
+      "public situations with"
+    ],
+    "public situations with": [
+      "situations with honour"
+    ],
+    "situations with honour": [
+      "with honour and"
+    ],
+    "with honour and": [
+      "honour and reputation"
+    ],
+    "honour and reputation": [],
+    "i was myself": [
+      "was myself brought"
+    ],
+    "was myself brought": [
+      "myself brought up"
+    ],
+    "myself brought up": [
+      "brought up in"
+    ],
+    "brought up in": [
+      "up in a"
+    ],
+    "up in a": [
+      "in a modest"
+    ],
+    "in a modest": [
+      "a modest but"
+    ],
+    "a modest but": [
+      "modest but very"
+    ],
+    "modest but very": [
+      "but very kind"
+    ],
+    "but very kind": [
+      "very kind family"
+    ],
+    "very kind family": [
+      "kind family my"
+    ],
+    "kind family my": [
+      "family my mother"
+    ],
+    "family my mother": [
+      "my mother was"
+    ],
+    "my mother was": [
+      "mother was my"
+    ],
+    "mother was my": [
+      "was my dearest"
+    ],
+    "was my dearest": [
+      "my dearest friend"
+    ],
+    "my dearest friend": [
+      "dearest friend i"
+    ],
+    "dearest friend i": [
+      "friend i cherished"
+    ],
+    "friend i cherished": [
+      "i cherished her"
+    ],
+    "i cherished her": [
+      "cherished her attentions"
+    ],
+    "cherished her attentions": [
+      "her attentions with"
+    ],
+    "her attentions with": [
+      "attentions with a"
+    ],
+    "attentions with a": [
+      "with a fondness"
+    ],
+    "with a fondness": [
+      "a fondness that"
+    ],
+    "a fondness that": [
+      "fondness that was"
+    ],
+    "fondness that was": [
+      "that was almost"
+    ],
+    "that was almost": [
+      "was almost a"
+    ],
+    "was almost a": [
+      "almost a vice"
+    ],
+    "almost a vice": [
+      "a vice she"
+    ],
+    "a vice she": [
+      "vice she died"
+    ],
+    "vice she died": [
+      "she died and"
+    ],
+    "she died and": [
+      "died and my"
+    ],
+    "died and my": [
+      "and my love"
+    ],
+    "and my love": [
+      "my love was"
+    ],
+    "my love was": [
+      "love was now"
+    ],
+    "love was now": [
+      "was now on"
+    ],
+    "was now on": [
+      "now on the"
+    ],
+    "now on the": [
+      "on the brink"
+    ],
+    "on the brink": [
+      "the brink of"
+    ],
+    "the brink of": [
+      "brink of being"
+    ],
+    "brink of being": [
+      "of being extinguished"
+    ],
+    "of being extinguished": [
+      "being extinguished i"
+    ],
+    "being extinguished i": [
+      "extinguished i became"
+    ],
+    "extinguished i became": [
+      "i became a"
+    ],
+    "i became a": [
+      "became a stranger"
+    ],
+    "became a stranger": [
+      "a stranger to"
+    ],
+    "a stranger to": [
+      "stranger to myself"
+    ],
+    "stranger to myself": [],
+    "i often mingled": [
+      "often mingled with"
+    ],
+    "often mingled with": [
+      "mingled with the"
+    ],
+    "mingled with the": [
+      "with the people"
+    ],
+    "with the people": [
+      "the people of"
+    ],
+    "the people of": [
+      "people of the"
+    ],
+    "people of the": [
+      "of the town"
+    ],
+    "of the town": [
+      "the town and"
+    ],
+    "the town and": [
+      "town and it"
+    ],
+    "town and it": [
+      "and it was"
+    ],
+    "and it was": [
+      "it was then"
+    ],
+    "it was then": [
+      "was then i"
+    ],
+    "was then i": [
+      "then i became"
+    ],
+    "then i became": [
+      "i became enamoured"
+    ],
+    "i became enamoured": [
+      "became enamoured of"
+    ],
+    "became enamoured of": [
+      "enamoured of the"
+    ],
+    "enamoured of the": [
+      "of the ideas"
+    ],
+    "of the ideas": [
+      "the ideas of"
+    ],
+    "the ideas of": [
+      "ideas of advancement"
+    ],
+    "ideas of advancement": [
+      "of advancement of"
+    ],
+    "of advancement of": [
+      "advancement of learning"
+    ],
+    "advancement of learning": [
+      "of learning and"
+    ],
+    "of learning and": [
+      "learning and of"
+    ],
+    "learning and of": [
+      "and of fame"
+    ],
+    "and of fame": [],
+    "when i returned": [
+      "i returned home"
+    ],
+    "i returned home": [
+      "returned home my"
+    ],
+    "returned home my": [
+      "home my heart"
+    ],
+    "home my heart": [
+      "my heart was"
+    ],
+    "my heart was": [
+      "heart was full"
+    ],
+    "heart was full": [
+      "was full of"
+    ],
+    "was full of": [
+      "full of the"
+    ],
+    "full of the": [
+      "of the ambition"
+    ],
+    "of the ambition": [
+      "the ambition that"
+    ],
+    "the ambition that": [
+      "ambition that i"
+    ],
+    "ambition that i": [
+      "that i had"
+    ],
+    "that i had": [
+      "i had bred"
+    ],
+    "i had bred": [
+      "had bred in"
+    ],
+    "had bred in": [
+      "bred in my"
+    ],
+    "bred in my": [
+      "in my travels"
+    ],
+    "in my travels": [
+      "my travels the"
+    ],
+    "my travels the": [
+      "travels the landscape"
+    ],
+    "travels the landscape": [
+      "the landscape once"
+    ],
+    "the landscape once": [
+      "landscape once so"
+    ],
+    "landscape once so": [
+      "once so beautiful"
+    ],
+    "once so beautiful": [
+      "so beautiful to"
+    ],
+    "so beautiful to": [
+      "beautiful to me"
+    ],
+    "beautiful to me": [
+      "to me appeared"
+    ],
+    "to me appeared": [
+      "me appeared dull"
+    ],
+    "me appeared dull": [
+      "appeared dull and"
+    ],
+    "appeared dull and": [
+      "dull and lifeless"
+    ],
+    "dull and lifeless": [
+      "and lifeless i"
+    ],
+    "and lifeless i": [
+      "lifeless i wanted"
+    ],
+    "lifeless i wanted": [
+      "i wanted to"
+    ],
+    "i wanted to": [
+      "wanted to create"
+    ],
+    "wanted to create": [
+      "to create to"
+    ],
+    "to create to": [
+      "create to build"
+    ],
+    "create to build": [
+      "to build a"
+    ],
+    "to build a": [
+      "build a world"
+    ],
+    "build a world": [
+      "a world that"
+    ],
+    "a world that": [
+      "world that reflected"
+    ],
+    "world that reflected": [
+      "that reflected my"
+    ],
+    "that reflected my": [
+      "reflected my dreams"
+    ],
+    "reflected my dreams": [],
+    "but ambition can": [
+      "ambition can be"
+    ],
+    "ambition can be": [
+      "can be both"
+    ],
+    "can be both": [
+      "be both a"
+    ],
+    "be both a": [
+      "both a gift"
+    ],
+    "both a gift": [
+      "a gift and"
+    ],
+    "a gift and": [
+      "gift and a"
+    ],
+    "gift and a": [
+      "and a curse"
+    ],
+    "and a curse": [
+      "a curse it"
+    ],
+    "a curse it": [
+      "curse it has"
+    ],
+    "curse it has": [
+      "it has the"
+    ],
+    "it has the": [
+      "has the power"
+    ],
+    "has the power": [
+      "the power to"
+    ],
+    "the power to": [
+      "power to enthrall"
+    ],
+    "power to enthrall": [
+      "to enthrall and"
+    ],
+    "to enthrall and": [
+      "enthrall and to"
+    ],
+    "enthrall and to": [
+      "and to destroy"
+    ],
+    "and to destroy": [
+      "to destroy i"
+    ],
+    "to destroy i": [
+      "destroy i wished"
+    ],
+    "destroy i wished": [
+      "i wished to"
+    ],
+    "i wished to": [
+      "wished to become"
+    ],
+    "wished to become": [
+      "to become a"
+    ],
+    "to become a": [
+      "become a creator—an"
+    ],
+    "become a creator—an": [
+      "a creator—an artist"
+    ],
+    "a creator—an artist": [
+      "creator—an artist of"
+    ],
+    "creator—an artist of": [
+      "artist of life"
+    ],
+    "artist of life": [
+      "of life itself"
+    ],
+    "of life itself": []
+  }
+}
